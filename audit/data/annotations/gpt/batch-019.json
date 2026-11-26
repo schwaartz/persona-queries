@@ -1,0 +1,285 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (Codex; exact runtime model/version identifier not exposed)",
+  "effort": "Not exposed by runtime",
+  "completed_at": "2026-11-11T18:33:55.118163+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:afdf85ba-928a-486d-8e26-a962d20d682f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de solitaire bestudeering"
+            }
+          ],
+          "reason": "Misspelling of bestudering; intended activity remains clear."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:203e2aeb-3d30-4640-9ffe-1d22f973e0d5",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Retorika en debattechnieken"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "het correcteren van de jongere generatie"
+            }
+          ],
+          "reason": "Misspelled noun and malformed verb for correcting."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:47e11d03-bde3-4bad-92c3-aaa2a4c76614",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "zonder ooit na te streven naar prestaties"
+            }
+          ],
+          "reason": "Malformed verb/preposition construction for striving for results."
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementaire"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "In de lerarenkamer is Ewa"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "Haar expertise ligt in het beheer van heterogene groepen kinderen"
+            }
+          ],
+          "reason": "Elementary occupational code appears incompatible with the described schoolteacher role, but the scope of the occupational code is not supplied and remains ambiguous."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:a37d9591-2bbd-4bf6-a5d2-964caaadb7d4",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Zyns culturele smaak"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "Zyns eetgewoonten"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de wijk Saint- GitLab"
+            }
+          ],
+          "reason": "The name is locally misspelled, and the neighborhood reference is corrupted by a software-service token, obscuring a substantive location. Counted as surface corruption rather than an independently verified external-reference error."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d2db07a2-ec23-4665-bca5-dadc8379b340",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "zware uitstelgedrag"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "melancholisch Fado"
+            }
+          ],
+          "reason": "Incorrect adjective inflections; intended meaning remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:dd8b853b-fca9-47c1-8415-e1395c17aca2",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:aaa4ab92-5960-461b-844a-c6f90b3a383f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "met methodische geduld"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "een paradoxaal troost"
+            }
+          ],
+          "reason": "Incorrect adjective agreement with geduld and troost."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:60d8e702-41fc-475a-9132-fc9f5e268c19",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "op de werv"
+            },
+            {
+              "field": "persona",
+              "quote": "een sociaal en pragmatische vakman"
+            }
+          ],
+          "reason": "Misspelling of werf and adjective disagreement."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:022aa607-da1f-41c1-b9f9-099dcfff9480",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "ofwel terugkeers naar haar wortels"
+            }
+          ],
+          "reason": "Malformed plural noun for return journeys."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:6a26bd3c-3755-42c4-a41e-e05fd6d0a584",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "graag pleziet"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de laatste nieuwingen in de buurt"
+            }
+          ],
+          "reason": "Corrupted verb and noun; intended pleasing behavior and neighborhood news remain recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

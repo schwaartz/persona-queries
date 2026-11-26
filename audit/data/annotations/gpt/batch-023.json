@@ -1,0 +1,335 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "inherited GPT runtime; exact identifier unavailable",
+  "effort": "inherited; exact setting unavailable",
+  "completed_at": "2026-11-11T18:41:13.534567+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:7f5664a6-a167-45c0-84cc-ce4c55f949ae",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "eethabitues"
+            }
+          ],
+          "reason": "Malformed word for eating habits; eetgewoonten is intended."
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "age",
+              "quote": "52"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Voor hem betekent succes dat hij op zijn vijftigste nog steeds de persoon is naar wie iedereen toe komt als er iets echt kapot is."
+            }
+          ],
+          "reason": "The current ambitions frame age fifty as a success milestone although he is already fifty-two; the wording might instead express a retrospective general standard, so the temporal inconsistency is uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d91f03fa-0076-40ee-987b-392c44d70f5c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "carbonicade"
+            }
+          ],
+          "reason": "Corrupted dish name; carbonade is intended."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:f470a92e-1b9d-4cfd-b128-dfd00e6f9496",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "een koffie en een stuk cake drinkt"
+            }
+          ],
+          "reason": "The verb drinkt incorrectly governs cake as well as coffee."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:28d2cddf-e4a3-4c08-aa94-f6505773467e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "Ze trekker naar bestemmingen"
+            }
+          ],
+          "reason": "Malformed verb; singular subject requires trekt."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "hennes ideale vakantie"
+            }
+          ],
+          "reason": "Foreign possessive hennes interrupts Dutch; haar is intended."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:fa5f6f2c-d5b6-4a3e-9dc3-c0c70dafe6f0",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:245ca0e6-20a1-48bd-a4a6-b45900650dc2",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "bij het minste tegenslag"
+            }
+          ],
+          "reason": "De-word tegenslag requires de minste."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "metaalfresen"
+            }
+          ],
+          "reason": "Misspelling of metaalfrezen."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:e7ef23f8-43c1-41f1-80b6-6376f57cc296",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "planten- en machineoperator"
+            }
+          ],
+          "reason": "Literal English plant mistranslation makes industrial operator into a plant operator in the botanical sense; the narrative describes industrial machinery."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "een klein, sfeervol B&B"
+            }
+          ],
+          "reason": "B&B is a de-word and requires kleine, sfeervolle."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "meet ze zich in een gezellig, maar rustig ritme met vriendinnen"
+            }
+          ],
+          "reason": "The verb meet is an unintended English meet insertion rather than Dutch ontmoet or spreekt af."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:1dc4ed45-9797-41e9-823d-ae58d42d1fba",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "discretionneer"
+            }
+          ],
+          "reason": "Corrupted word in the list of values; discretie appears intended."
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "het M HKA in Brussel"
+            }
+          ],
+          "reason": "The named museum is incorrectly located in Brussels.",
+          "external_verification": {
+            "url": "https://www.muhka.be/contact/",
+            "quote": "Leuvenstraat 32\n2000 Antwerpen",
+            "reason": "The official visitor address locates M HKA in Antwerp, contradicting Brussels."
+          }
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:da243825-f095-4d2c-a1ad-c9e3add9503d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "het fysieke ongemak accepts ze"
+            }
+          ],
+          "reason": "Untranslated English accepts replaces Dutch accepteert."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "elaborado gerechten"
+            }
+          ],
+          "reason": "Foreign elaborado interrupts the Dutch noun phrase."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:e6b82a02-3ceb-45da-a48f-1803f0ebaceb",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "alle verjaardagen onthoudt en spanningen sussen"
+            }
+          ],
+          "reason": "Singular relative subject requires sust, not sussen."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "zonder dat hij verzand"
+            }
+          ],
+          "reason": "Third-person singular verb should be verzandt."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

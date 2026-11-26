@@ -1,0 +1,158 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:32:38+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:ed7fc706-552d-42ec-87f2-476e0c75dd0e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found. 'Vi Paurin' is an unrecognised pastry name; unfamiliarity alone is not treated as a defect."
+    },
+    {
+      "item_id": "audit:en:a444e31c-f04c-4587-bce1-604726a521e6",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found. Dutch place-name forms ('Antwerpen') are accepted names."
+    },
+    {
+      "item_id": "audit:en:64644e6b-7b7e-407e-ab8f-525fd75349f8",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found."
+    },
+    {
+      "item_id": "audit:en:1b4f0db1-8fa6-4185-841e-2ebb19c7d48e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found. Albanian-type surname for a Casablanca-born woman is a naming matter, excluded."
+    },
+    {
+      "item_id": "audit:en:433070ed-d545-4255-baf0-154492271c30",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "the Magritte Museum and MIAMMARC"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "bacalhau à brasa"
+            }
+          ],
+          "reason": "'MIAMMARC' is a corrupted museum token (no such institution; likely a merge of MIMA/MAMAC), and 'bacalhau à brasa' is a garbled 'bacalhau à Brás'; meaning partly recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:59b2b97f-29e8-43e6-a077-73a83e53b31c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found."
+    },
+    {
+      "item_id": "audit:en:6e055a93-2518-41a4-9574-b18f0765d95a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found."
+    },
+    {
+      "item_id": "audit:en:a03d8784-657f-4d41-bafa-61e5a6520850",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "where the Durable dictates its own rhythm"
+            }
+          ],
+          "reason": "'the Durable' appears to be a corrupted form of the river name Durme (mentioned elsewhere in the record); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:7d8798e4-73da-453e-9bb4-c25473e91547",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found. Gosselies is a section of Charleroi."
+    },
+    {
+      "item_id": "audit:en:221ace3c-b331-48e9-be2a-9c789d909dab",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found."
+    }
+  ]
+}

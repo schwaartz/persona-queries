@@ -1,0 +1,290 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (Codex; exact runtime model/version identifier not exposed)",
+  "effort": "Not exposed by runtime",
+  "completed_at": "2026-11-11T18:34:38.201197+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:6e1d85cd-5be8-43b9-87fc-43121f4743b6",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een reservede psychologiestudent"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "die zij van haar moeder kreeg mee"
+            }
+          ],
+          "reason": "Misspelled adjective and incorrect particle order in the Dutch verb construction."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:4081d4e3-bdbc-4cbd-979d-cfeadbed2af5",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "is aan Corinne niet te doen"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "op weekdagen staan stevige kost"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "hetPensionsurvival-circuit"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "in ein zakelijke context"
+            }
+          ],
+          "reason": "Malformed idiom, verb disagreement and German mixing accompany a corrupted activity-circuit reference whose substantive meaning is obscured."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:645cf467-2f2f-48c5-a890-209e24e28f8a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Sociale aanpassingsvermogen"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "de aandacht te trekken en haar charisma te gebruiken"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with aanpassingsvermogen; the latter infinitives also fail to coordinate grammatically with weet hoe ze moet manoeuvreren."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:a34f8efd-1d55-4104-a00a-769d2f65099c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reference check: https://www.centrepompidou.fr/en/lieu/kanal-centre-pompidou identifies Kanal–Centre Pompidou in Brussels: \"the Brussels-Capital Region and the Kanal Foundation, in partnership with Centre Pompidou\". This supports a plausible Brussels referent; no incorrect-location finding is established."
+    },
+    {
+      "item_id": "audit:nl:a06f095f-d4c8-47e0-9c03-0487d0b7f41a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "om toned te blijven"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "rond de feest van de Doudou"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "vanwege het folklore"
+            }
+          ],
+          "reason": "Untranslated English adjective and incorrect articles for feest and folklore."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:97b4206d-fe44-445e-992b-eab56bea1ae8",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "zijn professionele duties"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "de bloemenkasters van Lochristi"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "naar absolute meesterschap"
+            }
+          ],
+          "reason": "English noun mixing, corrupted compound and adjective disagreement; intended meanings remain recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:a18bb35f-0ccd-49fb-ac60-872082a17f6d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "uiterlijke prestige"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "haar ein gevoel van rust geeft"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "de intellectuele horizon van haar rodzagers"
+            }
+          ],
+          "reason": "Incorrect adjective inflection, German article mixing and a corrupted noun referring to her family context."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:b5aa44e8-34f1-4b08-8223-39a82324c581",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de roubeberichten"
+            }
+          ],
+          "reason": "Misspelling of rouwberichten; intended newspaper section is recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d05a6149-98cd-4856-a849-b82837e60d93",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "Competitieve sporten volgen ze niet echt"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "familemaaltijden"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een pragmatische gemak"
+            }
+          ],
+          "reason": "Verb agreement/word-order defect, misspelled compound and adjective disagreement."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:2ea2dd71-2896-487b-a61a-69c8387afcab",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "onkruid wiet"
+            }
+          ],
+          "reason": "Incorrect verb form for weeding; intended action remains clear."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

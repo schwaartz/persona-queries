@@ -1,0 +1,274 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:31:24+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:640f5c1f-e585-47f7-900f-0559b2c362b8",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een gereserveerde pensionado"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "openlijk minachting"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Booglasing"
+            }
+          ],
+          "reason": "Spanish/English 'pensionado', agreement error, malformed 'Booglasing' (booglassen); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:a429ad64-6d9e-4716-bebc-262f4d8aeddf",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "met过的 handelaren"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "heeft hij zich behendig beweegen"
+            }
+          ],
+          "reason": "Chinese characters inserted and malformed participle 'beweegen' (bewogen); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Boulevard Louis Magonot' is unfamiliar; not labelled. Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:333a1e78-aef5-4882-a771-1e5f80d26d3f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "hedendaanse psychologische romans"
+            }
+          ],
+          "reason": "Misspelling 'hedendaanse' (hedendaagse); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:611f8cab-3d70-49c0-933e-a2a90ac330b8",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "een lokal pils"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "zet een plaat van de Flemish Primitives op"
+            }
+          ],
+          "reason": "Misspelling 'lokal' and English 'Flemish Primitives' used as if a music act (garbled reference); meaning partly recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Georges V' as radio music is unclear; not labelled separately."
+    },
+    {
+      "item_id": "audit:nl:c44b1181-7f8c-454d-866f-7bf29e2b80c5",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "Ze gruist van spreadsheets"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "een conceptzaken ontwikkelen"
+            }
+          ],
+          "reason": "Malformed verb 'gruist' (gruwt) and number error 'een conceptzaken'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:35356811-f695-42d4-9ff7-046df0c48756",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "nabij de Vissersquay"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de gevattetertelijkheden"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "contrarian discussies"
+            },
+            {
+              "field": "sports_persona",
+              "quote": "de Sint-Annakwartier"
+            }
+          ],
+          "reason": "Garbled 'Vissersquay' and 'gevattetertelijkheden', untranslated English 'contrarian', gender error; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:970c1d6b-ecc4-447d-b468-2d9cc8f7c021",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "levenslotjes"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "een vast contract (CDI)"
+            }
+          ],
+          "reason": "Non-word 'levenslotjes' (levenslotgevallen) and French abbreviation 'CDI' in a Dutch text; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:6a241e6f-3073-4137-8a0b-7d77595828cf",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "de verstilling van het Leiestreek"
+            }
+          ],
+          "reason": "Gender error 'het Leiestreek' (de Leiestreek); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:f621e045-7cd2-4934-9d2d-8c7d30522ce8",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "door het bordering bos"
+            }
+          ],
+          "reason": "Untranslated English 'bordering' (aangrenzende); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c7b7debf-5653-4a06-b69e-d8757077b3bd",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found."
+    }
+  ]
+}

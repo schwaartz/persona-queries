@@ -1,0 +1,301 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:26:19+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:2b1519e1-edd3-476c-bd19-7e68fe33d21a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "het huidige spektakel te ver afstaan van de realiteit vindt"
+            },
+            {
+              "field": "travel_persona",
+              "quote": "het landelijke stilte"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Beheer van materiailstromen"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Hij is niet liefhebber van"
+            },
+            {
+              "field": "sports_persona",
+              "quote": "zonder fancy uitrusting"
+            }
+          ],
+          "reason": "Wrong forms 'afstaan', 'het ... stilte', misspelling 'materiailstromen', missing article, English 'fancy'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c0863a93-c1c1-469f-829f-bfffbaab0fc7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "Brugse pensionado"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "bij een lokale notariskantoor"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "in een vaste wekelijkse koffiemoment"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "haar nalaatbaarheid aan de wereld"
+            }
+          ],
+          "reason": "Spanish/English 'pensionado', gender/agreement errors, garbled 'nalaatbaarheid' (nalatenschap); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:25bcc001-74bd-4c5c-bb3b-fc2899715505",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een sociable pensionado"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "zoals chansonne of konijnenstoofpot"
+            }
+          ],
+          "reason": "Foreign 'sociable pensionado' and unrecognisable dish 'chansonne'; meaning mostly recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Sud Quotidien' is unfamiliar (Sudpresse exists); not labelled."
+    },
+    {
+      "item_id": "audit:nl:1ab3302a-cbce-4a50-a5e3-f29ae1938795",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "beïndrukt"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "stellig meeningen"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "zijn chronische te laatkomen"
+            }
+          ],
+          "reason": "Misspellings 'beïndrukt' (imponeert/indruk maakt) and 'meeningen', agreement error, malformed nominalisation; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:f0c78989-1404-4d20-848e-c7c6fc225b35",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "mijdde elke vorm"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "zich met waardigheid vocht tegen"
+            }
+          ],
+          "reason": "Wrong past tense 'mijdde' (meed) and reflexive misuse 'zich ... vocht'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:71b7a2b1-e004-4f1b-85f8-3acca73ce25b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "De overgang van het traditionele Kortrijk naar de moderne centrumstad heeft haar altijd met een zeker onbehagen bekeken"
+            },
+            {
+              "field": "sports_persona",
+              "quote": "het trappelen van de trap"
+            }
+          ],
+          "reason": "Subject and object inverted (the transition 'watched her') and wrong verb 'trappelen' (traplopen); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:dbe48846-5057-4ade-81ce-c757d9c5ad22",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Ver weg van de rumoer"
+            }
+          ],
+          "reason": "Gender error 'de rumoer' (het rumoer); meaning recoverable."
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "het MAMBA in Luik"
+            }
+          ],
+          "reason": "I know Liège's modern-art museum as MAMAC (now La Boverie), not 'MAMBA'; possible garbled or wrong museum name, not externally verified."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c2695360-e2a7-42a7-85b1-4b235bd1befe",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een gereserveerde Brugge Bruggeling"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "een lokale paleisbrouwerij"
+            }
+          ],
+          "reason": "Duplicated/garbled 'Brugge Bruggeling' and odd compound 'paleisbrouwerij'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Gustaaf Van Dyck' is unfamiliar; not labelled."
+    },
+    {
+      "item_id": "audit:nl:6f779e4a-25cc-4e00-81e6-6981c9282962",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found ('variëteitsplaylists' is an awkward calque but readable)."
+    },
+    {
+      "item_id": "audit:nl:efde95ef-378e-4660-b268-22a04f2001cc",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een migratie uit deContailles-regio"
+            }
+          ],
+          "reason": "Merged/garbled token 'deContailles-regio'; meaning only partly recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

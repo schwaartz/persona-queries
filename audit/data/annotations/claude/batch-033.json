@@ -1,0 +1,142 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Opus 5.5)",
+  "effort": "default",
+  "completed_at": "2026-11-11T18:34:31+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:8ed6f6bc-3d78-44d7-a2ef-954be0ad3e7e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:b4dcb8d6-b492-4630-a620-463f8a31d4f2",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:3692007c-ea25-4123-befb-21acabd7cb39",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:6aa9fbcb-c23f-422b-891c-9805e823392d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "a classic carbonic"
+            }
+          ],
+          "reason": "Misspelling/garbled word: 'carbonic' is evidently meant to be 'carbonnade' (Flemish beef stew); meaning recoverable from context."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:9b6086aa-d021-4c61-8102-848edd4f36ea",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:4641fc7c-4d2d-442b-be27-78595b20fd93",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:6d324add-6e3d-4fb4-afd5-c39f2139b3dc",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:001cdcd0-8137-4a57-b011-b003e474c04b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:c2cb5aad-b7c1-47fb-bb5a-9372ae4f0257",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:ae948a90-7e36-4c92-a882-8438969e69e7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

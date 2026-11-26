@@ -1,0 +1,194 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "inherited GPT runtime; exact model identifier unavailable",
+  "effort": "inherited; exact setting unavailable",
+  "completed_at": "2026-11-11T18:44:59.381265+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:ae0d28d7-e9c1-4312-b0e1-00fa1fcac18f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "an event like an alet"
+            }
+          ],
+          "reason": "The token alet is garbled in a description of a sporting event; the general point about social participation remains clear."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:294d9548-515f-4060-9737-6aa8a91e660f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "cime di rapaïole"
+            }
+          ],
+          "reason": "The ingredient name has a corrupted ending, obscuring the intended term cime di rapa while leaving the dish context understandable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:b9791374-5def-47ca-9145-3828e097a696",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:3106b07d-b503-41ca-bb55-e1bb6c13e68f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:d498d756-5e81-4f37-8c8b-b1a600b8d008",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "the Flemish Masters at the KMSKA, specifically seeking the stillness in Vermeer's works"
+            }
+          ],
+          "reason": "This suggests Vermeer works at KMSKA, a concrete questionable museum attribution. The authoritative Vermeer material located did not directly establish the museum claim false, so it remains unresolved."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:ed17fdd8-ec84-4a98-92d3-3a91c3cb30b3",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementary occ."
+            },
+            {
+              "field": "persona",
+              "quote": "Stefanie Van Hoye is an empathetic administrative worker from Wielsbeke"
+            }
+          ],
+          "reason": "The administrative worker role may conflict with the elementary occupation code, but the exact job and abbreviated code leave the mismatch ambiguous."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:d91c726e-3524-4eda-95b0-b4d13d29fc0a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "diffuses tension between colleagues"
+            }
+          ],
+          "reason": "Defuses is the intended verb for alleviating tension; diffuses is a lexical substitution with recoverable intended meaning."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:9a1f8d2f-f696-413b-9d79-ed5ad439182f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:09772de0-b122-4d31-a643-3c92d78a48a8",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:8fb9939d-3f3e-4a6d-8880-fc7e8e797d66",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

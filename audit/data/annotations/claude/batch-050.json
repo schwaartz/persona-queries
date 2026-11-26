@@ -1,0 +1,165 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Opus 5.5)",
+  "effort": "default",
+  "completed_at": "2026-11-11T18:42:35+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:8923e333-bb5d-45d6-9ce7-cffc4c9c5ebd",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "noting every unkept hedge"
+            }
+          ],
+          "reason": "Misspelling: 'unkept' for 'unkempt'; meaning recoverable."
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "household_type",
+              "quote": "Child of couple"
+            },
+            {
+              "field": "marital_status",
+              "quote": "Never married"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "the ensuring of her children's upward mobility"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "she settled in Sint-Agatha-Berchem, maintaining a household where the Arabic language remains the primary anchor"
+            }
+          ],
+          "reason": "Structured household 'Child of couple' (living as a child in parents' household) sits uneasily with a narrative of a woman running her own household and raising children; not strictly impossible, so uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:48d30a7a-267c-4313-80c9-831a9ef25097",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:ebbe00fd-39d6-4dcc-808b-526d5e03206c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:0589bf25-f38a-4317-94c9-c693dab54cd3",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:16107e91-ef84-45d6-a8d5-77e8da83981f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:59aa0122-e108-4698-9ac6-d4769c23e025",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:a8e0a40f-5d64-4c30-8929-712d1eb81803",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:ee773c45-b302-404d-b799-1b6a8df90de4",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:2984cd52-e17f-4ab8-9804-1154db67d500",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:f3436978-d25a-47d7-bdb4-3995ad32ed69",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

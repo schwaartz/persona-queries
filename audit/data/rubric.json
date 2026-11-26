@@ -1,0 +1,76 @@
+{
+  "approved_by_human": true,
+  "approved_by": "Raphael (approval in chat; recorded by assistant)",
+  "approved_at": "2026-11-11",
+  "approval_record": {
+    "quote": "I agree, please note this down and prepare the prompts for the next step.",
+    "scope": "Four-category simplification, exclusions and minor/major severity recommended in the preceding response."
+  },
+  "version": "source-v1-four-categories",
+  "severity_values": [
+    "minor",
+    "major"
+  ],
+  "severity_rule": "Minor: local surface defect with intended meaning recoverable. Major: changes or obscures substantive meaning, identity, biography, or a material real-world reference. Severity is separate from presence and certainty.",
+  "external_reference_policy": "Browse only to check a concrete named-entity/location/attribution claim. Present requires an authoritative external source URL, exact supporting quote and brief explanation. Unknown or unfamiliar names alone are not evidence. If verification is unavailable, use uncertain only for a concrete plausible conflict, not unfamiliarity.",
+  "categories": [
+    {
+      "id": "contradictory_information",
+      "definition": "Explicit incompatible statements about the same person or attribute within a record, including structured/narrative and identity/reference conflicts.",
+      "include": "Quote both incompatible statements and their fields. Require the same referent, time and context. Include explicit inconsistent ages or switched subject references; classify ambiguous occupational codes as uncertain, not confirmed.",
+      "exclude": "Unusual lives; assumed naming, ancestry or gender conventions; different contexts or times; subjective personality tensions. Parents organising a trip and friends accompanying it can both be true. School attendance does not guarantee literacy.",
+      "example": "Source-backed probe example: probe:nl:b1cafe5d-a79d-4d23-90bc-c7d1b67f84bc has age '86' and persona 'een gereserveerde 86-jarige vrouw', but career_goals_and_ambitions says 'Op haar zesennegentigste'. This is an explicit 86/96 inconsistency.",
+      "ignored": false
+    },
+    {
+      "id": "language_defect",
+      "definition": "Objective spelling, grammar, token corruption or unintended language mixing in the record language.",
+      "include": "Clear misspellings/merged words, garbled tokens, or untranslated text that disrupts the intended language. Mark minor when meaning is recoverable and major when substantive meaning is obscured or changed.",
+      "exclude": "Accepted loanwords, dialect/accepted variants, names and titles in their original language, stylistic awkwardness and harmless capitalization. Do not classify the same garble again as broken content.",
+      "example": "Source-backed probe examples: probe:nl:4e42a5ef-c349-4543-8a5d-30bf7ca1f21c has 'Ilsestreeft' (minor); probe:nl:e09aef37-ec3c-4671-a8bb-dc6ccda39e5e has 'negenතිende-eeuwse' (corrupted token; assess severity from context).",
+      "ignored": false
+    },
+    {
+      "id": "broken_or_missing_content",
+      "definition": "Incomplete or malformed content, explicit placeholders/template or prompt residue, or missing content that the dataset schema requires.",
+      "include": "An abruptly truncated field, literal unresolved placeholder, explicit instruction/template leakage, structurally unusable list or absent required field. Identify what is broken. Infer required fields only from the shared rubric field inventory; optional or intentionally empty values need uncertainty rather than invention.",
+      "exclude": "Leading/trailing whitespace, lowercase list entries, harmless duplicates/formatting, ordinary hedged narration, exact incomes, unspecified health conditions, or facts absent from other fields. Missing narrative detail alone is not an error.",
+      "example": "Illustrative only, not a probe observation: a narrative ends 'Her main ambition is to [INSERT_GOAL]' or a list contains an unexpanded template instruction. A lowercase entry 'analog photography' is not an error.",
+      "ignored": false
+    },
+    {
+      "id": "incorrect_real_world_reference",
+      "definition": "An externally verified incorrect location or attribution of a named real-world entity.",
+      "include": "A concrete source claim about a museum location or other named entity conflicts with authoritative external evidence. A present label requires external_verification with URL, quoted supporting text and explanation. Otherwise a specific plausible conflict remains uncertain.",
+      "exclude": "An unfamiliar person/place or a name absent from the model memory; speculative name etymology; obscure but plausible entities; subjective genre descriptions or broad regional framing. Do not count failed searches as proof of nonexistence.",
+      "example": "Probe candidate, NOT verified here: probe:nl:4cd93505-1a0c-4e6f-b6a1-192bfdd6d363 says 'In Gent bezoekt hij af en toe het MAS'. Check an official museum location source before labelling present; without verification mark uncertain.",
+      "ignored": false
+    }
+  ],
+  "field_inventory": [
+    "age",
+    "arts_persona",
+    "career_goals_and_ambitions",
+    "country",
+    "culinary_persona",
+    "cultural_background",
+    "education_level",
+    "hobbies_and_interests",
+    "hobbies_and_interests_list",
+    "household_type",
+    "industry",
+    "marital_status",
+    "municipality",
+    "occupation",
+    "persona",
+    "professional_persona",
+    "region",
+    "sex",
+    "skills_and_expertise",
+    "skills_and_expertise_list",
+    "sports_persona",
+    "travel_persona",
+    "uuid"
+  ],
+  "required_fields_policy": "Field inventory records observed keys only; it is not proof every field is required. Missingness is present only when clearly broken or backed by an explicit source schema requirement; otherwise uncertain."
+}

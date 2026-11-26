@@ -1,0 +1,359 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (exact build/version not exposed)",
+  "effort": "not exposed",
+  "completed_at": "2026-11-11T18:21:38.110678+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:ef77b22d-9d1e-46e2-9496-d6b84e85d46d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "met wie hij zich af en toe ontmoet"
+            }
+          ],
+          "reason": "Incorrect reflexive construction: ontmoeten takes the people met as its object here."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:26d4a460-a94d-48e8-ad97-d24911a5fa96",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "Luncht hij vaak met een simpele salade of ham met aardappelen, maar de zondag is heilig"
+            }
+          ],
+          "reason": "Unlicensed interrogative inversion in a declarative coordinated sentence."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "kalfsstofschotel"
+            }
+          ],
+          "reason": "Corrupted compound for veal stew."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "een jonge buurman die zich aan klussen probeert te adviseren"
+            }
+          ],
+          "reason": "Malformed complement/reflexive construction obscures the local syntactic relationship; the wish to advise a neighbour remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c0e7afaa-7ca2-4dfd-8156-f8c17c714bd1",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "walloonse traditie"
+            }
+          ],
+          "reason": "Misspelled Dutch adjective Waalse."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een visceraal behoefte"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with common-gender behoefte."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "een bijna provocateur plezier"
+            }
+          ],
+          "reason": "A noun is used in place of the adjective required to modify plezier."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "tedious administratieve dossiers"
+            }
+          ],
+          "reason": "Untranslated English adjective interrupts Dutch narration."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:e1ca1cc1-8c25-4e99-a8e6-ebd543df526c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:9f6dd62a-1fad-47ab-941a-e229adb8e164",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "внутренlijke"
+            }
+          ],
+          "reason": "Corrupted mixed-script adjective in Dutch narration."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c2b0dd11-9e92-490d-9631-8a8ffb14371f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "Professionele sportwedstrijden interesseert ze nauwelijks"
+            }
+          ],
+          "reason": "Subject/verb number disagreement and incorrect object form in the intended statement that matches barely interest Karin."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "benarlijk"
+            }
+          ],
+          "reason": "Corrupted token in the statement about remaining attached to her roots."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:89c6ccc1-9aaa-4e62-b5c9-f14b408804f3",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "de sfeer met zijn energie en gevatte humor opkikt"
+            }
+          ],
+          "reason": "Misspelled verb opkrikt."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:51de13d4-d522-4257-9aaa-ed91cd879467",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "modestuurtjes"
+            }
+          ],
+          "reason": "Corrupted noun in the description of a row of homes."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "complexelessenroosters"
+            }
+          ],
+          "reason": "Merged adjective and noun."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Haar vrijetijd"
+            }
+          ],
+          "reason": "Incorrectly merged noun phrase vrije tijd."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "một dossier"
+            }
+          ],
+          "reason": "Untranslated Vietnamese token interrupts the Dutch noun phrase."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:a0780f48-2229-46cc-9e0e-2d917392b582",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "studeus"
+            }
+          ],
+          "reason": "Misspelling of studieus."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "menuizier"
+            }
+          ],
+          "reason": "Corrupted/untranslated French occupational noun in Dutch narration."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:334a79c3-4f67-4b5b-85c7-fac4822bd90d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "politics"
+            }
+          ],
+          "reason": "Untranslated English noun in Dutch narration."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "liefdeert"
+            }
+          ],
+          "reason": "Corrupted or invented verb leaves the exact gardening action unclear, while the general meaning is recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

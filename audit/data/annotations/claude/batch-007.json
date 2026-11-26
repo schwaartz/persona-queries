@@ -1,0 +1,319 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:20:58+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:f074c350-0563-4181-ace3-208824713ba7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "na een lang loopbaan"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "dat er niets 'gaat' aan zijn eigendom"
+            }
+          ],
+          "reason": "Agreement error 'een lang loopbaan' and garbled 'gaat' (mankeert); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Brènienge' is an unfamiliar dialect form; not labelled."
+    },
+    {
+      "item_id": "audit:nl:38fb1578-cf7d-4eda-aef2-c34dafba6582",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "op een unloadplatform"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Organiseren van familiejamaals"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "Hij maakte zich aan te passen"
+            }
+          ],
+          "reason": "English 'unload' in a Dutch compound, garbled 'familiejamaals', and ungrammatical 'maakte zich aan te passen'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "persona lacks a final period, but the sentence is complete; excluded formatting."
+    },
+    {
+      "item_id": "audit:nl:4c9f1c82-32df-48c3-a6eb-24bcf20cf235",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "age",
+              "quote": "48"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "Emma Güler groeide op in de dynamiek van de vroege jaren zeventig"
+            }
+          ],
+          "reason": "At 48 she would have been born in the mid/late 1970s, so growing up in the early 1970s conflicts unless the phrase refers to the family's arrival period; reference year not explicit."
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "kijkt ze soms met haar kinderen naar voetbalwedstrijden"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "de focus op haar kind"
+            }
+          ],
+          "reason": "Plural 'kinderen' versus singular 'haar kind'; possibly a slip, not an explicit conflict."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "raakt ze diep geraakt"
+            }
+          ],
+          "reason": "Duplicated verb ('raakt ... geraakt'); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:2adccf8e-deed-4cab-9f2e-4a853262ae52",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "zich focieert op stevige rassen"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "maak geen onnodige lawaai"
+            }
+          ],
+          "reason": "Garbled verb 'focieert' (focust) and gender error 'onnodige lawaai'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "I do not know a Sint-Gertrudiskerk in Diest, but unfamiliarity alone is not evidence; not labelled."
+    },
+    {
+      "item_id": "audit:nl:b10dfb9c-4eb2-45ee-9610-13c63ebd13f3",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "een perfecte witloofstovestof"
+            }
+          ],
+          "reason": "Garbled compound 'witloofstovestof' (witloofstoemp/-stoverij); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Weduwe with 'Feitelijk samenwonend' is explained in the narrative. Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:e69c5923-325c-4afe-84f6-1ece54e4b95a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "gehaktloaf met puree"
+            }
+          ],
+          "reason": "English-Dutch hybrid 'gehaktloaf' (gehaktbrood); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:b4d779dd-b9a5-414e-b9d6-ee19fe24c766",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Leonardostreeft"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "wat er vaak op slaat dat hij"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "het familie-eer"
+            }
+          ],
+          "reason": "Merged words 'Leonardostreeft', garbled idiom 'op slaat' (op neerkomt), gender error 'het familie-eer'; meaning recoverable."
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "'De Geluksbode' van Annelies Verbeke"
+            }
+          ],
+          "reason": "I cannot match 'De Geluksbode' to Annelies Verbeke's known titles; concrete attribution left uncertain without external verification."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:2a81639f-c476-465e-8414-4cc0e824c730",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found. Leading space in list entry excluded."
+    },
+    {
+      "item_id": "audit:nl:531f6333-8a51-48be-83c5-c46434fa156b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "kantoortuinstreit"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "marginale, technician van de zaak"
+            },
+            {
+              "field": "sports_persona",
+              "quote": "met een zek cynisme"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een zekere wantrouwen"
+            }
+          ],
+          "reason": "German 'Streit', English 'technician', truncated 'zek' (zeker), gender error 'een zekere wantrouwen'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Male bearer of feminine-form Bulgarian surname 'Asenova' is a naming-convention matter, excluded."
+    },
+    {
+      "item_id": "audit:nl:6af70566-035c-4ea4-bd7a-060de2fcde36",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "de geuren van cardamom en gember"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Strategische boardgames"
+            }
+          ],
+          "reason": "English 'cardamom' (kardemom) and 'boardgames' (bordspellen) in Dutch text; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

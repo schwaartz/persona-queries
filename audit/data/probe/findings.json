@@ -1,0 +1,1863 @@
+{
+  "model": "Claude Opus 5.5 (claude-opus-5-5)",
+  "effort": "low (session reasoning-effort setting; the high effort requested in probe.md could not be selected from within the session)",
+  "completed_at": "2026-11-11T17:56:33+00:00",
+  "items": [
+    {
+      "item_id": "probe:nl:4e42a5ef-c349-4543-8a5d-30bf7ca1f21c",
+      "findings": [
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Ilsestreeft"
+            }
+          ],
+          "reason": "Name and verb merged without a space ('Ilse streeft')."
+        },
+        {
+          "category_id": "list_formatting",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": " soloswandelingen op de zeedijk buiten het seizoen"
+            }
+          ],
+          "reason": "List item has a leading space and lowercase start, unlike the other items."
+        },
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "zoals Gust Veilejans"
+            }
+          ],
+          "reason": "Cited as a known author but the name does not match any author I know; possibly garbled or invented. Not verifiable without browsing."
+        }
+      ],
+      "notes": "Household 'Kind v. eenoudergezin' at age 30 is unusual but not contradicted by the narrative (absent father, mother)."
+    },
+    {
+      "item_id": "probe:nl:d9f08750-fb65-4b19-80bb-6bccd2dfa484",
+      "findings": [
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "zich uitteen in een passie"
+            }
+          ],
+          "reason": "Misspelled verb ('uitten')."
+        },
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "solitary intellectuele stimulatie"
+            }
+          ],
+          "reason": "Untranslated English adjective inside Dutch text."
+        },
+        {
+          "category_id": "structured_narrative_mismatch",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementaire"
+            },
+            {
+              "field": "persona",
+              "quote": "gereserveerde administratieve kracht"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Data-entry precisie"
+            }
+          ],
+          "reason": "Occupation class is elementary occupations, but every narrative field describes a clerical/administrative job in an insurance office."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:76702d7a-b339-4121-a8db-e3e246702280",
+      "findings": [
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "van ein oplossing"
+            }
+          ],
+          "reason": "German/garbled article 'ein' instead of Dutch 'een'."
+        }
+      ],
+      "notes": "Female surname 'Hristov' (vs Bulgarian feminine 'Hristova') is plausible in a Belgian civil-registry context; not flagged."
+    },
+    {
+      "item_id": "probe:nl:2a0bfa37-824e-4e8b-825b-e9dd28851fb1",
+      "findings": [
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "zit ze by het raam"
+            }
+          ],
+          "reason": "English 'by' instead of Dutch 'bij'."
+        },
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "praktijk'tips'"
+            }
+          ],
+          "reason": "Missing space before quoted word."
+        }
+      ],
+      "notes": "Text reads like a translation from French (e.g. 'soms geteisterd'); higher education with machine-operator role is plausible."
+    },
+    {
+      "item_id": "probe:nl:7f77cfa5-4c84-4ddf-8602-c5bad8adee91",
+      "findings": [
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "het MIMA in Antwerpen"
+            }
+          ],
+          "reason": "MIMA is, to my knowledge, a museum in Brussels (Molenbeek), not Antwerp. Not verified by browsing."
+        },
+        {
+          "category_id": "internal_contradiction",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "Hoewel ze na de basisschool stopte met studeren"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "Ze leerde zichzelf lezen door de folders van de lokale bibliotheek"
+            }
+          ],
+          "reason": "She completed primary school yet is said to have taught herself to read; possibly meant reading habit rather than literacy."
+        }
+      ],
+      "notes": "Living with parents at 47 matches household 'Kind v. koppel'."
+    },
+    {
+      "item_id": "probe:nl:52691009-fc48-4716-a686-8135e9570904",
+      "findings": [
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Zijn sociable kant"
+            }
+          ],
+          "reason": "Untranslated English adjective inside Dutch text."
+        }
+      ],
+      "notes": "Local references ('Keizerstede', 'Klokkenververs', 'Provinciaal Museum in Herentals') could not be verified; not flagged."
+    },
+    {
+      "item_id": "probe:nl:8057e0d7-3d59-4fb9-92b4-279bd48e9640",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "क्राइम-nieuws"
+            }
+          ],
+          "reason": "Devanagari-script token (Hindi 'crime') inside Dutch text."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:9869eeee-525e-49cc-b35d-0a22208573d9",
+      "findings": [],
+      "notes": "Clean. Minor exonym 'Hainaut' and anglicism 'corporate roem' not treated as defects."
+    },
+    {
+      "item_id": "probe:nl:bd26a420-a8d8-4ae5-ba95-c56cfc45712e",
+      "findings": [
+        {
+          "category_id": "structured_narrative_mismatch",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementaire"
+            },
+            {
+              "field": "persona",
+              "quote": "gedisciplineerde logisticus"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Beheer van transportvloot"
+            }
+          ],
+          "reason": "Occupation class is elementary occupations, but narrative describes a logistics planner/fleet manager and mentor."
+        }
+      ],
+      "notes": "French exonym 'Ostende' in Dutch text not flagged."
+    },
+    {
+      "item_id": "probe:nl:1a24d6ab-a87f-4cb0-b685-6f191e887385",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "de zaken optheir te zetten"
+            }
+          ],
+          "reason": "Non-word 'optheir' (likely garbled 'op orde' / 'op hun plaats')."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:73e1ec2a-52cd-4a90-9894-092d24103171",
+      "findings": [],
+      "notes": "Clean. 'Amblève' (structured) and 'Amel' (narrative) are the French and German names of the same municipality."
+    },
+    {
+      "item_id": "probe:nl:1da20537-d294-4b5d-b5ee-74c3a670e6b4",
+      "findings": [
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "de heuvels van Beaudoise"
+            }
+          ],
+          "reason": "'Beaudoise' does not correspond to any place I know near Beauraing; likely a garbled name. Not verified."
+        }
+      ],
+      "notes": "French adjective 'Namuroise' and exonym 'Ostende' in Dutch text not flagged."
+    },
+    {
+      "item_id": "probe:nl:1ba5e28c-fca4-47ba-a68f-ce009ddde0c1",
+      "findings": [
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Hij leest steevast De Vlaming"
+            }
+          ],
+          "reason": "Presented as a regular newspaper, but I know of no Flemish newspaper by this name. Not verified."
+        }
+      ],
+      "notes": "'ruitelsla' is an unfamiliar word; left unflagged."
+    },
+    {
+      "item_id": "probe:nl:2e48668f-defb-4ac9-b879-2f187e71ad76",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "shoppia salata"
+            }
+          ],
+          "reason": "Garbled dish name; the Bulgarian salad is 'shopska salata' (spelled 'Shopska' elsewhere in the packet)."
+        },
+        {
+          "category_id": "identity_inconsistency",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "Lieve Vasileva"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "de Vlaamse nuchterheid van haar vader versmolt met de stugge, pragmatische waarden van haar moeder uit Sofia"
+            }
+          ],
+          "reason": "Bulgarian feminine surname although the father is Flemish and the mother Bulgarian; possible only if she took her mother's name."
+        },
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "de Erfenis van de Balkan"
+            }
+          ],
+          "reason": "Common noun capitalised mid-sentence."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:cc713c65-755e-4bd8-8d9a-e6bcb0b764ea",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "een broodje kft"
+            }
+          ],
+          "reason": "'kft' is not a recognisable filling or standard abbreviation; likely a truncated token."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:3c070175-5f7a-48af-9486-64b687f4c8c4",
+      "findings": [
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een gereserveerde Antwerpenaren"
+            }
+          ],
+          "reason": "Plural demonym used with singular article."
+        },
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "volksommen pragmatisme"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "de stabiliteit van het anstallement"
+            }
+          ],
+          "reason": "Two non-words ('volksommen', 'anstallement')."
+        },
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "gehaktloaf met puree"
+            }
+          ],
+          "reason": "Hybrid Dutch-English word ('gehaktbrood' / 'meatloaf')."
+        },
+        {
+          "category_id": "structured_narrative_mismatch",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "age",
+              "quote": "64"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Met haar 64ste jaar in zicht"
+            }
+          ],
+          "reason": "Narrative implies she has not yet reached 64, while structured age is 64. Minor."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:7730f05b-334b-4dd8-98fe-1c56048f96b9",
+      "findings": [
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "jongere generie manager"
+            }
+          ],
+          "reason": "Misspelling of 'generatie'."
+        }
+      ],
+      "notes": "A site manager doing heavy lifting on site, and the list item 'Leden van de lokale fanfare' (plural), are odd but not flagged."
+    },
+    {
+      "item_id": "probe:nl:cef1e3bf-fe9a-48d3-b0de-c2a36a0bcd0c",
+      "findings": [
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "de STIB-bus of haar vaste route per fiets door de straten van Antwerpen"
+            }
+          ],
+          "reason": "STIB is, to my knowledge, the Brussels transport operator; Antwerp buses are run by De Lijn. Not verified."
+        },
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "een eenvoudige Walloon 'tarte au sucre'"
+            }
+          ],
+          "reason": "English adjective 'Walloon' instead of Dutch 'Waalse'."
+        },
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "strips van Marc Peel"
+            }
+          ],
+          "reason": "No comics author by this name that I know; possibly garbled 'Marc Sleen'. Not verified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:4cd93505-1a0c-4e6f-b6a1-192bfdd6d363",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "vlemsche nuchterheid"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "academieke ambities"
+            }
+          ],
+          "reason": "Non-words ('vlemsche' for 'Vlaamse'; 'academieke' for 'academische')."
+        },
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "in het Artifact Arena"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "In Gent bezoekt hij af en toe het MAS"
+            }
+          ],
+          "reason": "KAA Gent's stadium is not known to me as 'Artifact Arena' (likely a substituted token); the MAS is, to my knowledge, in Antwerp, not Ghent. Not verified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:eeabadf8-c62a-4037-b138-6d3d51d94cda",
+      "findings": [
+        {
+          "category_id": "internal_contradiction",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "Hij reist altijd met vrienden"
+            },
+            {
+              "field": "travel_persona",
+              "quote": "Veel van zijn vakanties worden georganiseerd door zijn ouders"
+            }
+          ],
+          "reason": "'Always travels with friends' sits uneasily with parent-organised all-inclusive holidays; could be compatible."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:c4abfb6b-836e-4e11-9451-f5b5b1d9cac2",
+      "findings": [
+        {
+          "category_id": "list_formatting",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": " Klantencontact in transportsector"
+            }
+          ],
+          "reason": "List item has a leading space."
+        },
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "gehaktloaf met puree"
+            }
+          ],
+          "reason": "Hybrid Dutch-English word ('gehaktbrood' / 'meatloaf')."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:450f6bc2-0f55-434d-b287-7df3503943b7",
+      "findings": [
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "rust vindt in calligrafie"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Kalligrafie"
+            }
+          ],
+          "reason": "Inconsistent/incorrect Dutch spelling 'calligrafie' vs 'kalligrafie' within the same record."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:2a8933d6-2d34-4828-9a6e-b4d5eab3ff9c",
+      "findings": [
+        {
+          "category_id": "list_formatting",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": " barbecueën"
+            }
+          ],
+          "reason": "List item has a leading space and lowercase start."
+        },
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "Vlaamse carbonicade"
+            }
+          ],
+          "reason": "Non-word; the dish is 'carbonade'."
+        },
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "door de Campine"
+            }
+          ],
+          "reason": "French/English name of the Kempen used in Dutch text (the same record uses 'Kempen-directheid')."
+        },
+        {
+          "category_id": "typo_spacing",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "een middagestrijd in een lokale sportclub"
+            }
+          ],
+          "reason": "Malformed compound ('middagje strijd'?)."
+        }
+      ],
+      "notes": "'Schijnbekken' as a home region is odd but may refer to the Schijn river basin."
+    },
+    {
+      "item_id": "probe:nl:b1cafe5d-a79d-4d23-90bc-c7d1b67f84bc",
+      "findings": [
+        {
+          "category_id": "structured_narrative_mismatch",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "age",
+              "quote": "86"
+            },
+            {
+              "field": "persona",
+              "quote": "een gereserveerde 86-jarige vrouw"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Op haar zesennegentigste"
+            }
+          ],
+          "reason": "Career narrative says she is 96, contradicting structured age 86 and the persona summary."
+        }
+      ],
+      "notes": "Albanian/Kosovar surname with Bosnian cultural markers (Sarajevo, sevdalinka) is plausible for ex-Yugoslavia."
+    },
+    {
+      "item_id": "probe:nl:b8e1e385-be5e-4590-87bd-889f6a0929ec",
+      "findings": [
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "periferie vanHet Pajottenland"
+            }
+          ],
+          "reason": "Missing space and wrong capitalisation."
+        },
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "het onbezoedelijk onderhouden van de heg"
+            }
+          ],
+          "reason": "Non-word ('onberispelijk')."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:91cc65d6-e0d5-45ad-ae41-0a6c0b13226a",
+      "findings": [
+        {
+          "category_id": "structured_narrative_mismatch",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementaire"
+            },
+            {
+              "field": "industry",
+              "quote": "Adm. & ondersteuning"
+            },
+            {
+              "field": "persona",
+              "quote": "een energieke basisschoollerares uit Rebecq"
+            }
+          ],
+          "reason": "All narrative fields describe a primary school teacher, which conflicts with elementary occupation in administrative/support services."
+        },
+        {
+          "category_id": "structured_narrative_mismatch",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "education_level",
+              "quote": "Hoger secundair"
+            },
+            {
+              "field": "persona",
+              "quote": "basisschoollerares"
+            }
+          ],
+          "reason": "Primary teaching in Belgium normally requires a bachelor degree (higher education)."
+        },
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "een geografiles is transformeert"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "geesthetiseerde nostalgie"
+            }
+          ],
+          "reason": "Ungrammatical verb sequence and malformed word."
+        }
+      ],
+      "notes": "Book 'Le Livre des ambiguïtés' not verifiable; not flagged."
+    },
+    {
+      "item_id": "probe:nl:f6bb7669-58bc-4e97-b01e-e677a001ed6d",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "de schaduw van de kampines"
+            }
+          ],
+          "reason": "Non-word, apparently a garbled 'Campine'/'Kempen'."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:d6fee53a-c1d7-4ba7-8c28-d99a09120936",
+      "findings": [
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "te theoretisch te onderbouwen"
+            }
+          ],
+          "reason": "Duplicated particle 'te'."
+        }
+      ],
+      "notes": "Venues 'M-Huis' and 'Zilvercentrum in Genk' could not be verified; not flagged."
+    },
+    {
+      "item_id": "probe:nl:58c970d8-152c-4f30-adad-de3f47618ea9",
+      "findings": [
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Volks cafés"
+            }
+          ],
+          "reason": "Compound split incorrectly ('Volkscafés')."
+        }
+      ],
+      "notes": "'lokale blondine' (for blond beer) is colloquial; not flagged."
+    },
+    {
+      "item_id": "probe:nl:ea5c1a5a-9425-4646-ab03-4f92575dc093",
+      "findings": [
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "puur Walloon"
+            }
+          ],
+          "reason": "English adjective instead of Dutch 'Waals'."
+        }
+      ],
+      "notes": "Occasional shop/harvest work in the career field is compatible with 'never had an official career'."
+    },
+    {
+      "item_id": "probe:nl:7630c2f2-878b-416e-b51d-2f6341595969",
+      "findings": [
+        {
+          "category_id": "identity_inconsistency",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "Senne Attardo"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "als zoon van een immigrant die in de jaren vijftig uit Molise kwam"
+            }
+          ],
+          "reason": "Distinctly Flemish first name for a son of an Italian immigrant raised French/Italian-speaking in Ath, with no explanation (other records justify such names explicitly). Possible but unexplained."
+        }
+      ],
+      "notes": "Le Soir listed as 'regionale pers' is a minor mislabel; not flagged."
+    },
+    {
+      "item_id": "probe:nl:de3bc0d3-b1b6-4adb-a0a2-f00247e39a7d",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Op vijfzigenvijftig"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de lokale volksrustiek"
+            }
+          ],
+          "reason": "Non-words: garbled number word and 'volksrustiek'."
+        },
+        {
+          "category_id": "structured_narrative_mismatch",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "age",
+              "quote": "57"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Op vijfzigenvijftig"
+            }
+          ],
+          "reason": "The garbled number most plausibly reads as 55 ('vijfenvijftig'), conflicting with structured age 57."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:fdb5b579-d462-4b0a-b0ff-cc1468e58b79",
+      "findings": [
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "voor Kathleen is haar huidige positie"
+            }
+          ],
+          "reason": "Field begins with a lowercase letter."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:e77df9fa-16f7-4666-b545-f20eb5b6684c",
+      "findings": [
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "haar beloftes unwavering na te komen"
+            }
+          ],
+          "reason": "Untranslated English adverb in Dutch text."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:f71fc078-911e-4678-8510-4191f08a71fd",
+      "findings": [
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "lokale parishesbladen"
+            }
+          ],
+          "reason": "English 'parishes' fused into a Dutch compound ('parochiebladen')."
+        },
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Vlaamse aktualiteiten"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "groot tante"
+            }
+          ],
+          "reason": "Misspelling ('actualiteiten') and split compound ('groottante')."
+        },
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "'De Vochtige Vinger'"
+            }
+          ],
+          "reason": "Presented as a Flemish TV programme, but I know of no programme by this name. Not verified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:52c83195-2101-4f38-a2f1-096ce0bf3394",
+      "findings": [],
+      "notes": "Clean. Business trips for a logistics technician and a Flemish-notary paternal line in Neufchâteau are plausible."
+    },
+    {
+      "item_id": "probe:nl:80b2b624-a3db-48f4-9003-bc2f2f255266",
+      "findings": [],
+      "notes": "Clean. Calling Dilsen-Stokkem's surroundings 'de Kempen' (it is in the Maasland) is loose but not a clear defect."
+    },
+    {
+      "item_id": "probe:nl:1c88d5c2-4c6e-40dc-aa2c-7ac790a7934e",
+      "findings": [
+        {
+          "category_id": "structured_narrative_mismatch",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Hooggekwalif."
+            },
+            {
+              "field": "industry",
+              "quote": "Overige diensten"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "Perrine is momenteel niet economisch actief"
+            }
+          ],
+          "reason": "Structured fields give an active occupation and industry, but the narrative says she is not economically active (and career text speaks of her 'actieve loopbaan' in the past)."
+        },
+        {
+          "category_id": "generation_artifact",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "Haar huidige inkomen van 710 euro per maand, waarschijnlijk het gevolg van een complexe scheiding"
+            }
+          ],
+          "reason": "Narrator speculates ('waarschijnlijk') about an exact income figure, apparently leaking an underlying data attribute rather than describing the persona."
+        },
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "De familiale transmission"
+            }
+          ],
+          "reason": "Untranslated English/French noun in Dutch text."
+        },
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "zijst haar hart"
+            }
+          ],
+          "reason": "Non-word verb."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:37ba9a45-d0b4-4afa-af44-450319f634e0",
+      "findings": [],
+      "notes": "Clean. 'Museum van de Peer' could not be verified; service/sales occupation for an administrative receptionist is a borderline classification and not flagged."
+    },
+    {
+      "item_id": "probe:nl:2d4fa828-0ab0-4fef-98af-e759574746f9",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "door vintagehops"
+            }
+          ],
+          "reason": "Non-word ('vintageshops')."
+        },
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "een knack voor visuele communicatie"
+            }
+          ],
+          "reason": "Untranslated English noun in Dutch text."
+        }
+      ],
+      "notes": "Spelling 'eklectische' in persona vs 'eclectische' elsewhere; 'zichten' and 'onbezonken' are odd word choices."
+    },
+    {
+      "item_id": "probe:nl:d1cb1e83-ee8b-4f0e-a85c-d39eff7b1ac2",
+      "findings": [
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "prawdziwe misdaadpodcasts"
+            }
+          ],
+          "reason": "Polish word 'prawdziwe' ('true') inside Dutch text; the list field says 'True crime podcasts'."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:ba762031-2aec-4743-9888-100d9e20a870",
+      "findings": [
+        {
+          "category_id": "language_mixing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "gehaktloaf met puree"
+            }
+          ],
+          "reason": "Hybrid Dutch-English word ('gehaktbrood' / 'meatloaf')."
+        },
+        {
+          "category_id": "structured_narrative_mismatch",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementaire"
+            },
+            {
+              "field": "persona",
+              "quote": "een pragmatische horecaprofessional"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Operationeel personeelsbeheer"
+            }
+          ],
+          "reason": "Elementary occupation class, but the narrative describes a supervisory hospitality role handling staffing, stock and complaints."
+        }
+      ],
+      "notes": "'Provinciaal Museum in Bree' and Lucinda Riley as a thriller author not verified/not flagged."
+    },
+    {
+      "item_id": "probe:nl:1f67afb2-956e-4361-8816-5ed2ff5d7743",
+      "findings": [
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "diep gewortelde vlaamse nuchterheid"
+            }
+          ],
+          "reason": "Proper adjective 'Vlaamse' not capitalised."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:6e410ae8-0d61-40c2-8b80-0ad0a0642768",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:nl:7f9dc8a7-4a83-4ee5-b594-74aa00835b8e",
+      "findings": [
+        {
+          "category_id": "structured_narrative_mismatch",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementaire"
+            },
+            {
+              "field": "industry",
+              "quote": "Vrije beroepen & wet."
+            },
+            {
+              "field": "persona",
+              "quote": "een gereserveerde basisschoollerares uit Vorst"
+            }
+          ],
+          "reason": "Narrative consistently describes a primary-school teacher; structured occupation (elementary) and industry (professional/scientific services) do not match."
+        },
+        {
+          "category_id": "identity_inconsistency",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "sex",
+              "quote": "Vrouw"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "weet precies welke knoppen hij moet indrukken"
+            }
+          ],
+          "reason": "Masculine pronoun 'hij' used for a female persona within a sentence about her."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:e09aef37-ec3c-4671-a8bb-dc6ccda39e5e",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "negenතිende-eeuwse"
+            },
+            {
+              "field": "persona",
+              "quote": "pensiondoceerde"
+            }
+          ],
+          "reason": "Sinhala-script characters inside a Dutch word, and the non-word 'pensiondoceerde' (gepensioneerde docente)."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:9e0f0c71-1cab-4263-a917-1b5f6fafbd2e",
+      "findings": [
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Place Colonnel Eyschyns"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "Lycée Boscondé"
+            }
+          ],
+          "reason": "Neither place name matches anything I know in Schaerbeek or Kinshasa; possibly garbled. Not verified."
+        }
+      ],
+      "notes": "'Schaarbeek' (structured) vs 'Schaerbeek' (narrative) are the Dutch and French spellings."
+    },
+    {
+      "item_id": "probe:nl:b25286eb-194c-4ec2-876f-0a71957899de",
+      "findings": [],
+      "notes": "Clean. Odd idiom 'iemand voor het hoofd te hebben gemaakt' not flagged."
+    },
+    {
+      "item_id": "probe:nl:06220f4a-e3a1-4b55-a5cc-b4e7bd3b823c",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "gehakt covertjes"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "trasladingsbedrijf"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "nabeschreven moeten worden"
+            }
+          ],
+          "reason": "Three non-words ('covertjes', 'trasladingsbedrijf', 'nabeschreven')."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:nl:c298812c-fe79-4ea6-8acf-c861186af0c0",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "welke echtmaker in de haven"
+            }
+          ],
+          "reason": "Non-word ('expediteur'/'scheepsmakelaar' intended)."
+        },
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "loonsverhogging"
+            }
+          ],
+          "reason": "Misspelling of 'loonsverhoging'."
+        }
+      ],
+      "notes": "Household 'Kind v. eenoudergezin' at 38 is consistent with a mother-only upbringing."
+    },
+    {
+      "item_id": "probe:en:bb29ef5f-3402-41ac-8193-eee0968318db",
+      "findings": [
+        {
+          "category_id": "identity_inconsistency",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "Gheorghe Trossaert"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "His German first name, a whimsical wish of a grandfather who had once worked in the industrial centers of the Rhineland"
+            }
+          ],
+          "reason": "'Gheorghe' is the Romanian form of George, not a German name; the stated name origin contradicts the name itself."
+        }
+      ],
+      "notes": "Living with his mother matches 'Child of single parent'. Mixed 'Gent'/'Ghent' spelling in English text not flagged."
+    },
+    {
+      "item_id": "probe:en:9f21f069-7931-4615-b679-a446d3000cef",
+      "findings": [
+        {
+          "category_id": "generation_artifact",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "Due to his health condition, intensive sports are a thing of the past for Santiago."
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Due to his age and current health situation"
+            }
+          ],
+          "reason": "Refers to a specific 'health condition' as if known, but no field describes it; looks like a hidden source attribute leaking into the text."
+        },
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "regularly visits the MSK in Ghent to view contemporary installations"
+            }
+          ],
+          "reason": "The MSK is, to my knowledge, Ghent's fine-arts museum; contemporary installations are at S.M.A.K. Not verified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:en:6dbfb506-d3c3-4360-a108-96598e63b48f",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "strolling through Squarepoulard"
+            }
+          ],
+          "reason": "Non-word/garbled place name (merged and unrecognisable)."
+        }
+      ],
+      "notes": "'Elsene' (structured) and 'Ixelles' (narrative) are the same municipality."
+    },
+    {
+      "item_id": "probe:en:a70d7b2b-a50c-43a0-a40d-f99262473b18",
+      "findings": [],
+      "notes": "Clean. 'Professionals' with upper-secondary education is explicitly acknowledged in the narrative."
+    },
+    {
+      "item_id": "probe:en:58cda9f0-5b87-45a4-b402-d65821b7c459",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:a195d500-f032-4721-bbf5-5c8950e714fe",
+      "findings": [],
+      "notes": "Clean. Chronic health issues are mentioned consistently across sports and career fields."
+    },
+    {
+      "item_id": "probe:en:a539abc4-b8d2-463b-ad17-fa52d09d846b",
+      "findings": [
+        {
+          "category_id": "identity_inconsistency",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "Arjen Lemahieu"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "Flemish roots forgotten for three generations"
+            }
+          ],
+          "reason": "Dutch first name 'Arjen' for a Borinage-born man whose Flemish roots are said to be long forgotten; unexplained but possible."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:en:9602da35-677c-49f8-978e-01c5d55e1292",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:09e1fc83-d3f7-4aee-b593-8eca96a4b6f4",
+      "findings": [],
+      "notes": "Clean. 'clay soil of the Kempen' is loose geography but not a clear defect."
+    },
+    {
+      "item_id": "probe:en:9ac544e0-4187-4351-a4f8-a042de864b74",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "the local norms of the 'Likert'"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "the Berrevoesj culture"
+            }
+          ],
+          "reason": "Garbled tokens; neither is a recognisable term (possibly mangled local demonyms)."
+        },
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "thrift stores in Geraardsbeken"
+            }
+          ],
+          "reason": "Misspelled place name ('Geraardsbergen')."
+        },
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "museums in Brussels, such as the M HKA"
+            }
+          ],
+          "reason": "M HKA is, to my knowledge, in Antwerp (other records place it there). Not verified."
+        }
+      ],
+      "notes": "'Divorced' with a cohabiting partner is consistent."
+    },
+    {
+      "item_id": "probe:en:c2f458a5-d942-4ab2-9c65-768d958f2e1b",
+      "findings": [
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "the Outremont district of Liège"
+            }
+          ],
+          "reason": "Liège's district is, to my knowledge, 'Outremeuse'; Outremont is in Montreal. Likely a substituted name. Not verified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:en:6d369ffc-dc7f-49af-b710-04dd3ea25bcc",
+      "findings": [
+        {
+          "category_id": "identity_inconsistency",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "Ineke Druart"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "a mother whose Flemish first name betrayed roots from the other side of the linguistic border"
+            }
+          ],
+          "reason": "The explanation attributes a Flemish first name to the mother, while it is the persona herself who has the Dutch/Flemish name 'Ineke' in a French-speaking Hainaut family; looks like a misplaced explanation."
+        }
+      ],
+      "notes": "Never salaried but managed the family farm: consistent with 'Retired'."
+    },
+    {
+      "item_id": "probe:en:5a04ecc8-32a8-4a46-9696-ab98fefa5d55",
+      "findings": [],
+      "notes": "Clean. Age 20 with completed higher education and a technician role is young but possible; not flagged."
+    },
+    {
+      "item_id": "probe:en:c7e0e00c-c83d-42d0-9a04-39d974bc9031",
+      "findings": [
+        {
+          "category_id": "typo_spacing",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "he remains unphased while others panic"
+            }
+          ],
+          "reason": "Misspelling of 'unfazed'."
+        }
+      ],
+      "notes": "Persona calls him a 'technician' while occupation is 'Professionals'; borderline, not flagged."
+    },
+    {
+      "item_id": "probe:en:1215b764-1e91-4738-8dfa-6ba7896ea698",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:9914f9e8-8fb8-4dc9-acbb-d452b346170d",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "the Borgerwoest district in Antwerp"
+            }
+          ],
+          "reason": "No Antwerp district by this name that I know; likely a garbled 'Borgerhout'."
+        },
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "a critical eye on Standard Antwerp"
+            }
+          ],
+          "reason": "Appears to blend 'Royal Antwerp' and 'Standard Liège'; no club of this name that I know. Not verified."
+        }
+      ],
+      "notes": "'Kadriye district of Istanbul' could not be verified; not flagged. Single mother upbringing matches household type."
+    },
+    {
+      "item_id": "probe:en:08aee81b-5ee7-4541-94a6-5b332fed86f3",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:04aebb35-6238-4105-8cd3-94fc8565001b",
+      "findings": [],
+      "notes": "Clean. Dutch place names ('Antwerpen', 'Gent') in English text not treated as defects."
+    },
+    {
+      "item_id": "probe:en:e912300a-d812-466d-873b-f700528b6d6d",
+      "findings": [],
+      "notes": "Clean. The Flemish first name of an Italian-Walloon man is explicitly explained."
+    },
+    {
+      "item_id": "probe:en:5b8edf51-7cca-44c2-bd9c-caedb407d7b3",
+      "findings": [
+        {
+          "category_id": "list_formatting",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "orthopedic adjustments"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "furniture restoration"
+            }
+          ],
+          "reason": "All list items start lowercase, unlike the capitalised list convention used across the packet."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:en:1a1558ee-0510-414b-9977-a7d3f422d08f",
+      "findings": [],
+      "notes": "Clean. Placing Kontich on the Nethe and in the 'Kempen tradition' is loose regional framing, not flagged."
+    },
+    {
+      "item_id": "probe:en:5a072a25-5d74-44be-8ac9-63119e6a58f7",
+      "findings": [
+        {
+          "category_id": "list_formatting",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "analog photography"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "street photography"
+            }
+          ],
+          "reason": "All list items start lowercase, unlike the capitalised list convention used across the packet."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:en:8062ef2f-cebd-42f8-ad4e-bcf601454731",
+      "findings": [
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "the MIMA in Antwerp"
+            }
+          ],
+          "reason": "MIMA is, to my knowledge, in Brussels (Molenbeek), not Antwerp. Not verified."
+        }
+      ],
+      "notes": "Novelist 'Geert Van Passel' could not be verified; not flagged."
+    },
+    {
+      "item_id": "probe:en:7be06040-541a-4501-b030-45074944f670",
+      "findings": [
+        {
+          "category_id": "list_formatting",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "home and garden repairs"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "gardening"
+            }
+          ],
+          "reason": "All list items start lowercase, unlike the capitalised list convention used across the packet."
+        }
+      ],
+      "notes": "Dutch exonyms ('Luik', 'Vlaams-Brabant') in English text not flagged."
+    },
+    {
+      "item_id": "probe:en:39567f57-f4d5-42ab-9454-4f0ed246e0ca",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:0d973726-69bd-4fe7-b64b-be4583c95216",
+      "findings": [
+        {
+          "category_id": "list_formatting",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "industrial machine maintenance"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "local coffee houses"
+            }
+          ],
+          "reason": "All list items start lowercase, unlike the capitalised list convention used across the packet."
+        },
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "the writings of Tchicaya Utembi"
+            }
+          ],
+          "reason": "Looks like a garbled form of the Congolese writer Tchicaya U Tam'si. Not verified."
+        }
+      ],
+      "notes": "Widowed and living alone matches the narrative."
+    },
+    {
+      "item_id": "probe:en:4a113cd0-80e4-411d-bb8e-312ab01c9a8d",
+      "findings": [
+        {
+          "category_id": "list_formatting",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "mechanical maintenance"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "walking along the Leie"
+            }
+          ],
+          "reason": "All list items start lowercase, unlike the capitalised list convention used across the packet."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:en:5d7b720f-5ff8-4ceb-a4a9-72702479dd7d",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:cf8ef8bc-ef64-4c9f-b5a9-3550cac6ae34",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:b08422b3-033c-477a-b781-938997a38d61",
+      "findings": [],
+      "notes": "Clean. An Albanian miner in the 1930s Borinage and the first name 'Léana' for a woman born c. 1943 are unusual but not clear defects."
+    },
+    {
+      "item_id": "probe:en:107ca1a9-f4d5-4adc-80d4-59cdf6107bc6",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:02295eee-6c53-4ea6-862f-43f101e060e7",
+      "findings": [
+        {
+          "category_id": "token_corruption",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "the atmospheric sounds of Romanian Circle of sounds"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "subsysteme + hanxe"
+            }
+          ],
+          "reason": "Music references read as garbled or placeholder-like tokens rather than identifiable artists."
+        }
+      ],
+      "notes": "Iași is not on the Siret, but childhood summers 'along the Siret' with grandparents need not be in Iași; not flagged."
+    },
+    {
+      "item_id": "probe:en:cb60c88a-fd13-4d90-8cbd-ca88ed013fc9",
+      "findings": [],
+      "notes": "Clean. 'Professionals' with upper-secondary education is unusual but not contradicted by narrative."
+    },
+    {
+      "item_id": "probe:en:70e267cc-f67d-4afa-887d-9c2bcc3891e1",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:31a74709-7ef3-44b2-bdcc-bc515fb8750d",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:fa17a992-e059-4dde-9cd0-aa5194f1a992",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:5d4dd71a-1ac9-4e90-b5bf-fc8141b40f8d",
+      "findings": [],
+      "notes": "Clean. Walking 'along the Rupel' from Sint-Niklaas is geographically loose but possible."
+    },
+    {
+      "item_id": "probe:en:db623828-c9cb-4afe-969c-dc580cdaf240",
+      "findings": [],
+      "notes": "Clean. Holidays in Ostend (West Flanders) are an exception to 'rarely leaves East Flanders', not a contradiction."
+    },
+    {
+      "item_id": "probe:en:c5e78d58-9adf-4bf5-b3ee-0b5c999a1335",
+      "findings": [],
+      "notes": "Clean. 'Never married' with a cohabiting partner is consistent."
+    },
+    {
+      "item_id": "probe:en:0bd46306-4d1d-489f-9ddc-cf7b159af5cc",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:393fb81c-6378-4aea-9959-35c54c715b59",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:771f949b-b49c-4fde-bc86-39aeaa553e20",
+      "findings": [
+        {
+          "category_id": "structured_narrative_mismatch",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementary occ."
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "His expertise lies in the maintenance of heavy industrial installations"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "he has already climbed the workshop ladder as far as his diploma would allow"
+            }
+          ],
+          "reason": "Elementary occupation class, but narrative and skills list describe a skilled industrial maintenance mechanic who has climbed within the workshop."
+        }
+      ],
+      "notes": "Household 'Single parent' at 64 is not contradicted (his children are mentioned). Following K.R.C. Genk from Schoten is unusual but possible."
+    },
+    {
+      "item_id": "probe:en:a48c73a4-7495-4fc5-920b-61d7f7b41731",
+      "findings": [
+        {
+          "category_id": "list_formatting",
+          "certainty": "clear",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "technical product knowledge"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "motorsport and tuning"
+            }
+          ],
+          "reason": "All list items start lowercase, unlike the capitalised list convention used across the packet."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "probe:en:9738daae-6bf3-4745-a124-a0ed6165c1d0",
+      "findings": [
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "the regional supplement of Het Belang Nieuws"
+            }
+          ],
+          "reason": "Looks like a garbled form of the Limburg newspaper 'Het Belang van Limburg'. Not verified."
+        }
+      ],
+      "notes": "'Tien om twee' attributed to TV1 not verified; not flagged."
+    },
+    {
+      "item_id": "probe:en:08ccde76-c98c-47cd-b073-9c5164fec26f",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:16bb3142-9519-45bf-b4b3-f9dc76dd05bc",
+      "findings": [
+        {
+          "category_id": "identity_inconsistency",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "Ali Ali is a reserved manager in Antwerp"
+            }
+          ],
+          "reason": "Identical first name and surname; can occur in real life but may be a name-generation fallback."
+        }
+      ],
+      "notes": "'MoMuseum' and studying in the 'Koninklijke Bibliotheken' (KBR is in Brussels) are loose references; not flagged."
+    },
+    {
+      "item_id": "probe:en:ee7d0904-9a89-4fbf-a6b3-0c99c6a1fefa",
+      "findings": [],
+      "notes": "Clean."
+    },
+    {
+      "item_id": "probe:en:8adcb832-ccb5-4926-9873-451f29f196c8",
+      "findings": [
+        {
+          "category_id": "real_world_reference_error",
+          "certainty": "uncertain",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "the local newspaper, Het Belang"
+            },
+            {
+              "field": "municipality",
+              "quote": "Kuurne"
+            }
+          ],
+          "reason": "'Het Belang (van Limburg)' is, to my knowledge, the Limburg regional paper, not a local paper for Kuurne in West Flanders. Not verified."
+        }
+      ],
+      "notes": "Albanian surname 'Gashi' with a grandfather 'between Belgrade and Sarajevo' is loose but plausible for ex-Yugoslavia."
+    },
+    {
+      "item_id": "probe:en:6996fd2d-571a-46b7-b809-d15b1169bb58",
+      "findings": [],
+      "notes": "Clean. Adopting a local first name is explicitly explained."
+    },
+    {
+      "item_id": "probe:en:7b823ce2-7033-4a78-b6fa-b4b594a46f55",
+      "findings": [],
+      "notes": "Clean. A teacher ('Professionals', Education) with lower-secondary education is unusual, but the narrative explicitly acknowledges her limited schooling."
+    }
+  ]
+}

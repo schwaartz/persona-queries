@@ -1,0 +1,170 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "inherited GPT runtime; exact model identifier unavailable",
+  "effort": "inherited; exact setting unavailable",
+  "completed_at": "2026-11-11T18:48:48.932922+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:8be03bd6-1c3d-4f73-8320-71c69633e2ad",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Museum voor Oudworks"
+            }
+          ],
+          "reason": "The museum title contains a malformed Dutch/English mixed token, Oudworks, obscuring the intended title."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:a283d643-099e-4e10-91bc-88a4a0693e3d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "a perfectly ironed linens"
+            }
+          ],
+          "reason": "The singular article a is incompatible with plural linens."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:4930c4d4-dedf-40bd-9b55-522da2ad1fe3",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:78517d00-594c-4d29-b86b-bcfa0166c192",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "In her role as administrative support within a local cabinetry workshop"
+            },
+            {
+              "field": "occupation",
+              "quote": "Craft & trades"
+            }
+          ],
+          "reason": "The narrative describes administrative support while the code denotes a craft occupation; the code might reflect workshop context rather than literal job duties."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:226ec9af-4d1f-40b5-927c-1320d0bfd2d4",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:2563c638-7241-40f0-88ae-2a8aabe2e2a1",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:79762092-ee5f-40c5-8ca5-e6274c2db7ad",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:ef1374ce-3c43-4247-8c54-b8452b3034f5",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:c38f100b-ab4e-4e1c-8c95-e029b6843fde",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:87f80665-2a8d-471a-aebb-a98613f6c286",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

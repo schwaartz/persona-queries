@@ -1,0 +1,194 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5",
+  "effort": "default",
+  "completed_at": "2026-11-11T18:39:34+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:009fdb76-6927-4780-ae80-e0cac7020933",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "the church bell of the Sint-Pieterskerk"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "the familiar streets of Beveren"
+            }
+          ],
+          "reason": "The central church of Beveren (Waas) is the Sint-Martinuskerk on the Grote Markt (search results incl. gcatholic.org/churches/europe-west/72645); no Sint-Pieterskerk in Beveren was found, but a failed search is not proof (deelgemeenten may have one), so uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:c3e6e809-cc88-4656-ab94-80822bccd2f6",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:b84a78e3-7c25-49d9-9a5d-1b4ee907f45e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "Sunday mass at the Sint-Lambertus church was the undisputed anchor"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "grew up in the shadow of the forests of Mol"
+            }
+          ],
+          "reason": "Mol's central parish church is the Sint-Pieter-en-Pauwelkerk on the Markt; search found no Sint-Lambertuskerk in Mol, but a failed search is not proof (Mol has several sections), so uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:79b300a7-5b92-4dc7-91db-574ff3304915",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "Yeghishe Chareants"
+            }
+          ],
+          "reason": "Misspelling of the Armenian poet Yeghishe Charents; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:ae4acdb6-1eb6-4021-b7e8-b9e3642765ab",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:a9e27b72-e009-4428-820e-942a74255818",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:7b0817f8-b40e-4bc1-8083-6b1c92902412",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:b2f61956-b0b5-4c5d-a3b3-0001d9da8466",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:c4be74e1-e054-4d82-876e-8e0bcb256e34",
+      "labels": {
+        "contradictory_information": "present",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Professionals"
+            },
+            {
+              "field": "industry",
+              "quote": "Health & social"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "is unemployed despite her qualifications in psychosocial support"
+            }
+          ],
+          "reason": "Structured occupation/industry describe an employed professional in health & social, while the narrative states she is currently unemployed; the dataset has a distinct 'Unemployed' occupation value."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:59babc47-0602-43d5-9fd0-477b1e9e00dc",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

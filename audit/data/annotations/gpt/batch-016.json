@@ -1,0 +1,305 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (Codex; exact runtime model/version identifier not exposed)",
+  "effort": "Not exposed by runtime",
+  "completed_at": "2026-11-11T18:31:31.940838+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:a1686130-850d-45d8-a264-495b5582397b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "minder glamourous"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een pragmatisme bij dat Noé diep is ingebakken"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "die hij op zoek vindt bij lokale rommelmarkten"
+            }
+          ],
+          "reason": "English adjective mixing and malformed Dutch constructions; meaning remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:64d9ded4-ceee-49ef-a4ef-db1a3592e1bf",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "terwijl ze mensen kijkt"
+            }
+          ],
+          "reason": "Malformed construction for watching people."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:76092c96-c9fb-4230-9163-015c0de55ea0",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "om traditioneel te toeristen"
+            },
+            {
+              "field": "persona",
+              "quote": "een ingetogen ambtenarese"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "discretionneerbaarheid"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "een persoonlijke arboretum"
+            }
+          ],
+          "reason": "Malformed verb and occupational noun, corrupted abstract noun and adjective disagreement."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d8ee4c71-3aa0-41d8-84b9-9600b9b10626",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Op haar achttigsten en acht 가지e"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "alsooktất de discipline"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "het onmiddellijk signalen van een minuscule weeffout"
+            },
+            {
+              "field": "travel_persona",
+              "quote": "is ze haar veilige bubbel in Vilvoorde niet meer buiten de provinciegrenzen gestapt"
+            }
+          ],
+          "reason": "Multilingual corruption obscures the narrative age and clause relationship, alongside malformed verb constructions. Not counted again as contradiction or missing content."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:bf420bd7-0906-43fb-8db1-3badca7cccaf",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "nooit ge appealed"
+            }
+          ],
+          "reason": "Malformed English/Dutch hybrid verb; meaning remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:43950edb-79db-4636-98d7-7aa3349ba3b7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "knokig en getekend door de tijd"
+            }
+          ],
+          "reason": "Misspelling of knokkig."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:66709798-7e65-4d05-ace6-45f38b2e6de9",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een gepensioneerde naaiste"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "wereld van de textiel"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "klanten die themselves niet durfden te tonen"
+            }
+          ],
+          "reason": "Misspelled occupational noun, incorrect article and untranslated English pronoun."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:a168697c-3a00-4123-ac20-1ad3d51510f2",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "uncertain",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "maar eigenlijk een zeer efficiënte focus op wat echt nodig is"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "Deze ambivalentie prägte Melissas vroege jaren"
+            }
+          ],
+          "reason": "Missing finite verb and untranslated German verb."
+        },
+        {
+          "category_id": "broken_or_missing_content",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "None"
+            }
+          ],
+          "reason": "The field is null rather than narrative content. The field inventory does not establish that a non-null value is required, so missingness cannot be confirmed."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:add56d84-da8b-4212-bdbc-df226cb82423",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:35d509d6-c032-4348-87ae-5fe346d633d7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "de gratie van de turners bewonderd"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "de proza van Assia Djebar"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "galleries van Antwerpen"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "in een staat van halfslapers"
+            }
+          ],
+          "reason": "Incorrect verb ending/article, English plural and malformed noun for drowsiness."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

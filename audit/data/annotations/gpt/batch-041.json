@@ -1,0 +1,159 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "inherited GPT runtime; exact model identifier unavailable",
+  "effort": "inherited; exact setting unavailable",
+  "completed_at": "2026-11-11T18:47:23.121584+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:eea1ad9e-1c09-4a18-992d-85c5035558e3",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:22f6c308-3eac-4707-a1bd-0e7d73a3f6cd",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:96e82dcd-1a2b-4a13-80a5-e83f6208e1df",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:21450369-b83d-49e0-b6e4-937d1dd780e1",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:476beb24-3a0e-481a-8a38-9d196ab9990b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:81ee9704-e375-48bb-97b3-2acde40bac74",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "He visits MIMA in Antwerp for contemporary art"
+            }
+          ],
+          "reason": "The named MIMA museum is located in Brussels rather than Antwerp.",
+          "external_verification": {
+            "url": "https://www.mimamuseum.eu/mima/",
+            "quote": "The MIMA occupies an iconic location in the centre of Brussels",
+            "reason": "The official museum identifies Brussels as its location, contradicting Antwerp."
+          }
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:b87ac67f-6cb8-4b4f-8e32-03f7412aba89",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:74958ecb-765b-451d-8425-91e66eea5d97",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:76399af8-6930-4f4a-ae7c-0cd6041bc1ad",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "thequiet"
+            }
+          ],
+          "reason": "The determiner and adjective are merged without a space."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:e4f4ab04-b149-46c7-98c7-29f6ffdc578b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

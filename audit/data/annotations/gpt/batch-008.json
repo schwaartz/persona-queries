@@ -1,0 +1,348 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (exact build/version not exposed)",
+  "effort": "not exposed",
+  "completed_at": "2026-11-11T18:22:50.656657+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:e8498348-55d2-4e46-b720-2c0c153248dd",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "vuchsia's"
+            }
+          ],
+          "reason": "Misspelling of fuchsias."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "vuchsia's"
+            }
+          ],
+          "reason": "Misspelling of fuchsias."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "eenpint"
+            }
+          ],
+          "reason": "Merged article/noun and missing finite verb in the clause about drinking with former colleagues."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:b9096309-94b8-4942-adf3-c48f5ecf1891",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "een hoger onderwijsinstelling"
+            }
+          ],
+          "reason": "Malformed compound/inflection for an institution of higher education."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:08a187a6-7fb7-4c20-8784-fe947dd33dfd",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "lamskouder"
+            }
+          ],
+          "reason": "Corrupted compound for lamb shoulder."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "stability"
+            }
+          ],
+          "reason": "Untranslated English noun in Dutch narration."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:4e6f1689-bc11-4f51-9198-b1c2192be5a9",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "de rustpunt"
+            }
+          ],
+          "reason": "Incorrect definite article with neuter rustpunt."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de Albertkanaal"
+            }
+          ],
+          "reason": "Incorrect definite article with neuter kanaal in the named waterway."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:6ad27f57-393e-4ed1-87de-67b1b6763b97",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "uncertain",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "extravere"
+            }
+          ],
+          "reason": "Truncated adjective for extroverted."
+        },
+        {
+          "category_id": "broken_or_missing_content",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "null"
+            }
+          ],
+          "reason": "The career-goals field is null. The shared field inventory does not establish that every field is mandatory, so intentional emptiness cannot be excluded; missing required content remains uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:e7f6af77-6601-455c-a9f4-f45e15c84a2b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "hij houdt vooral van de sfeer van het stadion dan van de tactische analyse"
+            }
+          ],
+          "reason": "The comparative construction lacks meer or eerder before dan."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "kalfsstofschotel"
+            }
+          ],
+          "reason": "Corrupted compound for veal stew."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:a0e7fab5-e4ec-4c40-baca-1e5ba738f755",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:11949932-ace9-444e-8138-346c30e7e6b2",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "Georganiseerde sport staat Axel volledig vreemd"
+            }
+          ],
+          "reason": "Malformed idiom for something being unfamiliar to Axel."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:e334136e-e65b-4d71-b15e-81bb4b823b97",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "stoempon"
+            }
+          ],
+          "reason": "Corrupted dish name in the reference to stoemp with leek."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "een natuurlijke gemak"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with neuter gemak."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:2b457686-ca57-4b57-8ee3-36d889efa8ff",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "las hem uit grote ogen voor"
+            }
+          ],
+          "reason": "Malformed construction combines reading aloud with an unrelated prepositional phrase."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een zekere sociale decorum"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with neuter decorum."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "beheersde"
+            }
+          ],
+          "reason": "Misspelled past-tense verb beheerste."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "platensпечак"
+            }
+          ],
+          "reason": "Corrupted mixed-script noun in the description of collecting jazz records."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

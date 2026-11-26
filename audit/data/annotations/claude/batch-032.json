@@ -1,0 +1,219 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Opus 5.5)",
+  "effort": "default",
+  "completed_at": "2026-11-11T18:36:57+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:1d138818-7e15-4dc0-8bb9-80261d529a67",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:cc5e273c-965a-49db-b74e-860c7e47f1a7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "He might visit the MIMA in Antwerp"
+            }
+          ],
+          "reason": "MIMA is located in Molenbeek-Saint-Jean, Brussels, not Antwerp.",
+          "external_verification": {
+            "url": "https://en.wikipedia.org/wiki/Millennium_Iconoclast_Museum_of_Art",
+            "quote": "a contemporary art museum in Molenbeek-Saint-Jean, a municipality of Brussels, Belgium",
+            "reason": "The source locates MIMA in Antwerp; the authoritative page places it in Molenbeek-Saint-Jean, Brussels."
+          }
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "such as hacheestof"
+            }
+          ],
+          "reason": "'hacheestof' is a malformed merged token (Dutch 'hachee'/'stoofvlees'); dish still recognisable as a Flemish stew."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:65b094b4-0826-4a6f-b810-dde8eaf830a2",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementary occ."
+            },
+            {
+              "field": "persona",
+              "quote": "a composed Antwerp machine operator"
+            }
+          ],
+          "reason": "Structured occupation code is elementary occupations while the narrative describes a machine operator (a different ISCO group); ambiguous occupational coding."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "M-beoro billiards"
+            }
+          ],
+          "reason": "'M-beoro' is a garbled token; the hobby (billiards) remains recoverable."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "his apartment in Borgerwoest"
+            }
+          ],
+          "reason": "'Borgerwoest' appears to be a corrupted form of the Antwerp district Borgerhout; garbled token."
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "the novels of Mohamed Mbougar Sagna"
+            }
+          ],
+          "reason": "The Senegalese novelist is known as Mohamed Mbougar Sarr; the surname 'Sagna' appears to be a misattribution or garble. Not externally verified here."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:b99a1f80-ee20-41e8-b7ca-2fbe56a1487d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:4e984d1a-b18e-4cf4-ae0a-de17f98ce624",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:e14c7d99-2eb1-4025-b63f-d338cf58163b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:71c7a83d-f702-439b-a7a1-eb56e11970dd",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "uncertain",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "near the Turnmeerschreef"
+            }
+          ],
+          "reason": "'Turnmeerschreef' is not a recognisable Antwerp place name and may be a corrupted token; unfamiliarity alone is not conclusive."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:970d8d6e-1db5-40e2-a44e-7cf21798b63c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:2ea205b7-cce6-4c25-a00c-7088c3e2bba6",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:761c085e-5451-42c8-bbda-97ca1beb3a94",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

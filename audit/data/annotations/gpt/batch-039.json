@@ -1,0 +1,174 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "inherited GPT runtime; exact model identifier unavailable",
+  "effort": "inherited; exact setting unavailable",
+  "completed_at": "2026-11-11T18:45:35.179260+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:9c9c6aa1-98f5-4788-b99c-68979f3bf80d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:8f5ab38c-9b2c-4380-bfc9-416e84e131bd",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:be33844e-7dbb-4c20-8b7a-15253d075fb1",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "near the Onze-Lieve-Vrouwekathedraal in Mechelen"
+            }
+          ],
+          "reason": "The named Cathedral of Our Lady is in Antwerp, while Mechelen’s cathedral is St Rumbold’s.",
+          "external_verification": {
+            "url": "https://mkantwerpen.be/en/churches/cathedral-of-our-lady/",
+            "quote": "Handschoenmarkt\n2000 Antwerp",
+            "reason": "The official Monumental Churches of Antwerp page for the Cathedral of Our Lady gives its Antwerp address, contradicting the Mechelen location."
+          }
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:e068b99d-cd5c-4d67-b618-c6b4c2f87af0",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:44b3642e-93fc-49ea-b2ae-06a8953a5eab",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:6d791aad-3cc9-4e7d-a10c-a5272f470c81",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:ccdd59e2-2b22-4f05-8f80-c6b12e8d68eb",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:26555a0c-dc1a-4ca0-bc4e-a2b6300fbf16",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:cf1fe0b3-a06e-45ef-8a72-25572cf39911",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Flea marking and antique hunting"
+            }
+          ],
+          "reason": "Flea marking is a malformed expression for flea-market browsing; the activity is recoverable from context."
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementary occ."
+            },
+            {
+              "field": "persona",
+              "quote": "Isidoor Vanhove is an unconventional primary school teacher"
+            }
+          ],
+          "reason": "The narrative identifies a primary school teacher, which may conflict with the elementary occupation code. The abbreviated occupational label is ambiguous, so this remains uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:11bf78ba-0097-4d35-a2f4-23b77436225b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (Codex; exact runtime model/version identifier not exposed)",
+  "effort": "Not exposed by runtime",
+  "completed_at": "2026-11-11T18:32:37.915132+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:ea636302-0b26-4c22-b5a3-261dacb58032",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "voor het draiende van de zaak"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "overHet hoofd zien"
+            }
+          ],
+          "reason": "Corrupted word/phrase and merged tokens disrupt Dutch; intended meaning remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:8a4f7ce0-13c1-498a-90e5-06d74fe3ba97",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "Hoewel ze niet bekendstaan om haar strakke administratie"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "de wijk Borgerwoort"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "duikt ze in de teksten van Leïla Slimani of bladerde ze door kunsttijdschriften"
+            }
+          ],
+          "reason": "Verb agreement/tense errors and a misspelled local place name; meanings remain clear."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:12b11120-c198-4ec0-aabf-723143e082f1",
+      "labels": {
+        "contradictory_information": "present",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "age",
+              "quote": "59"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Op haar vijfenveertigste"
+            }
+          ],
+          "reason": "The current ambitions description places Laure at 45 while the structured age is 59."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "wie een duidelijke grens gesteld moet worden"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "Carbonnade Flamengo"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "De vrijetijd van Laure"
+            }
+          ],
+          "reason": "Malformed relative construction, corrupted dish adjective and incorrectly merged words."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:867825fd-119e-45c3-924e-e2d30b36c3b6",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "om zich te vluchten in het lezen"
+            }
+          ],
+          "reason": "Incorrect reflexive verb construction for seeking refuge in reading."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:aeca1ac4-cdf5-43b0-b300-8fef29cb6407",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "Fysieke inspanning beperkt Anneke zich tot noodzakelijke wandelingen"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "een warme broodjeslap met kaas"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "zonder dat daar veel bij nadacht werd"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "Deze paradox cultivators een geest"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "rookken en kijken"
+            }
+          ],
+          "reason": "Malformed syntax, corrupted food noun, wrong participle, English token intrusion and misspelled verb; meaning remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c8fab10d-ec6f-447d-8385-49404404c41e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "Joren streeft naar harmonie en sussen ruzies"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "wat bot in de hike maakt"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een stevig handdruk"
+            }
+          ],
+          "reason": "Verb/adjective disagreement and a corrupted idiom interrupt Dutch."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:5271fbfd-7271-40fe-90cb-dc9374c28e6a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "al boten rapportages en harde deadlines hem weinig inspiratie"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "liever ein klein, obscuur museum"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "een glas lokale abdijbier"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "lokale historisch inzicht"
+            }
+          ],
+          "reason": "Misspelled verb, German article and adjective agreement errors."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:8a37f81f-928d-4bcd-bec2-11327f32e596",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "een simpele pastagerecht"
+            }
+          ],
+          "reason": "Incorrect adjective agreement with the neuter noun pastagerecht."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:4d07af44-e36e-40ad-9098-886da21ea03e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "het familiale reflex"
+            }
+          ],
+          "reason": "Incorrect article/adjective agreement with reflex."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:217bc008-b1ae-4298-b6ba-25afa21b1dd8",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "verschillende milieu's"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Sociale aanpassingsvermogen"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "zijn visceraal behoefte"
+            }
+          ],
+          "reason": "Incorrect plural spelling and adjective agreement errors; intended meaning remains clear."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

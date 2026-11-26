@@ -1,0 +1,286 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (Codex; exact runtime model/version identifier not exposed)",
+  "effort": "Not exposed by runtime",
+  "completed_at": "2026-11-11T18:32:07.238351+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:8b7d584c-ec12-4e55-bc82-8207297a8004",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:2b41e923-5aaf-4d9f-b4d0-6ee629bbd099",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "een oogje in het loopje van RFC Tournai"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "kalfsstofpot"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "niet wordt etaleert"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "met methodische geduld"
+            }
+          ],
+          "reason": "Corrupted idiom and food noun, incorrect participle and adjective disagreement; meanings remain recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:1605a316-08a8-4336-8678-8398d81708f1",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "kantoorgosip"
+            },
+            {
+              "field": "sports_persona",
+              "quote": "een bijzonder lichtval"
+            },
+            {
+              "field": "travel_persona",
+              "quote": "is haar zo tegen"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "eenVERS stukje kaas"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een onwankelbare, maar stille plichtsgetrouw"
+            }
+          ],
+          "reason": "Misspelling, adjective disagreement, malformed verb phrase, merged token and an adjective used where a noun is required."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:afd1a872-80e4-4012-a125-325d99745851",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "De familiebakelants"
+            }
+          ],
+          "reason": "The common noun and family name are incorrectly merged."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:ad0eb879-8966-487b-9ce9-8c5250d6c339",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "noodzakelijkelijk het middelpunt"
+            }
+          ],
+          "reason": "Corrupted adverb with repeated suffix."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:3f8123d8-21c0-474c-a206-fc28cef3df80",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "op een rommarkt"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "een knack voor het organiseren"
+            }
+          ],
+          "reason": "Misspelled compound and untranslated English noun interrupt Dutch."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:668794d5-15ec-47e7-83c8-85d496c40cb9",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "wiens schrijvingen over de innerlijke belevingswereld"
+            }
+          ],
+          "reason": "Malformed noun for writings/descriptions; intended meaning is recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:e86e95cc-4de6-4c93-bbc7-6128712c83a6",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een gereserveerde nonagenarist"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een bijna austeren morele eis"
+            }
+          ],
+          "reason": "Malformed noun for a person in their nineties and incorrect adjective inflection."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:bd4bafd8-e54f-4693-8f47-13f78c82ef06",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "trekt hij lange, eenzame wandelingen"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "een blijkkende indruk"
+            }
+          ],
+          "reason": "Malformed walking construction and corrupted adjective; intended meanings remain clear."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:91f11c26-a1ae-43fb-87a3-a744e266b24b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "een competitieve streak"
+            },
+            {
+              "field": "travel_persona",
+              "quote": "een vast itinerary"
+            },
+            {
+              "field": "travel_persona",
+              "quote": "lijdt ze verafschuwen"
+            }
+          ],
+          "reason": "Untranslated English nouns and a corrupted verb phrase interrupt Dutch; intended dislike of disruptions remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

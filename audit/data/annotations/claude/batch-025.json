@@ -1,0 +1,313 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:32:10+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:09f41be0-9bfe-4f0c-8815-70a1bd839b60",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "kabeljauwvilet"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een heilige respect"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "met methodische geduld"
+            }
+          ],
+          "reason": "Misspelling 'kabeljauwvilet' and gender/agreement errors; meaning recoverable."
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "het Musée royal de la Wallonie"
+            }
+          ],
+          "reason": "Not a museum name I recognise; possibly a garbled reference (e.g. Musée de la Vie wallonne in Liège). Not externally verified."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:4a354483-a64f-4256-8935-261a29a6fb77",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "het Museum voor Farinacht"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "een konijnsvlaai"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Op zijn 64e jaartoe"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "een begrijpelijke narratief"
+            }
+          ],
+          "reason": "Garbled museum name 'Farinacht', non-dish 'konijnsvlaai', malformed 'jaartoe', gender error; meaning partly recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:ddb0fb62-0d56-481a-9ffe-52a46edd1222",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "hetmetselen"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "onopeisende baan"
+            }
+          ],
+          "reason": "Merged 'hetmetselen' and non-word 'onopeisende' (weinig veeleisende); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:cb4ace06-1e57-4bf2-a6ae-5b841eb9767d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Hoewel ze het M HKA in Antwerpen bezoekt, houdt ze zich daar vooral bezig met de klassieke vleugels."
+            }
+          ],
+          "reason": "M HKA is a museum of contemporary art; to my knowledge it has no 'classical wings', so the description likely misattributes collections. Not externally verified for this specific claim."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:2ae07418-6561-4f59-9ff0-7e3ec637c788",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "met een instinctieve gemakvaardigheid"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "met de kameraadschappen uit het dorp"
+            }
+          ],
+          "reason": "Non-word 'gemakvaardigheid' and 'kameraadschappen' used for 'kameraden'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:887276c6-c0b2-4f50-9bc8-83a77911157f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "Zijn trips blijven meestal beperkt tot het naburige Frankrijk, zoals Bastogne of Charleville-Mézières"
+            }
+          ],
+          "reason": "Bastogne is presented as a town in neighbouring France, but it is a Belgian municipality in Luxembourg province.",
+          "external_verification": {
+            "url": "https://en.wikipedia.org/wiki/Bastogne",
+            "quote": "is a city and municipality of Wallonia located in the province of Luxembourg in the Ardennes, Belgium.",
+            "reason": "Bastogne is in Belgium, not France, contradicting the source's example of 'het naburige Frankrijk'."
+          }
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "Zijn eitstaten zijn"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "het pensioenleeftijd bereiken"
+            }
+          ],
+          "reason": "Garbled 'eitstaten' (eetgewoonten) and gender error 'het pensioenleeftijd'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:ecd6e521-142c-43b7-ae84-b4aeabb2714b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found."
+    },
+    {
+      "item_id": "audit:nl:ff62af00-5370-4025-8f62-8d9aa9a5bd3b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "de klassieke Vlaamse stoofvlees"
+            }
+          ],
+          "reason": "Gender error 'de ... stoofvlees'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:05c52c87-8403-4ac2-b75b-91f91b220e7e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "het Sonianwoud"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een voormalig importarateur van zijde"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "een volgestreken orderboek"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "precision carpentry"
+            }
+          ],
+          "reason": "Garbled 'Sonianwoud' (Zoniënwoud), 'importarateur', 'volgestreken', and English list entries; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Cinquant Cinq' and 'A la Belgique' are unfamiliar venue names; not labelled. Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:777f0014-379c-49b7-9bc1-329714cc913f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een ingetogen technician"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "het Forêt Sohnian"
+            }
+          ],
+          "reason": "English 'technician' and garbled 'Forêt Sohnian' (Forêt de Soignes); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

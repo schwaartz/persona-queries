@@ -1,0 +1,170 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "Inherited GPT runtime; exact model identifier unavailable",
+  "effort": "Inherited runtime effort; exact setting unavailable",
+  "completed_at": "2026-11-11T18:44:26.609795+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:1d138818-7e15-4dc0-8bb9-80261d529a67",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:cc5e273c-965a-49db-b74e-860c7e47f1a7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "uncertain",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "He might visit the MIMA in Antwerp"
+            }
+          ],
+          "reason": "The named museum is placed in Antwerp, whereas its own site locates it in Brussels.",
+          "external_verification": {
+            "url": "https://www.mimamuseum.eu/about/",
+            "quote": "In 2016, a contemporary art museum opened in the center of Brussels, on the territory of Molenbeek: the MIMA, Millennium Iconoclast Museum of Art.",
+            "reason": "MIMA is in Brussels/Molenbeek, contradicting the source location."
+          }
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "hacheestof"
+            }
+          ],
+          "reason": "The dish name appears to contain an unintended appended token; the surrounding reference to Flemish classics makes stew the recoverable intended meaning."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:65b094b4-0826-4a6f-b810-dde8eaf830a2",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "uncertain",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "M-beoro billiards"
+            }
+          ],
+          "reason": "The prefixed token appears corrupted and does not identify the billiards activity clearly; without a reliable intended expansion this remains uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:b99a1f80-ee20-41e8-b7ca-2fbe56a1487d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:4e984d1a-b18e-4cf4-ae0a-de17f98ce624",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:e14c7d99-2eb1-4025-b63f-d338cf58163b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:71c7a83d-f702-439b-a7a1-eb56e11970dd",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:970d8d6e-1db5-40e2-a44e-7cf21798b63c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:2ea205b7-cce6-4c25-a00c-7088c3e2bba6",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:761c085e-5451-42c8-bbda-97ca1beb3a94",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

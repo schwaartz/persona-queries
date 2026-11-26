@@ -1,0 +1,286 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (Codex; exact runtime model/version identifier not exposed)",
+  "effort": "Not exposed by runtime",
+  "completed_at": "2026-11-11T18:29:36.173834+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:f056f9fa-1d05-4a05-870b-c4d98c7bbbb5",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "Walloonse wortels"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "niet te veel te vlees op het bot leggen"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "varenen en orchideeën"
+            }
+          ],
+          "reason": "Misspellings and a duplicated function word disrupt Dutch while retaining recoverable meaning."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:9edd50d3-dff2-4a82-85b1-fba0c196430c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:8f73eac3-67f2-4039-b624-0c5d5e849838",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "het Belgische voetbalcompetitie"
+            }
+          ],
+          "reason": "Incorrect article/adjective agreement with voetbalcompetitie."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:bf8a05e1-747d-4857-9184-cfaa2017bce3",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "Exotische smaken of onherkenbare gerechten wekt zijn afkeer"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Technisch productkennis isolatie en afbouw"
+            }
+          ],
+          "reason": "Plural subject with singular verb, and incorrect adjective inflection with productkennis."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:0e4317ad-5ebd-4db3-a800-bbf26d664249",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "ze kiest mostly voor tijdschriften"
+            }
+          ],
+          "reason": "Untranslated English adverb interrupts a Dutch sentence."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:b284b50e-8da2-419f-9e6f-ca75114cf5ec",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "met een natuurlijke gemak"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "een sterk intuïtie"
+            }
+          ],
+          "reason": "Incorrect adjective agreement with gemak and intuïtie."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:8c298e7e-6599-4020-adb5-03a3d811dcd4",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "koffiekops"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "een witloaf met kaas"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "een stevige Vlaamse carbonicade"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "als de werkstress te hoog oplopen"
+            }
+          ],
+          "reason": "Corrupted nouns and subject/verb disagreement; intended meal and workplace descriptions remain recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:76532bf7-3118-4ffe-8b3e-fcf1dd541c38",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een reservede man"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een fragere overwinning"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een linde boom"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "een bijzondere geduld"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "sociale klimmende of verantwoordelijke functies"
+            }
+          ],
+          "reason": "Misspelled adjectives, an incorrectly split compound, adjective disagreement and malformed phrase; intended meaning remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d30be0c8-56a4-4546-950e-f27162386916",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de teveelgrote luidruchtigheid"
+            }
+          ],
+          "reason": "Words are incorrectly merged into a malformed adjective phrase."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:4e478118-2b54-4cd6-93a4-6ca009422886",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "dan schaft ze een uitgebreide lunch op"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "Hierbij volgen de recepten van haar moeder strikt"
+            }
+          ],
+          "reason": "Malformed serving expression and a clause missing its subject; intended cooking behavior remains clear."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

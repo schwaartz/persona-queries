@@ -1,0 +1,186 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "inherited GPT runtime; exact model identifier unavailable",
+  "effort": "inherited runtime setting; exact effort unavailable",
+  "completed_at": "2026-11-11T18:40:20.862425+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:3ff79488-35fc-40f0-b32e-af39bf132c6d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:068c1744-0db7-426c-a39b-c5808458ae99",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:27b48d86-5539-4430-82e7-6339ff32a235",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "a 필요 for solitude"
+            }
+          ],
+          "reason": "The Korean token interrupts the English phrase; the intended meaning, a need for solitude, remains clear."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:0b20a5aa-5f96-4793-924f-3bb109f5d416",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:c2dd53f4-9099-4cc8-bfd8-8e58df3b163f",
+      "labels": {
+        "contradictory_information": "present",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "He drinks only tap water or black coffee without sugar"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "an evening with one like-minded acquaintance and a glass of full-bodied red wine from the Rhône"
+            }
+          ],
+          "reason": "The absolute restriction of his drinks to water and coffee conflicts with his described present-day wine drinking."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:72e5b061-b817-41e9-9e7c-3040e044b89c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:c6651464-59c1-43ad-a1cb-29fa8c5538d9",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:7992d158-e95c-431c-a1e8-709e95e1a199",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:1ba100d9-a2d5-45bf-b4b1-47598ce25b87",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:8b4c00db-6c40-403e-a00e-18482d51c107",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "His musical taste fluctuates between contemporary jazz and artists like In Koli Jean Bofane, whose lyrics echo his own reflections on identity and urban life."
+            }
+          ],
+          "reason": "The record attributes musical lyrics to the novelist In Koli Jean Bofane.",
+          "external_verification": {
+            "url": "https://expotsimba.africamuseum.be/en/exhibition/jean_bofane",
+            "quote": "In Koli Jean Bofane (Mbandaka, 1954) is a Congolese writer and exhibit curator who has lived in Belgium since 1993.",
+            "reason": "AfricaMuseum identifies Bofane as a writer and curator and describes his books; the persona instead presents his work as musical lyrics."
+          }
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "behind a flawless professional attire"
+            }
+          ],
+          "reason": "Attire is uncountable in this use and does not take the indefinite article a."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:30:19+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:c74a6a38-d856-44a1-b283-16cc8b8670ba",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found."
+    },
+    {
+      "item_id": "audit:nl:182a1767-e9d2-42e8-be1d-ae77c02a33df",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "De Walloonse klank"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "een lokale blonden"
+            }
+          ],
+          "reason": "Misspelling 'Walloonse' and agreement error 'een lokale blonden'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:cebe4a71-acb3-40e1-b4a6-f64a23fd796b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "voor wiegen die worstelen"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "het pensionnement ingaat"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Industriële machineonderhoud"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "drieenzestigste"
+            }
+          ],
+          "reason": "Garbled 'wiegen' (wie), French 'pensionnement', agreement error, missing diaeresis; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Georges Moreau' and 'Museum voor Plaatselijke Geschiedenis in Roeselare' are unfamiliar to me; unfamiliarity alone is not evidence."
+    },
+    {
+      "item_id": "audit:nl:b20f6160-337d-4d42-b6bf-ddc36b2e9648",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "household_type",
+              "quote": "Eenoudergezin"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "De dynamiek in huis werd bepaald door de afwezigheid van een vaderfiguur en de voortdurende strijd van zijn moeder"
+            }
+          ],
+          "reason": "The 21-year-old is coded as (head of) a single-parent household, while the narrative only describes him as the child of a single mother with no child of his own; the household code may refer to his mother's household, so ambiguous."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "vlooimarkten insteden als Hasselt"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "eclecticische playlists"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "verbleden laat"
+            }
+          ],
+          "reason": "Misspelling 'vlooimarkten' and merged 'insteden', malformed 'eclecticische' and 'verbleden'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'METROPOLES' is unfamiliar; not labelled."
+    },
+    {
+      "item_id": "audit:nl:d6280429-ad41-4acd-a24d-72c7499582da",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "de zorg voor de appearance van de voortuin"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "in een staat van paralysis"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "conscientiousieusheid"
+            },
+            {
+              "field": "sports_persona",
+              "quote": "In plaats van een sportclub bezoekt ze, vindt ze rust"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "gehaktlof"
+            }
+          ],
+          "reason": "Untranslated English ('appearance', 'paralysis'), garbled 'conscientiousieusheid', broken clause, misspelling 'gehaktlof'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:0f4fa9be-894e-439d-b720-2bcba3a7d9b5",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een gefragierd schoolloopbaan"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "gespannen administratieve situaties te ontlokken"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "het beheer van third places"
+            }
+          ],
+          "reason": "Garbled 'gefragierd' (gefragmenteerde), wrong verb 'ontlokken' (ontmijnen/ontladen), untranslated English 'third places'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:e3a1cf7d-4977-435a-b679-e98fea566b19",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "ein impressionistische tentoonstelling"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "een bureauctratisch conflict"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "met methodische geduld"
+            }
+          ],
+          "reason": "German 'ein', misspelling 'bureauctratisch', gender error; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:f017c00d-e918-44d5-ad8e-b4b206d83012",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "In contact met employment agencies"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "in de depths van kunstgeschiedenis"
+            }
+          ],
+          "reason": "Untranslated English 'employment agencies' and 'depths'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:3fa1f8dd-09db-4228-a965-8292ca3b95d6",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "van verse marktrijden"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "maar ze steunt collega's diezelfde discipline tonen"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "heldere dienstonderbrekingen"
+            }
+          ],
+          "reason": "Garbled 'marktrijden', missing relative pronoun ('die diezelfde discipline tonen'), and 'dienstonderbrekingen' (service interruptions) where e.g. 'dienstnota's' is meant; meaning partly recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d2177855-137c-4686-849c-de73452137b9",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "een varkensbraten"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "methodische geduld"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "sociale kliming"
+            }
+          ],
+          "reason": "German 'braten', gender error, non-standard 'kliming'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

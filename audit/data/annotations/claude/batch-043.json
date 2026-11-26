@@ -1,0 +1,186 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5",
+  "effort": "default",
+  "completed_at": "2026-11-11T18:38:15+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:868920e4-1f53-467b-adbd-8045d90e2cca",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "stompf with a sausage"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "diffusing tensions"
+            }
+          ],
+          "reason": "'stompf' is a misspelling of the Flemish dish 'stoemp'; 'diffusing tensions' misuses 'diffusing' for 'defusing'. Meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:13524c01-566f-4210-b320-f7edbb8a4864",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:e9067013-e599-4320-a966-f8c99a63d0d7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:597c7244-02e2-4151-a7e3-b0c94e695c5e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:2cda2708-201c-40c2-b9da-9336b26155c0",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:c5d79fa3-14e0-44e9-a84f-5eb19983e8d5",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:1478c26d-3f64-4bf7-b630-5a1de37cd62b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Marguerite Yourcenarche"
+            }
+          ],
+          "reason": "Corrupted spelling of the author name Marguerite Yourcenar (extra 'che'); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:6f26cdc5-8961-423f-8f6e-6cb9588ca362",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "uncertain",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "RTL-T for news"
+            }
+          ],
+          "reason": "'RTL-T' looks like a truncated/garbled media name (likely RTL-TVI or Bel RTL); not certain it is a corruption rather than shorthand."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:812ca0af-01aa-47ff-a3ee-b79c62889ce7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:9d1942af-8039-4ad6-bed3-79c84c6caf5a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "Meninpoort"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "carbonicade"
+            }
+          ],
+          "reason": "'Meninpoort' mixes English 'Menin' with Dutch 'poort' (Menenpoort/Menin Gate); 'carbonicade' is a misspelling of 'carbonade'. Meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

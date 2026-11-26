@@ -1,0 +1,381 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (exact build/version not exposed)",
+  "effort": "not exposed",
+  "completed_at": "2026-11-11T18:19:28.496199+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:1b206622-26ef-4ccc-a523-4d2b135929c1",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "hij heeft nooit volledig geassimileerd in"
+            }
+          ],
+          "reason": "Incorrect auxiliary/verb construction in the statement about assimilation."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:a785a790-ba91-49af-91fb-8b5fcd4f114e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "het stilte"
+            }
+          ],
+          "reason": "Incorrect definite article with common-gender stilte."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "een natuurlijke gemak"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with neuter gemak."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Museumbesochten"
+            }
+          ],
+          "reason": "Corrupted compound for museum visits."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:578e9363-2463-4705-8673-0a7bb21a0f02",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "tot in pertinentie"
+            }
+          ],
+          "reason": "Malformed fixed expression for complete mastery; intended extent remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:59a54a62-9189-4dcf-9681-c7cdc031523a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "zwijgzamheid"
+            }
+          ],
+          "reason": "Misspelling of zwijgzaamheid."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "jeuherinneringen"
+            }
+          ],
+          "reason": "Truncated compound for childhood memories."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "een natuurlijke gemak"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with neuter gemak."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "suatu dag"
+            }
+          ],
+          "reason": "An untranslated Indonesian/Malay word interrupts the Dutch phrase for one day."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:cceb22d6-7b7a-4b86-8cef-e362cb6b0360",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "een versleten linnen tas op sleur"
+            }
+          ],
+          "reason": "Malformed expression for carrying a bag around."
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "het M-Museum in Mechelen"
+            }
+          ],
+          "reason": "The named M museum is located in Leuven rather than Mechelen.",
+          "external_verification": {
+            "url": "https://www.mleuven.be/en/contact",
+            "quote": "M Leuven\nVanderkelenstraat 28\n3000 Leuven - Belgium",
+            "reason": "The museum itself lists its Leuven address, conflicting with the Mechelen location."
+          }
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "de Onze-Lieve-Vrouwekathedraal in Mechelen"
+            }
+          ],
+          "reason": "The cathedral in Mechelen is Sint-Rombout, not Onze-Lieve-Vrouw.",
+          "external_verification": {
+            "url": "https://www.kathedraalmechelen.be/",
+            "quote": "De Sint-Romboutskathedraal is de hoofdkerk van het aartsbisdom Mechelen-Brussel.",
+            "reason": "The cathedral operator identifies the Mechelen cathedral as Sint-Rombout; the source assigns another cathedral name to the city."
+          }
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:27866f0c-a2ba-4da1-825d-8a0d4f6fb517",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "antieke textiel"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with neuter textiel."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Specialty coffee culture"
+            }
+          ],
+          "reason": "Untranslated English phrase in the Dutch interests list."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:7dd8a720-27b9-4f38-a759-54f63071b05f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een vroege, heimwee"
+            }
+          ],
+          "reason": "Incorrect inflection and stray comma before neuter heimwee."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "verschmold"
+            }
+          ],
+          "reason": "Corrupted participle in the statement about ambitions fading into memory."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "die niemand in haar directe omgeving begrijpt of vraagt naar"
+            }
+          ],
+          "reason": "Incorrect coordination and placement of naar after the relative-clause verb."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:6f0585cb-01c6-48c1-b56a-00ca693216aa",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een lokale cooperative"
+            }
+          ],
+          "reason": "Untranslated or malformed noun for a cooperative organisation."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:cf857f8d-8597-407c-b130-f9baaf3fe4b5",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "gehaktloaf"
+            }
+          ],
+          "reason": "Unintended Dutch/English hybrid dish name; intended meaning remains recoverable."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "Walloonse klank"
+            }
+          ],
+          "reason": "Misspelling of the Dutch adjective Waalse."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:8c0cce1e-2591-49b5-8566-d25dc263899f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "kostdure stilstand"
+            }
+          ],
+          "reason": "Malformed compound adjective for costly downtime."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

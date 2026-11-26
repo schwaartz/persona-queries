@@ -1,0 +1,207 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Opus 5.5)",
+  "effort": "default",
+  "completed_at": "2026-11-11T18:42:34+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:07ea7df4-4a60-4e6e-b0cf-8b5599e889b3",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "uncertain",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "the working-class atmosphere of Borgerwoest"
+            }
+          ],
+          "reason": "'Borgerwoest' is not a known Antwerp district; it looks like a garbled form of the Antwerp district Borgerhout. Cannot confirm intended name, so uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:bd7eabf3-466c-4c0e-8364-f005cee6da86",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:8169baaf-2c60-47fb-8484-484684919736",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:d5933fb4-e282-4055-bac6-96df63d149b9",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:573da65b-da48-4543-a024-87e835bff09d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "Sebastiana Bruno grew up in the Outremont neighborhood"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "Although born and raised in Liège"
+            }
+          ],
+          "reason": "The record places her Liège childhood in 'the Outremont neighborhood'; Outremont is a borough of Montreal, Canada (the Liège district across the Meuse is Outremeuse).",
+          "external_verification": {
+            "url": "https://en.wikipedia.org/wiki/Outremont,_Quebec",
+            "quote": "is an affluent residential borough (arrondissement) of the city of Montreal, Quebec, Canada.",
+            "reason": "Outremont is a Montreal borough, not a neighbourhood of Liège where the persona was born and raised."
+          }
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:afa28c60-4efb-4588-a02e-cb1acd990f97",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "the Casablanca district of Rabat"
+            }
+          ],
+          "reason": "Casablanca is presented as a district of Rabat; Casablanca is a separate city (Morocco's largest), distinct from Rabat.",
+          "external_verification": {
+            "url": "https://en.wikipedia.org/wiki/Casablanca",
+            "quote": "Rabat was made the administrative capital of the country, and Casablanca its economic capital.",
+            "reason": "Casablanca and Rabat are distinct cities; Casablanca is not a district of Rabat."
+          }
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "Every year, he travels to Rabat to visit family"
+            },
+            {
+              "field": "travel_persona",
+              "quote": "He rarely ventures outside of Europe"
+            }
+          ],
+          "reason": "An annual trip to Rabat (Morocco, outside Europe) sits uneasily with 'rarely ventures outside of Europe'; the sentence may only refer to leisure trips, so uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:cde963ed-1c70-4219-a28f-c8007d2ed8a5",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:867429ab-293e-4f9f-9e02-2997fd409c9f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:523d81f1-077c-4c51-ac68-c3ce30a7cecc",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "She regularly visits the KMSKA in Antwerp, harboring a particular fondness for the quietude of Vermeer's work."
+            }
+          ],
+          "reason": "Juxtaposition implies she sees Vermeer at the KMSKA; the KMSKA is not known to hold a Vermeer, but the sentence does not strictly assert it and absence from a collection was not externally verified."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:f9f1d52c-32ed-43dd-b81a-24d3b965bb58",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

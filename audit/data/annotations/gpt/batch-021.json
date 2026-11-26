@@ -1,0 +1,338 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "inherited GPT runtime; exact identifier unavailable",
+  "effort": "inherited; exact setting unavailable",
+  "completed_at": "2026-11-11T18:39:58.663841+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:bf901950-6389-4a9f-a57f-5f1788d7c988",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "Haar kennis is niet uit boeken komen"
+            }
+          ],
+          "reason": "The participle should be gekomen; the same field also has singular/plural disagreement in een zieke familieleden."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "familievetten"
+            }
+          ],
+          "reason": "The intended family feuds are familiev(j)eten, conventionally familiev eten without a space: familievetes; familievetten means family fats and is a lexical corruption."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "stomppot"
+            }
+          ],
+          "reason": "Misspelling of stamppot."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Museum finish"
+            }
+          ],
+          "reason": "The English token finish disrupts the Dutch museum reference."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:4ead57ce-e2eb-4bd1-b4a5-75fe6fbe3fd2",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "géraniums"
+            }
+          ],
+          "reason": "The Dutch word geraniums has no acute accent here."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c1633c5b-fe4b-4940-afde-e897de4b583e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "zowellet"
+            }
+          ],
+          "reason": "The words zowel and let have been merged."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "de melancholische proza"
+            }
+          ],
+          "reason": "Proza is neuter and requires het melancholische proza; hedendaags jazz also has adjective agreement error."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:499e7689-b3c5-4105-a9b4-06d108c0df56",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "gedetailleerde itineraries"
+            }
+          ],
+          "reason": "Untranslated English plural disrupts the Dutch phrase."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:e34ed17c-2b10-4f31-bc9b-805618ae9896",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een ingetogen Antwerpenaren"
+            }
+          ],
+          "reason": "Plural Antwerpenaren is incompatible with singular een."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Ze breidt nog steeds"
+            }
+          ],
+          "reason": "In this knitting context the verb is breit, not breidt."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:9ef36d6f-4a0c-4602-a3c8-1a13c5ef6450",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "een precise technische taal"
+            }
+          ],
+          "reason": "Precise is misspelled; Dutch requires precieze."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "zonder enige spoor"
+            }
+          ],
+          "reason": "Neuter spoor requires enig, not enige."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d5acf50c-15e5-45e2-982e-6e2511eabae7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "Elk vertrek gaat voorafgegaan door"
+            }
+          ],
+          "reason": "Malformed passive construction; intended Elk vertrek wordt voorafgegaan door."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:ff1db1e7-2a3d-4038-b483-e22204324563",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "het Museum aan de Maas in Antwerpen"
+            }
+          ],
+          "reason": "The Antwerp museum appears to be confused with Museum aan de Stroom; its official name differs, but the source does not identify the institution securely enough to confirm a location or attribution error."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:aed66075-9f31-4767-b4a9-7c62bf26079c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een methodische kruidenteelt"
+            }
+          ],
+          "reason": "Kruidenteelt names cultivation, not a person; the intended occupation is kruidenteler."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "het lokale dorp Wherever er"
+            }
+          ],
+          "reason": "Untranslated English Wherever interrupts the Dutch sentence and its boundary."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:579fb38e-d3b7-41aa-80e0-d019a97ae46e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "nooit কোনো aantrekkingskracht"
+            }
+          ],
+          "reason": "Bengali token unintentionally interrupts the Dutch sentence."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "een klassieke Vlaamse stoofvlees"
+            }
+          ],
+          "reason": "Neuter mass noun stoofvlees cannot take this singular count phrase and inflection."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

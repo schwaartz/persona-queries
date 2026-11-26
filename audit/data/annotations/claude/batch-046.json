@@ -1,0 +1,210 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5",
+  "effort": "default",
+  "completed_at": "2026-11-11T18:40:05+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:579d304a-c7da-4330-8c2b-ccf95001f9d0",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "Flemish carbonicade"
+            }
+          ],
+          "reason": "Misspelling of 'carbonade'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:e4cfaa0e-9fa8-42cf-9c2b-b85159313944",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementary occ."
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "she is now responsible for staff training"
+            }
+          ],
+          "reason": "Structured occupation 'Elementary occ.' sits uneasily with a degree-holding staff-training role; occupational codes are ambiguous, so uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:4b775331-7d16-43e3-86da-312e72597af1",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:3e96cb22-9416-4ac7-926a-942dca854e52",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:fd413a1f-eb7e-4d43-bb55-bad4e5e6dd29",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "present",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "broken_or_missing_content",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "the M H DEFAULT or Kumu in Brussels"
+            }
+          ],
+          "reason": "'M H DEFAULT' is unresolved template/placeholder residue in place of a museum name; the intended reference is lost."
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Kumu in Brussels"
+            }
+          ],
+          "reason": "Kumu is placed in Brussels, but it is the Art Museum of Estonia in Tallinn.",
+          "external_verification": {
+            "url": "https://en.wikipedia.org/wiki/Kumu_(museum)",
+            "quote": "The Kumu Art Museum (Estonian: Kumu kunstimuuseum) is an art museum in Tallinn, Estonia.",
+            "reason": "The source places Kumu in Brussels, contradicting its actual location in Tallinn, Estonia."
+          }
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:5fb0356d-a149-4de3-9a68-4793723dbb0b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:b3097af4-b37e-444b-b49b-6b99be0cce50",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:0ff3f59a-2d08-40b3-bdaa-74b917c76fdb",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "Meninpoort"
+            }
+          ],
+          "reason": "Hybrid of English 'Menin' and Dutch 'poort' (Menenpoort/Menin Gate); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:b3786182-ecf7-4fe1-929b-d0adbeef577b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:5a47e424-93ba-40c0-9c0e-5a1b83619066",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "uncertain",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "rabbit in craminolle"
+            }
+          ],
+          "reason": "'craminolle' is not a recognizable dish or sauce name and looks like a corrupted token; could be an obscure term, so uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

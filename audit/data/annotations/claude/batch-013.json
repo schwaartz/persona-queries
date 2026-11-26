@@ -1,0 +1,309 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:25:15+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:8d8b6ded-c76b-45a8-be9a-41cd813820e0",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Wanneer ze familie bezoekt in Antwerpen, gaat ze af en toe naar het MIMA"
+            }
+          ],
+          "reason": "The sentence places visits to MIMA in Antwerp, but MIMA is (was) in Molenbeek-Saint-Jean, Brussels, the persona's own municipality.",
+          "external_verification": {
+            "url": "https://www.brusselstimes.com/1262665/a-brutal-end-brussels-iconic-mima-museum-to-close-due-to-roadworks",
+            "quote": "Located in the heart of Molenbeek-Saint-Jean, MIMA is a modern art venue which sits on the Quai du Hainaut.",
+            "reason": "MIMA is located in Molenbeek-Saint-Jean (Brussels), not Antwerp, contradicting the source's framing of MIMA visits as part of trips to Antwerp. Note: the article (Oct 2024) also reports MIMA's closure from January 2025."
+          }
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Wanneer ze niet sociaalt is"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "haar competitieve streak"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "elke vorm of grill van haar superieuren"
+            }
+          ],
+          "reason": "Non-word 'sociaalt', untranslated English 'streak', and 'grill' for 'gril'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:2e537819-c144-4c61-a7a9-eb329d9ac1ae",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "het weerspiegel van een geest"
+            }
+          ],
+          "reason": "Truncated noun 'weerspiegel' (weerspiegeling); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:3148139e-b548-4608-8819-e143f1746044",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een technisch prefecte organisator"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "het moment waarop एक voorstelling"
+            }
+          ],
+          "reason": "Misspelling 'prefecte' (perfecte) and Hindi token 'एक' for 'een'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d6ce4851-c495-429b-a4b1-058edd89f52e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "het Musée royal de la Fédération Wallonie-Bruxelles"
+            }
+          ],
+          "reason": "Not a known museum name; likely a garbled reference to the Musée royal de Mariemont (a Fédération Wallonie-Bruxelles museum in Morlanwelz). Not externally verified."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "haar familiestoom in Oost-Europa"
+            }
+          ],
+          "reason": "Misspelling 'familiestoom' (familiestam); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Feminine-form surname 'Vasileva' is consistent with sex; naming not assessed."
+    },
+    {
+      "item_id": "audit:nl:91e790dc-2c95-4366-8ce5-77c581fc1b5c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "tweedehandsbokhandels"
+            }
+          ],
+          "reason": "Misspelling 'tweedehandsbokhandels' (tweedehandsboekhandels); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:398f3233-44dd-4519-a530-f0bb23f17ee7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "door het الوحيد (het bos) van Heverlee"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "overHet hoofd zien"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "een baken van ijskoud kalmte"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Legacy system maintenance"
+            }
+          ],
+          "reason": "Arabic token inserted, merged 'overHet', agreement error 'ijskoud kalmte', and untranslated English list entries; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:0cf51fe0-2f9e-489c-afba-e449a9413fea",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een klerkmaker uit Chandigarh"
+            }
+          ],
+          "reason": "Non-word 'klerkmaker'; intended occupation unclear but sentence meaning otherwise recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c98efec6-eaa3-4019-bd65-86e150b5040a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "coexisteert nu"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "met methodische geduld"
+            }
+          ],
+          "reason": "Non-standard 'coexisteert' (co-existeert/bestaat naast) and gender error 'methodische geduld'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'wijk Maâmora in Casablanca' is unfamiliar to me (Maâmora is better known near Kénitra), but not verified; not labelled."
+    },
+    {
+      "item_id": "audit:nl:ef32960c-15fc-4f30-9531-5c6482241b8e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "te ver afgestaan van haar eigen realiteit"
+            }
+          ],
+          "reason": "'afgestaan' for 'afstaand'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Placing Les Bons Villers 'in het hart van de Hesbaye' is questionable geography but is broad regional framing, excluded."
+    },
+    {
+      "item_id": "audit:nl:dc9a6acb-646c-4829-a420-b54e81e24d15",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "Ze imponerent niet"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "de sociale hiërarchieten"
+            }
+          ],
+          "reason": "Malformed verb 'imponerent' (imponeert) and 'hiërarchieten' (hiërarchieën); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Aelita Henry' and 'Jan Coetsiets' are unfamiliar names; unfamiliarity alone is not evidence."
+    }
+  ]
+}

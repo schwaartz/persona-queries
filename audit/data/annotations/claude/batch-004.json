@@ -1,0 +1,286 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:19:13+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:82050fb1-0889-46e5-8aee-10f5987ba84f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found."
+    },
+    {
+      "item_id": "audit:nl:d52a2520-1e53-4326-8056-c674bdeffc64",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "in solitaire lecturen"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "het familiale cocon"
+            }
+          ],
+          "reason": "French calque 'lecturen' (lectuur) and gender error 'het ... cocon'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Leading space in list entry ' minutieus tuinieren' is excluded formatting."
+    },
+    {
+      "item_id": "audit:nl:5217fe97-4459-4cde-a15e-9e3b144d979c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "in de buurt van hetstadsplein"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Sociale gatherings in lokale cafés"
+            }
+          ],
+          "reason": "Merged words 'hetstadsplein' and untranslated English 'gatherings'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:daa2a1ce-65fa-4cf2-94a0-e09dcd4f44ac",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Hij is een vroege vogelaar"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een handvaste skill"
+            }
+          ],
+          "reason": "'vogelaar' (birdwatcher) used for 'early bird' (vroege vogel) and untranslated English 'skill'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:0cb69682-4c7c-4f64-948e-f32c545ca12e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "het 'niet te veel te abovem'"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "zonder grote schudden"
+            }
+          ],
+          "reason": "Garbled token 'abovem' and wrong word 'schudden' (schokken); meaning partly recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:1cd34e06-b346-42e5-b961-6452aab94bf4",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "discretely terugkeert"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de noodzakelijke geduld"
+            }
+          ],
+          "reason": "Untranslated English 'discretely' and gender error 'de noodzakelijke geduld'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:113f8602-c896-45cf-9ab5-3d01e512d533",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "de onbetrouwbare rots in de branding"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "een lokale notariskantoor"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Horticulture"
+            }
+          ],
+          "reason": "'onbetrouwbare' (unreliable) inverts the intended 'betrouwbare/onwrikbare' in the idiom, though context makes the intended meaning clear; also agreement error and untranslated English list entry."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:2cf4f51b-0d48-4554-9fd7-30ae0f2c1cbd",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "five풋bal"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "die hem vaag toededen"
+            }
+          ],
+          "reason": "Hangul character corrupts 'five-a-side voetbal'; 'toededen' is a malformed verb form (toeschenen). Meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:dccd035a-a8d6-4413-af85-ac63cf1bc197",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "kan soms aanjagend overkomen"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Brutalistisch architectuurstudie"
+            }
+          ],
+          "reason": "'aanjagend' used for 'intimiderend/angstaanjagend' and agreement error 'Brutalistisch architectuurstudie'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:2dd72358-85d6-49af-8e09-0dea004206ec",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "de Gentse studentenmijlen"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "door dikke waden van regelgeving"
+            },
+            {
+              "field": "travel_persona",
+              "quote": "persoonlijke pensioenen"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "de melancholische proza"
+            }
+          ],
+          "reason": "Garbled 'studentenmijlen' and 'waden', 'pensioenen' (retirement pensions) for 'pensions' (guesthouses), gender error 'de ... proza'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

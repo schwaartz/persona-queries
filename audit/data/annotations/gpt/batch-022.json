@@ -1,0 +1,414 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "inherited GPT runtime; exact identifier unavailable",
+  "effort": "inherited; exact setting unavailable",
+  "completed_at": "2026-11-11T18:40:29.675618+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:c74a6a38-d856-44a1-b283-16cc8b8670ba",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:182a1767-e9d2-42e8-be1d-ae77c02a33df",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "Walloonse"
+            }
+          ],
+          "reason": "English-derived Walloonse is used in place of Dutch Waalse."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "een lokale blonden"
+            }
+          ],
+          "reason": "Singular beer phrase incorrectly uses blonden instead of blonde."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:cebe4a71-acb3-40e1-b4a6-f64a23fd796b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "voor wiegen die worstelen"
+            }
+          ],
+          "reason": "Wiegen means cradles; the intended people reference is corrupted."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Industriële machineonderhoud"
+            }
+          ],
+          "reason": "Neuter machineonderhoud requires industrieel."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "pensionnement"
+            }
+          ],
+          "reason": "French pensionnement intrudes where Dutch pensionering or pensioen is intended."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:b20f6160-337d-4d42-b6bf-ddc36b2e9648",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "In de literatuur trekt hij boeken aan die schuren"
+            }
+          ],
+          "reason": "Argument reversal says he attracts books; intended he is attracted to books."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "insteden"
+            }
+          ],
+          "reason": "Merged in steden. The same field also has misspelled eclecticische and verbleden."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d6280429-ad41-4acd-a24d-72c7499582da",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "In plaats van een sportclub bezoekt ze, vindt ze rust"
+            }
+          ],
+          "reason": "Malformed subordinate construction requires te bezoeken."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "de appearance van de voortuin"
+            }
+          ],
+          "reason": "Untranslated English appearance disrupts the Dutch phrase."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "het structuren van chaos"
+            }
+          ],
+          "reason": "The intended infinitive is structureren."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "conscientiousieusheid"
+            }
+          ],
+          "reason": "Corrupted spelling of consciëntieusheid; paralysis in the same field is also untranslated English."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:0f4fa9be-894e-439d-b720-2bcba3a7d9b5",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een gefragierd schoolloopbaan"
+            }
+          ],
+          "reason": "Gefragierd is a corrupted adjective, with incorrect inflection for schoolloopbaan."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "hoewel ze van strikte procedures een hekel heeft"
+            }
+          ],
+          "reason": "Dutch construction is een hekel aan procedures hebben."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "een natuurlijk tact"
+            }
+          ],
+          "reason": "Tact requires natuurlijke in this phrase."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:e3a1cf7d-4977-435a-b679-e98fea566b19",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "de rustpunt"
+            }
+          ],
+          "reason": "Rustpunt is neuter and requires het."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "ein impressionistische tentoonstelling"
+            }
+          ],
+          "reason": "German ein interrupts the Dutch sentence."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "bureauctratisch"
+            }
+          ],
+          "reason": "Misspelling of bureaucratisch."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "methodische geduld"
+            }
+          ],
+          "reason": "Neuter mass noun geduld requires methodisch."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:f017c00d-e918-44d5-ad8e-b4b206d83012",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "employment agencies"
+            }
+          ],
+          "reason": "Untranslated English phrase disrupts the Dutch narration."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de depths van kunstgeschiedenis"
+            }
+          ],
+          "reason": "Untranslated English depths interrupts the Dutch phrase."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een stille, observerende gemak"
+            }
+          ],
+          "reason": "Neuter gemak requires stil, observerend."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:3fa1f8dd-09db-4228-a965-8292ca3b95d6",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "collega's diezelfde discipline tonen"
+            }
+          ],
+          "reason": "Missing space between relative die and dezelfde."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "verse marktrijden"
+            }
+          ],
+          "reason": "Marktrijden is a corrupted ingredient reference; intended market produce remains inferable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d2177855-137c-4686-849c-de73452137b9",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "methodische geduld"
+            }
+          ],
+          "reason": "Neuter mass noun geduld requires methodisch."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "sociale kliming"
+            }
+          ],
+          "reason": "Misspelling of klimming."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

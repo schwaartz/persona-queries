@@ -1,0 +1,246 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (Codex; exact runtime model/version identifier not exposed)",
+  "effort": "Not exposed by runtime",
+  "completed_at": "2026-11-11T18:27:19.806281+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:c39a9537-d744-482f-8280-7cb86ab88f38",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "te veel conformity vertoont"
+            }
+          ],
+          "reason": "Untranslated English noun disrupts the Dutch sentence."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:691d9b40-63e6-4edc-9c44-3ccd143ed8a6",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "een knap言い vermogen"
+            }
+          ],
+          "reason": "Japanese characters corrupt the Dutch adjective; intended meaning remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:bd61f495-0420-4218-b83e-12f906b9c837",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een geboren Brussels"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "het gemeenschapsontvangst"
+            }
+          ],
+          "reason": "Malformed demonym and incorrect article in Dutch."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:8f7a260e-0c73-4a8c-ab82-6259105aadf3",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "in dezelfde vakantiewoning als al tien jaar"
+            },
+            {
+              "field": "travel_persona",
+              "quote": "verblijft steevast in hotels van middenklasse"
+            }
+          ],
+          "reason": "An annual stay in the same holiday home appears incompatible with invariably staying in hotels, but the latter could refer to transit stays; context is unresolved."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:42f82048-4aef-4ada-a609-fd2d6e18f096",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "elke acquireerbare titel"
+            }
+          ],
+          "reason": "The malformed Dutch adjective has a recoverable intended meaning of obtainable/acquirable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:91c53ae7-614a-406d-ab5c-3bb29da803ab",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:89c7d3e0-d7cb-4c5a-8f52-6752ed6c1f5a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Gebruikers지원 voor legacy software"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "de klassieke Vlaamse stoofvlees"
+            }
+          ],
+          "reason": "Korean text interrupts a Dutch compound; the article/adjective agreement for stoofvlees is also incorrect."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c6908b42-47a6-42b0-8241-f08f471b9824",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "Hij houdt afstand van moderne 'agile' methodes en voorkeur voor vage deadlines"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "KMSKA in Antwerpen"
+            }
+          ],
+          "reason": "The coordinated phrase lacks a grammatical construction for voorkeur; the museum acronym has transposed letters (KMSKA for KMSKA is not intended: the established acronym is KMSKA's letters in KMSKA order)."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:a8761ab5-74c2-4b89-a468-af139a60d4f2",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "in de proza van Andrzej Stasiuk"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "staatelijke inefficiëntie"
+            }
+          ],
+          "reason": "Incorrect article for proza and misspelling of statelijke."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:0300cbfc-4279-4632-bd5c-56542954ad42",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

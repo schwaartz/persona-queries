@@ -1,0 +1,313 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:27:52+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:ea636302-0b26-4c22-b5a3-261dacb58032",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "voor het draiende van de zaak"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "overHet hoofd zien"
+            }
+          ],
+          "reason": "Misspelling 'draiende' (draaiende) and merged 'overHet'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:8a4f7ce0-13c1-498a-90e5-06d74fe3ba97",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "Hoewel ze niet bekendstaan"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "de wijk Borgerwoort"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "bladerde ze door kunsttijdschriften"
+            }
+          ],
+          "reason": "Agreement error, 'Borgerwoort' as a corrupted 'Borgerhout', and tense slip; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:12b11120-c198-4ec0-aabf-723143e082f1",
+      "labels": {
+        "contradictory_information": "present",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "age",
+              "quote": "59"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Op haar vijfenveertigste heeft Laure de ambitie"
+            }
+          ],
+          "reason": "The career field states her current age as 45, while the record gives age 59."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "een klassieke Carbonnade Flamengo"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "gehaktloaf met wortelen"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "de industriële valleien van Henegau"
+            }
+          ],
+          "reason": "Garbled 'Flamengo' (flamande), hybrid 'gehaktloaf', German-like 'Henegau' (Henegouwen); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:867825fd-119e-45c3-924e-e2d30b36c3b6",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "om zich te vluchten in het lezen"
+            }
+          ],
+          "reason": "Wrong reflexive construction ('zich te vluchten' for 'te vluchten'); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:aeca1ac4-cdf5-43b0-b300-8fef29cb6407",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "Deze paradox cultivators een geest"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "rookken en kijken"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "een bohemian atelier"
+            }
+          ],
+          "reason": "English 'cultivators' used as a verb, misspelling 'rookken', English 'bohemian'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:c8fab10d-ec6f-447d-8385-49404404c41e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "Joren streeft naar harmonie en sussen ruzies"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "wat bot in de hike maakt"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een stevig handdruk"
+            }
+          ],
+          "reason": "Verb agreement error, garbled phrase 'in de hike', and gender error; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Albanian-type surname with Pristina father is consistent."
+    },
+    {
+      "item_id": "audit:nl:5271fbfd-7271-40fe-90cb-dc9374c28e6a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "boten rapportages en harde deadlines hem weinig inspiratie"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "bezoekt liever ein klein, obscuur museum"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "lokale historisch inzicht"
+            }
+          ],
+          "reason": "Misspelling 'boten' (boden), German 'ein', agreement error; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:8a37f81f-928d-4bcd-bec2-11327f32e596",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "een simpele pastagerecht"
+            }
+          ],
+          "reason": "Gender/agreement error 'een simpele pastagerecht'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:4d07af44-e36e-40ad-9098-886da21ea03e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "in de wijk Jambesse"
+            }
+          ],
+          "reason": "'Jambesse' appears to be a corrupted form of the Namur district Jambes; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:217bc008-b1ae-4298-b6ba-25afa21b1dd8",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "zijn visceraal behoefte"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "tussen verschillende milieu's"
+            }
+          ],
+          "reason": "Agreement error and incorrect plural 'milieu's' (milieus); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

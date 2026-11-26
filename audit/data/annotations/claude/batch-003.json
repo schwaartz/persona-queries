@@ -1,0 +1,292 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:18:38+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:a6f5a913-ecaa-48f7-a159-af25e7061234",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "empathie en retorika"
+            }
+          ],
+          "reason": "Misspelling 'retorika' (retoriek/retorica); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Lowercase list entries are excluded formatting."
+    },
+    {
+      "item_id": "audit:nl:5cdacd78-ffbb-45db-a851-ba891f039827",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een huiselijk tweetaligheid"
+            },
+            {
+              "field": "sports_persona",
+              "quote": "vindt de rumoer van stadions"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Lezen van detective romans"
+            }
+          ],
+          "reason": "Agreement errors ('huiselijk tweetaligheid', 'de rumoer') and split compound 'detective romans'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:36548f79-92f3-470e-894d-1c4bac93a041",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "koolenrook"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Hij is een verstoken liefhebber"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "met een specifieke potlood"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "waarbij hij hanteerde een methode"
+            }
+          ],
+          "reason": "Misspelling 'koolenrook', wrong word 'verstoken' (verstokt), gender error 'een specifieke potlood', and main-clause word order in a subordinate clause; meaning recoverable."
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "van de apotheek tot het bezoek aan zijn partner"
+            },
+            {
+              "field": "household_type",
+              "quote": "Samenwonend koppel"
+            }
+          ],
+          "reason": "He is recorded as cohabiting, yet his agenda schedules a 'visit to his partner'; possibly a slip, but not an unambiguous conflict."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:dc5f43fb-0e7e-4291-ae68-150d5e900654",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "municipality",
+              "quote": "Florennes"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "het landschap van Florenville"
+            }
+          ],
+          "reason": "Residence is Florennes, but his local landscape photography is placed in Florenville, a different municipality; likely a place-name confusion, though he could photograph elsewhere."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:3f7ca020-5a5a-406b-8f02-682ee0079b92",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Sierentuinen"
+            }
+          ],
+          "reason": "Misspelling 'Sierentuinen' (Siertuinen); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Bois de Forêt' near Uccle is not a recognised name (possibly garbled), but unfamiliarity alone is not evidence; not labelled."
+    },
+    {
+      "item_id": "audit:nl:5c7dc9b9-9892-48fe-81b6-e924a9ad0988",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de Place l'Arme"
+            },
+            {
+              "field": "sports_persona",
+              "quote": "volgt geen enkele team"
+            }
+          ],
+          "reason": "'Place l'Arme' is a corrupted form of Namur's Place d'Armes; agreement error 'geen enkele team'. Meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:6f9b1d4d-3985-4fd0-9c81-4c516116805e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "doe-het-zel tijdschriften"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "modern gemakzucht"
+            }
+          ],
+          "reason": "Truncated token 'doe-het-zel' (doe-het-zelf) and agreement error 'modern gemakzucht'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:f68261cd-eeb4-4abe-833f-b0bad88a497b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Analog synthesizers"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Brutalist architecture"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "religieuze fervour"
+            }
+          ],
+          "reason": "Untranslated English list entries and English spelling 'fervour' in a Dutch record; meaning recoverable."
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "leest hij 'De zwarte kamer' van Hugo Claus"
+            }
+          ],
+          "reason": "I do not recognise 'De zwarte kamer' as a Hugo Claus title; a concrete attribution that may be wrong, but not externally verified, so left uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:ee31797a-5811-44d3-a48b-8537f8fb3589",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found. Centre/Borinage framing and following RC Mons from Courcelles are broad framing, not clear errors."
+    },
+    {
+      "item_id": "audit:nl:507dafe5-9428-4033-80a3-91b1b4b516b9",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found. 'iets kapots te maken' read as 'repair something broken'."
+    }
+  ]
+}

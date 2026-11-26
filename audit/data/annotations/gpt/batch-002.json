@@ -1,0 +1,364 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (exact build/version not exposed)",
+  "effort": "not exposed",
+  "completed_at": "2026-11-11T18:17:07.008373+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:5c98c85d-7c55-4cf9-9fb5-2962c07b5462",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "erop toesag"
+            }
+          ],
+          "reason": "Misspelled past-tense verb toezag."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "loopbaambambities"
+            }
+          ],
+          "reason": "Corrupted compound for career ambitions."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d5d850f8-64d2-450b-abf5-7565ce2ff3e2",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "analoge klokken, których hij minutieus schoonmaakt"
+            }
+          ],
+          "reason": "An untranslated Polish relative pronoun interrupts the Dutch sentence."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:df17830e-511e-4624-8482-f48805847545",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "uit familiehabitue"
+            }
+          ],
+          "reason": "Malformed expression for a family habit."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "dezelfde kleine pension"
+            }
+          ],
+          "reason": "Incorrect demonstrative and adjective agreement with neuter pension."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "zijn studies niet heeft voortgezet voorbij de promotion"
+            }
+          ],
+          "reason": "The untranslated or corrupted education term promotion leaves the claimed educational stopping point unclear."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Op zaterdagenmiddag"
+            }
+          ],
+          "reason": "Malformed compound for Saturday afternoon."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:9af0196e-0e26-4558-8e4f-57f98a3a9e63",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "sintering met cake viert"
+            }
+          ],
+          "reason": "The word sintering does not form an intelligible celebration reference here; the surrounding contrast remains understandable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:988f442c-c010-40fe-8d49-a1319b659d28",
+      "labels": {
+        "contradictory_information": "present",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "Alice Mohamed is een zachtaardige zorgbeheerder"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "Ze weet precies welke knop hij in de administratie moet indrukken om een dossier te bespoedigen"
+            }
+          ],
+          "reason": "The same sentence switches its subject from Alice (ze) to an unidentified male (hij). The local reference conflict is recoverable."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "haar aanpak haphazard is; ze plant dingen op een whim"
+            }
+          ],
+          "reason": "Untranslated English words interrupt an otherwise Dutch description."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "in citroen gepekte vis"
+            }
+          ],
+          "reason": "Corrupted participle in the description of fish preserved with lemon."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:f21b3f09-458a-470b-8694-54af8a68966a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "ein een dag"
+            }
+          ],
+          "reason": "Extraneous non-Dutch token disrupts the sentence."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "raamklinker"
+            }
+          ],
+          "reason": "Malformed noun in a reference to a window handle."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:0b797ef7-cc42-460b-ba22-4bf9abf6574f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "noord-balkanska strengheid"
+            }
+          ],
+          "reason": "An untranslated or corrupted adjective ending interrupts the Dutch description."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "technisch storingsherkenning"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with the common-gender noun storingsherkenning."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:760e3c40-3a71-409b-b6e0-5d71df4a3532",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Op zijn platenspeler draait evenveel Miles Davis als obscure funknummers"
+            }
+          ],
+          "reason": "The finite verb lacks the required subject in this construction (e.g. er); the intended music preference remains clear."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:fe032223-edb4-4722-bb80-71fd179ede25",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "Walloonse traditie"
+            }
+          ],
+          "reason": "Misspelled Dutch adjective for Walloon."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:37a7890e-78aa-4f81-a0f6-2c771a713278",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "ten alle tijden"
+            }
+          ],
+          "reason": "Incorrect fixed expression (te allen tijde)."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Actuarieel risicoanalyse"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with the common-gender noun risicoanalyse."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "met methodische geduld"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with the neuter noun geduld."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

@@ -221,3 +221,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+####### Project #######
+
+# Downloaded Nemotron personas and generated queries (published on Hugging Face).
+/data/

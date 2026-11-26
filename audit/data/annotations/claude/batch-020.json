@@ -1,0 +1,289 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:28:52+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:6e1d85cd-5be8-43b9-87fc-43121f4743b6",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een reservede psychologiestudent"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "die zij van haar moeder kreeg mee"
+            }
+          ],
+          "reason": "Misspelling 'reservede' and wrong word order 'kreeg mee' (meekreeg); meaning recoverable."
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "haar Nederlands, hoewel functioneel, getekend blijft door een bescheiden aarzeling"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Vloeiend Nederlands"
+            }
+          ],
+          "reason": "Narrative describes her Dutch as merely functional and hesitant, while the list claims fluent Dutch; degree descriptions are somewhat subjective."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:4081d4e3-bdbc-4cbd-979d-cfeadbed2af5",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "hetPensionsurvival-circuit"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "in ein zakelijke context"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "de zware arbeidsethos"
+            }
+          ],
+          "reason": "Garbled merged token 'hetPensionsurvival-circuit', German 'ein', gender error; meaning partly recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:645cf467-2f2f-48c5-a890-209e24e28f8a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Sociale aanpassingsvermogen"
+            }
+          ],
+          "reason": "Agreement error ('Sociaal aanpassingsvermogen'); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Merry-Heights' is not a shopping centre I can identify; unfamiliarity alone is not evidence."
+    },
+    {
+      "item_id": "audit:nl:a34f8efd-1d55-4104-a00a-769d2f65099c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found. 'Centre Pompidou' in Brussels is plausibly KANAL-Centre Pompidou, so not treated as an error."
+    },
+    {
+      "item_id": "audit:nl:a06f095f-d4c8-47e0-9c03-0487d0b7f41a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "de wedstrijden van Royal Mail Fourons"
+            },
+            {
+              "field": "sports_persona",
+              "quote": "om toned te blijven"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "de feest van de Doudou, vanwege het folklore"
+            }
+          ],
+          "reason": "Corrupted club name 'Royal Mail Fourons', English 'toned', gender errors 'de feest' and 'het folklore'; meaning partly recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:97b4206d-fe44-445e-992b-eab56bea1ae8",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "zijn professionele duties"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "de bloemenkasters van Lochristi"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "absolute meesterschap"
+            }
+          ],
+          "reason": "English 'duties', garbled 'bloemenkasters' (bloemenkassen), agreement error; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:a18bb35f-0ccd-49fb-ac60-872082a17f6d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "de intellectuele horizon van haar rodzagers"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "haar ein gevoel van rust"
+            }
+          ],
+          "reason": "Garbled token 'rodzagers' (ouders/voorgangers) and German 'ein'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:b5aa44e8-34f1-4b08-8223-39a82324c581",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de roubeberichten"
+            }
+          ],
+          "reason": "Misspelling 'roubeberichten' (rouwberichten); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d05a6149-98cd-4856-a849-b82837e60d93",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "uitgebreide familemaaltijden"
+            },
+            {
+              "field": "sports_persona",
+              "quote": "Competitieve sporten volgen ze niet echt"
+            }
+          ],
+          "reason": "Misspelling 'familemaaltijden' and plural verb with singular subject ('volgen ze' for 'volgt ze'); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:2ea2dd71-2896-487b-a61a-69c8387afcab",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "terwijl hij strikt wegblijft van kantoorpolitiek"
+            }
+          ],
+          "reason": "Tense slip (present 'wegblijft' in past narration); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Palamino' is not a Belgian beer I recognise; unfamiliarity alone is not evidence."
+    }
+  ]
+}

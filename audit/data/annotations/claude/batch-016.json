@@ -1,0 +1,296 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:26:52+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:a1686130-850d-45d8-a264-495b5582397b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "de minder glamourous, maar essentiële taken"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "een stabiel en voorzienbaar werkend leven"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "gehaktloaf met puree"
+            }
+          ],
+          "reason": "Untranslated English 'glamourous', non-standard 'voorzienbaar' (voorspelbaar), hybrid 'gehaktloaf'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:64d9ded4-ceee-49ef-a4ef-db1a3592e1bf",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "die ze zelf customiseert"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "via een re-integratieorganisme"
+            }
+          ],
+          "reason": "Anglicism 'customiseert' and French calque 'organisme' (organisatie); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Albanian-type surname with Polish/Liège family is a naming matter, excluded."
+    },
+    {
+      "item_id": "audit:nl:76092c96-c9fb-4230-9163-015c0de55ea0",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "de nadruk lag op discretionneerbaarheid"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "een persoonlijke arboretum"
+            }
+          ],
+          "reason": "Non-word 'discretionneerbaarheid' (discretie) and gender error 'een persoonlijke arboretum'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:d8ee4c71-3aa0-41d8-84b9-9600b9b10626",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Op haar achttigsten en acht 가지e"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "alsooktất de discipline"
+            }
+          ],
+          "reason": "Corrupted age phrase with Korean characters ('achtentachtigste') and garbled token with Vietnamese characters ('alsook ... dat'); meaning recoverable from age field."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:bf420bd7-0906-43fb-8db1-3badca7cccaf",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "heeft Ismael nooit ge appealed"
+            }
+          ],
+          "reason": "English verb 'appealed' forced into a Dutch participle ('aangesproken'); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:43950edb-79db-4636-98d7-7aa3349ba3b7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "nu knokig en getekend door de tijd"
+            }
+          ],
+          "reason": "Spelling variation 'knokig' vs 'knokkige' elsewhere (knokig is non-standard); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:66709798-7e65-4d05-ace6-45f38b2e6de9",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "klanten die themselves niet durfden te tonen"
+            }
+          ],
+          "reason": "Untranslated English 'themselves' (zichzelf); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:a168697c-3a00-4123-ac20-1ad3d51510f2",
+      "labels": {
+        "contradictory_information": "present",
+        "language_defect": "present",
+        "broken_or_missing_content": "present",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "broken_or_missing_content",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "None"
+            }
+          ],
+          "reason": "The career_goals_and_ambitions field is JSON null (empty) instead of narrative content; 498 of the 500 packet records have text in this field."
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "Melissa Serdons is een onafhankelijke technicus uit Eupen"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "Melissa Serdon groeide op"
+            }
+          ],
+          "reason": "The same person's surname is given as 'Serdons' in one field and 'Serdon' in another."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "Deze ambivalentie prägte Melissas vroege jaren"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "als normaaliteit te beschouwen"
+            }
+          ],
+          "reason": "German verb 'prägte' (vormde/tekende) and misspelling 'normaaliteit'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Leading whitespace in culinary_persona excluded."
+    },
+    {
+      "item_id": "audit:nl:add56d84-da8b-4212-bdbc-df226cb82423",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found."
+    },
+    {
+      "item_id": "audit:nl:35d509d6-c032-4348-87ae-5fe346d633d7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "de wijk Borgerbos"
+            },
+            {
+              "field": "sports_persona",
+              "quote": "de gratie van de turners bewonderd"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "in een staat van halfslapers"
+            }
+          ],
+          "reason": "'Borgerbos' appears to be a corrupted 'Borgerhout'; verb form 'bewonderd' (bewondert) and malformed 'halfslapers'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Female bearer of the name 'Kader' is a naming matter, excluded."
+    }
+  ]
+}

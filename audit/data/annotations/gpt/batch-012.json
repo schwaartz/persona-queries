@@ -1,0 +1,277 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (Codex; exact runtime model/version identifier not exposed)",
+  "effort": "Not exposed by runtime",
+  "completed_at": "2026-11-11T18:27:57.188502+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:96002a63-9b79-4152-9c0d-242700233552",
+      "labels": {
+        "contradictory_information": "present",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "Ze sussen ruzies"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "een klassieke Vlaamse potkast"
+            }
+          ],
+          "reason": "Subject/verb disagreement and a corrupted food term in a meal description; the general meaning remains recoverable."
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "ze weet precies welke knop hij moet indrukken"
+            },
+            {
+              "field": "sex",
+              "quote": "Vrouw"
+            }
+          ],
+          "reason": "The subject unexpectedly switches from ze to hij within the description of Magdalena's own skill."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:adbdcddc-57e5-4ca1-a196-b47f81545340",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "'de ijskonijn'"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "colleagues"
+            }
+          ],
+          "reason": "Incorrect article for ijskonijn and an untranslated English word in Dutch."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:3fc60d42-badc-4533-839b-8706ad126a6b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d85669a7-5831-42b7-ab8d-d30925098732",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:3fbe1351-23f6-4742-a2a4-76196cd25db4",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "een bestelfuurtje met zijn eigen naam erop"
+            }
+          ],
+          "reason": "Corrupted vehicle term; the surrounding description makes the intended work vehicle recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:165a888c-e449-4d51-98c5-2feb62766a68",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "Petra doet geen aan gestructureerde sport"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "grenzte aan een heilige kunst"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een kort schoolloopbaan"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Ze bezoekt assidu de lokale bibliotheken"
+            }
+          ],
+          "reason": "Malformed negation, German-form verb, adjective disagreement and untranslated French adverb interrupt Dutch; meaning remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:b6a7ca5a-26cd-4ea1-9f3c-f994ffd928cf",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een sociaal en nieuwsgierige achttienjarige"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "haar sociale media curated"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "eclectische interieurs and mode"
+            }
+          ],
+          "reason": "Adjective disagreement and English verb/conjunction mixing disrupt Dutch grammar."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:29747e96-d972-4876-ab09-ca719299e0e4",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Ze leest de lokale krant en bladeren door de Libelle"
+            },
+            {
+              "field": "persona",
+              "quote": "Oostendse pensiondoete"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "het Musea van de Kust"
+            }
+          ],
+          "reason": "Verb disagreement, a corrupted noun for a retired person, and malformed article/number agreement. No claim of museum nonexistence is inferred."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:97262869-247c-4dfc-a4e6-343a82ee6004",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "De vrijetijd van Jessika"
+            }
+          ],
+          "reason": "Vrije tijd is incorrectly merged into one word here."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:46f93d63-9711-4c4b-a65a-c9c7dd6c0c76",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "minutieus catalogueert op datum en locatie"
+            }
+          ],
+          "reason": "French-influenced spelling in a Dutch verb; the intended cataloguing action remains clear."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

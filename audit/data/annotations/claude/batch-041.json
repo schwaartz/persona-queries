@@ -1,0 +1,230 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Opus 5.5)",
+  "effort": "default",
+  "completed_at": "2026-11-11T18:39:36+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:eea1ad9e-1c09-4a18-992d-85c5035558e3",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "in the center of Pont-à-Celle,"
+            }
+          ],
+          "reason": "Misspelling of the municipality name 'Pont-à-Celles' (spelled correctly elsewhere in the record); meaning recoverable."
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Services & sales"
+            },
+            {
+              "field": "professional_persona",
+              "quote": "In her administrative role, Francette is regarded as the reliable pillar"
+            }
+          ],
+          "reason": "Services-and-sales occupational code versus a narrative of an administrative/clerical public-administration role; ambiguous occupational code, so uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:22f6c308-3eac-4707-a1bd-0e7d73a3f6cd",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:96e82dcd-1a2b-4a13-80a5-e83f6208e1df",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:21450369-b83d-49e0-b6e4-937d1dd780e1",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:476beb24-3a0e-481a-8a38-9d196ab9990b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "his physical exertion is limited to brisk walks along the Rupel"
+            },
+            {
+              "field": "travel_persona",
+              "quote": "He rarely leaves the province of East Flanders"
+            }
+          ],
+          "reason": "The Rupel river runs in Antwerp province (Boom/Niel area), not near Moerbeke in East Flanders; daily walks there are geographically implausible for someone who rarely leaves East Flanders. Not externally verified."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:81ee9704-e375-48bb-97b3-2acde40bac74",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "He visits MIMA in Antwerp for contemporary art"
+            }
+          ],
+          "reason": "MIMA is placed in Antwerp, but it was located in Molenbeek-Saint-Jean, Brussels.",
+          "external_verification": {
+            "url": "https://en.wikipedia.org/wiki/Millennium_Iconoclast_Museum_of_Art",
+            "quote": "The Millennium Iconoclast Museum of Art (MIMA) was a contemporary art museum in Molenbeek-Saint-Jean",
+            "reason": "Molenbeek-Saint-Jean is a municipality of the Brussels-Capital Region, not Antwerp, so the location given in the persona is wrong."
+          }
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:b87ac67f-6cb8-4b4f-8e32-03f7412aba89",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [
+        {
+          "description": "Culinary implausibility: a cold, uncooked dish described as simmering",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "a gazpacho that simmers for hours"
+            }
+          ],
+          "reason": "Gazpacho is a cold, raw soup; describing it as simmering for hours is a factual/culinary error not covered by the four retained categories."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:74958ecb-765b-451d-8425-91e66eea5d97",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:76399af8-6930-4f4a-ae7c-0cd6041bc1ad",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "thequiet cultivation"
+            }
+          ],
+          "reason": "Merged words 'thequiet' (missing space); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:e4f4ab04-b149-46c7-98c7-29f6ffdc578b",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Professionals"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "Priscilla has mastered the art of administrative flow within a complex service environment"
+            }
+          ],
+          "reason": "'Professionals' occupational code with upper-secondary education versus a narrative describing administrative/CRM file handling (clerical-type work); ambiguous occupational code, so uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

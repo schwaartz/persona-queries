@@ -1,0 +1,289 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:17:16+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:807a1009-9c7e-44b5-a5a3-c777e0c49dca",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Avant-gardenvrije kunst"
+            }
+          ],
+          "reason": "Garbled compound (likely 'avant-gardistische' kunst); meaning recoverable from context."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c9a15a79-85ff-462d-be7d-0478fe4ce218",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "functioneel en bodenstaand"
+            }
+          ],
+          "reason": "German-derived 'bodenstaand' (bodenständig) is not standard Dutch; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:ad958a96-67ba-45e1-941b-09c6aa87a800",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "geclad in een sober"
+            }
+          ],
+          "reason": "English 'clad' rendered as non-Dutch 'geclad' (gekleed); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:4bf35702-ed80-4c23-bf67-a562b37d9279",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "loopbaambambities"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "nooit is weggeebd"
+            },
+            {
+              "field": "persona",
+              "quote": "Sint-Gertrude collegiate"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een opeenstapeling van lecturen"
+            }
+          ],
+          "reason": "Garbled token 'loopbaambambities', misspelling 'weggeebd' (weggeëbd), English 'collegiate' and French-calque 'lecturen' in Dutch text; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:62628e2c-0be3-4584-9cb9-59668674632e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "walloonse klassiekers"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "in de wijk Outremonts"
+            }
+          ],
+          "reason": "'walloonse' should be 'Waalse'; 'Outremonts' appears to be a corrupted form of the Liège district Outremeuse. Meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:963db5b6-b416-4d41-b6c5-ab7ef9033d88",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "De Walloonse voornaam"
+            }
+          ],
+          "reason": "Misspelling of 'Waalse'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c4915956-d70d-4535-ae6b-3c239e5650bd",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "om een coworker in nood te helpen"
+            }
+          ],
+          "reason": "Untranslated English 'coworker' in Dutch text (collega); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c1ed86a5-7a98-4850-85b2-cb2f65642ed0",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Museumbeszoeken"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "over een natuurlijk aanleg"
+            }
+          ],
+          "reason": "Misspelling 'Museumbeszoeken' (Museumbezoeken) and adjective agreement error 'natuurlijk aanleg' (natuurlijke); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'het Musée Magritte of het Centre Pompidou wanneer ze in Parijs is' is ambiguous rather than a clear misattribution (only Pompidou need be in Paris)."
+    },
+    {
+      "item_id": "audit:nl:b7822377-a5e9-4463-8807-d2223389aa74",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "gehaktloaf met puree"
+            }
+          ],
+          "reason": "English-Dutch hybrid 'gehaktloaf' instead of 'gehaktbrood'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Leading space in list entry ' Wandelen in de buurt' is excluded formatting."
+    },
+    {
+      "item_id": "audit:nl:4fd7b489-f0ad-4f41-8019-3004fffb94e3",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "zijn onrusteindige zorgen"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "familiekunjstjes"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "elke grill van de ketel"
+            }
+          ],
+          "reason": "Corrupted tokens 'onrusteindige' and 'familiekunjstjes', and 'grill' for 'gril'; meaning largely recoverable."
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Hij luistert naar de radio, met name RTL-TDT"
+            }
+          ],
+          "reason": "'RTL-TDT' does not match known RTL Belgium brands (Bel RTL radio, RTL-TVI TV); possibly a garbled or wrong station name. Not externally verified."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Name-etymology claim about 'Bal' and Andalusia is speculative etymology, excluded by rubric."
+    }
+  ]
+}

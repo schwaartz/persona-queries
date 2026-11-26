@@ -1,0 +1,312 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (Codex; exact runtime model/version identifier not exposed)",
+  "effort": "Not exposed by runtime",
+  "completed_at": "2026-11-11T18:28:57.552473+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:8d8b6ded-c76b-45a8-be9a-41cd813820e0",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "haar competitieve streak"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Wanneer ze niet sociaalt is"
+            }
+          ],
+          "reason": "Untranslated English noun and malformed Dutch verb phrase; meaning remains recoverable."
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementaire"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "administratieve ondersteuning bij een notariskantoor"
+            }
+          ],
+          "reason": "Elementary occupational code appears in tension with the detailed clerical role, but the code's scope is not supplied, so incompatibility cannot be confirmed."
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Wanneer ze familie bezoekt in Antwerpen, gaat ze af en toe naar het MIMA"
+            }
+          ],
+          "reason": "The sentence appears to place MIMA on visits to Antwerp. Molenbeek's official heritage directory lists MIMA at Quai du Hainaut 41, 1080 Molenbeek-Saint-Jean (https://www.molenbeek.brussels/fr/je-visite/patrimoine). The sentence does not explicitly exclude a separate journey to Brussels, so the location conflict remains uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:2e537819-c144-4c61-a7a9-eb329d9ac1ae",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "het weerspiegel van een geest"
+            }
+          ],
+          "reason": "Malformed noun phrase; the intended reflection of her mind is clear."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:3148139e-b548-4608-8819-e143f1746044",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een technisch prefecte organisator"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "waarop एक voorstelling naadloos start"
+            }
+          ],
+          "reason": "Misspelling of perfecte and an untranslated Devanagari token disrupt Dutch."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d6ce4851-c495-429b-a4b1-058edd89f52e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de verdwenen takken van haar familiestoom"
+            }
+          ],
+          "reason": "Corrupted compound for family tree; context makes the intended meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:91e790dc-2c95-4366-8ce5-77c581fc1b5c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "tweedehandsbokhandels"
+            }
+          ],
+          "reason": "Misspelled compound for secondhand bookshops."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:398f3233-44dd-4519-a530-f0bb23f17ee7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "een baken van ijskoud kalmte"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "dezelfde keukengerei"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "overHet hoofd zien"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "door het الوحيد (het bos) van Heverlee"
+            }
+          ],
+          "reason": "Adjective/determiner agreement errors, merged words and unintended Arabic mixing interrupt Dutch; intended meanings remain recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:0cf51fe0-2f9e-489c-afba-e449a9413fea",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een klerkmaker uit Chandigarh"
+            }
+          ],
+          "reason": "Corrupted occupational noun in the description of her father; surrounding context suggests a clothing trade but the exact word is malformed."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c98efec6-eaa3-4019-bd65-86e150b5040a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "met methodische geduld"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with the neuter noun geduld."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:ef32960c-15fc-4f30-9531-5c6482241b8e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "de vlottheid en eenvoud"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "te ver afgestaan van haar eigen realiteit"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "kalfsstofschotel"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "bezoekt assidu de dorpscafés"
+            }
+          ],
+          "reason": "Misspelled words, a malformed participial construction and an untranslated French adverb in otherwise Dutch prose."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:dc9a6acb-646c-4829-a420-b54e81e24d15",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "Ze imponerent niet"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "sociale hiërarchieten"
+            }
+          ],
+          "reason": "Incorrect singular verb form and corrupted plural noun; meaning remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

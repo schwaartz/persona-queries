@@ -1,0 +1,79 @@
+{
+  "approved_by_human": false,
+  "approved_by": "",
+  "approved_at": "",
+  "categories": [
+    {
+      "id": "structured_narrative_mismatch",
+      "definition": "A structured field (age, sex, marital_status, household_type, education_level, occupation, industry, municipality) is contradicted by a narrative field of the same record.",
+      "include": "Flag when a narrative states or clearly implies a value incompatible with the structured field: a different age, an occupation class or industry that does not fit the job the whole narrative describes, 'not economically active' with an active occupation, etc. Quote the structured value and the narrative text. Use 'clear' only when the narrative is explicit and consistent across fields.",
+      "exclude": "Borderline occupational classifications (e.g. a receptionist coded as services/sales rather than clerical), unusual but possible combinations (young manager, professional with upper-secondary education when the narrative acknowledges it), and household types the narrative simply does not mention.",
+      "example": "probe:nl:b1cafe5d-a79d-4d23-90bc-c7d1b67f84bc: age='86', persona 'een gereserveerde 86-jarige vrouw' vs career_goals_and_ambitions 'Op haar zesennegentigste' (96). Also probe:nl:91cc65d6-e0d5-45ad-ae41-0a6c0b13226a: occupation 'Elementaire', industry 'Adm. & ondersteuning' vs persona 'een energieke basisschoollerares uit Rebecq'.",
+      "ignored": false
+    },
+    {
+      "id": "internal_contradiction",
+      "definition": "Two narrative statements in the same record cannot both be true.",
+      "include": "Flag when two narrative fields (or two sentences in one field) assert incompatible facts about the persona: events, abilities, habits stated as absolute ('always', 'never') and then violated. Quote both sides.",
+      "exclude": "Personality tensions the text presents as paradoxes, exceptions explicitly framed as exceptions ('rarely ... except'), and differences of emphasis between fields.",
+      "example": "probe:nl:7f77cfa5-4c84-4ddf-8602-c5bad8adee91 (uncertain): cultural_background 'Hoewel ze na de basisschool stopte met studeren' vs 'Ze leerde zichzelf lezen door de folders van de lokale bibliotheek'. No clear case was found in the probe; the category may be rare.",
+      "ignored": false
+    },
+    {
+      "id": "identity_inconsistency",
+      "definition": "The persona's name, gender or stated identity conflicts with other content in the record: wrong-gender pronouns, a name whose stated origin contradicts the name, an explanation attached to the wrong family member, or a degenerate name.",
+      "include": "Wrong-gender pronoun referring to the persona; explicit name-origin statements that contradict the name ('His German first name' for 'Gheorghe'); surname/first-name explanations that point to someone else; duplicated or placeholder-like names.",
+      "exclude": "Unusual but explained names, names from a different language community that the narrative justifies, and mismatches that only rely on assumptions about which names are 'typical'. Do not infer anything from a name alone.",
+      "example": "probe:nl:7f9dc8a7-4a83-4ee5-b594-74aa00835b8e: sex 'Vrouw' vs skills_and_expertise 'weet precies welke knoppen hij moet indrukken'. probe:en:bb29ef5f-3402-41ac-8193-eee0968318db: persona 'Gheorghe Trossaert' vs cultural_background 'His German first name, a whimsical wish of a grandfather who had once worked in the industrial centers of the Rhineland'.",
+      "ignored": false
+    },
+    {
+      "id": "real_world_reference_error",
+      "definition": "A named real-world entity (museum, club, newspaper, district, author, venue) is misplaced, misattributed or appears to be a garbled version of a real name.",
+      "include": "Institutions placed in the wrong city, clubs or newspapers that blend two real names, district or author names that look like corruptions of real ones. Without web access, mark as 'uncertain' unless the conflict is also internal to the record.",
+      "exclude": "Obscure but plausible local references that simply cannot be verified, subjective cultural attributions (calling an author a 'thriller' writer), and loose regional framing (calling an area 'Kempen').",
+      "example": "probe:nl:7f77cfa5-4c84-4ddf-8602-c5bad8adee91: arts_persona 'het MIMA in Antwerpen' (MIMA is believed to be in Brussels). probe:nl:4cd93505-1a0c-4e6f-b6a1-192bfdd6d363: arts_persona 'In Gent bezoekt hij af en toe het MAS' (MAS is believed to be in Antwerp).",
+      "ignored": false
+    },
+    {
+      "id": "generation_artifact",
+      "definition": "Text that exposes the generation process rather than describing the persona: narrator speculation about the persona's own attributes, or references to hidden attributes that no field describes.",
+      "include": "Hedged narrator inferences ('waarschijnlijk het gevolg van ...'), exact hidden data values surfacing (e.g. an income figure), or 'due to his health condition' when no condition is ever described.",
+      "exclude": "Ordinary narrative detail, and attributes mentioned consistently in several fields (e.g. a chronic health issue described in sports and career fields).",
+      "example": "probe:nl:1c88d5c2-4c6e-40dc-aa2c-7ac790a7934e: professional_persona 'Haar huidige inkomen van 710 euro per maand, waarschijnlijk het gevolg van een complexe scheiding'.",
+      "ignored": false
+    },
+    {
+      "id": "token_corruption",
+      "definition": "Non-words, garbled tokens or foreign-script characters inside the text, where the intended word cannot be read off as a simple typo.",
+      "include": "Characters from an unrelated script (Devanagari, Sinhala), invented non-words ('optheir', 'anstallement', 'trasladingsbedrijf'), garbled place or dish names, and mangled number words.",
+      "exclude": "Single-letter misspellings and spacing errors (use typo_spacing), legitimate dialect or rare words, and loanwords.",
+      "example": "probe:nl:8057e0d7-3d59-4fb9-92b4-279bd48e9640: hobbies_and_interests 'क्राइम-nieuws'. probe:nl:e09aef37-ec3c-4671-a8bb-dc6ccda39e5e: skills_and_expertise 'negenතිende-eeuwse'.",
+      "ignored": false
+    },
+    {
+      "id": "typo_spacing",
+      "definition": "Surface spelling, spacing, capitalisation or grammar errors where the intended word is obvious.",
+      "include": "Merged or split words ('Ilsestreeft', 'groot tante'), duplicated particles, simple misspellings ('loonsverhogging', 'unphased'), wrong article/number agreement, lowercase sentence start.",
+      "exclude": "Accepted spelling variants, stylistic awkwardness, and garbled non-words (use token_corruption).",
+      "example": "probe:nl:4e42a5ef-c349-4543-8a5d-30bf7ca1f21c: career_goals_and_ambitions 'Ilsestreeft'. probe:nl:b8e1e385-be5e-4590-87bd-889f6a0929ec: cultural_background 'periferie vanHet Pajottenland'.",
+      "ignored": false
+    },
+    {
+      "id": "language_mixing",
+      "definition": "Words from another language that are not established loanwords appear inside a text in the record's language.",
+      "include": "Untranslated English words in Dutch text ('solitary', 'sociable', 'unwavering', 'by het raam'), hybrid compounds ('gehaktloaf', 'parishesbladen'), and words from unrelated languages ('prawdziwe').",
+      "exclude": "Common anglicisms in Dutch ('corporate', 'stakeholder'), place-name exonyms ('Ostende', 'Hainaut', 'Gent' in English text), names of dishes, institutions or titles in their original language.",
+      "example": "probe:nl:d9f08750-fb65-4b19-80bb-6bccd2dfa484: hobbies_and_interests 'solitary intellectuele stimulatie'. probe:nl:d1cb1e83-ee8b-4f0e-a85c-d39eff7b1ac2: hobbies_and_interests 'prawdziwe misdaadpodcasts'.",
+      "ignored": false
+    },
+    {
+      "id": "list_formatting",
+      "definition": "Formatting defects in the *_list fields that break the conventions used by the rest of the dataset.",
+      "include": "Leading or trailing whitespace in an item, items or whole lists that start lowercase where the dataset convention is capitalised, empty or duplicate items.",
+      "exclude": "Content mismatches between a list and its narrative (consider structured_narrative_mismatch), and harmless wording differences.",
+      "example": "probe:nl:4e42a5ef-c349-4543-8a5d-30bf7ca1f21c: hobbies_and_interests_list ' soloswandelingen op de zeedijk buiten het seizoen' (leading space). probe:en:5a072a25-5d74-44be-8ac9-63119e6a58f7: every list item lowercase, e.g. 'analog photography'.",
+      "ignored": false
+    }
+  ]
+}

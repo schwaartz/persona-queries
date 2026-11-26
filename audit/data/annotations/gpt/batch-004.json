@@ -1,0 +1,337 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (exact build/version not exposed)",
+  "effort": "not exposed",
+  "completed_at": "2026-11-11T18:18:38.487230+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:82050fb1-0889-46e5-8aee-10f5987ba84f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d52a2520-1e53-4326-8056-c674bdeffc64",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "het familiale cocon"
+            }
+          ],
+          "reason": "Incorrect article and adjective agreement with common-gender cocon."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "het gevoel behoren tot een klasse"
+            }
+          ],
+          "reason": "The infinitival construction lacks te before behoren."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:5217fe97-4459-4cde-a15e-9e3b144d979c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "hetstadsplein"
+            }
+          ],
+          "reason": "Merged article and noun."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:daa2a1ce-65fa-4cf2-94a0-e09dcd4f44ac",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "Ömer's eetgewoonten"
+            }
+          ],
+          "reason": "Incorrect possessive apostrophe for a Dutch name ending in a consonant."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:0cb69682-4c7c-4f64-948e-f32c545ca12e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "niet te veel te abovem"
+            }
+          ],
+          "reason": "Corrupted token in the description of modesty; the surrounding explanation preserves the general meaning."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "zonder grote schudden"
+            }
+          ],
+          "reason": "Malformed noun phrase for an uneventful end of career."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:1cd34e06-b346-42e5-b961-6452aab94bf4",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "de noodzakelijke geduld"
+            }
+          ],
+          "reason": "Incorrect article and adjective agreement with neuter geduld."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "discretely"
+            }
+          ],
+          "reason": "Untranslated English adverb in Dutch narration."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:113f8602-c896-45cf-9ab5-3d01e512d533",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "Sabine's leven"
+            }
+          ],
+          "reason": "Incorrect possessive apostrophe for a Dutch name ending in a pronounced unstressed vowel."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "een lokale notariskantoor"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with neuter notariskantoor."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Horticulture"
+            }
+          ],
+          "reason": "Untranslated English/French noun in a Dutch interests list."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "The phrase onbetrouwbare rots in de branding is unusual, but precision and unreliability are not explicitly incompatible attributes in the same circumstances. No contradiction inferred from this phrasing alone."
+    },
+    {
+      "item_id": "audit:nl:2cf4f51b-0d48-4554-9fd7-30ae0f2c1cbd",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "five풋bal"
+            }
+          ],
+          "reason": "Corrupted mixed-script word for a football activity."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "aspiraties die hem vaag toededen"
+            }
+          ],
+          "reason": "Malformed verbal construction describing how aspirations seemed to him."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "zonder diep te hoeven concentreren"
+            }
+          ],
+          "reason": "The reflexive verb zich concentreren lacks its reflexive pronoun."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:dccd035a-a8d6-4413-af85-ac63cf1bc197",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Brutalistisch architectuurstudie"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with the common-gender noun architectuurstudie."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:2dd72358-85d6-49af-8e09-0dea004206ec",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "synchronisatieszwemmen"
+            }
+          ],
+          "reason": "Misspelled compound for synchronised swimming."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "de melancholische proza"
+            }
+          ],
+          "reason": "Incorrect article and adjective agreement with neuter proza."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "verblijft in kleine, persoonlijke pensioenen"
+            }
+          ],
+          "reason": "Wrong lexical form: pensioenen refers to retirement payments, while the context requires accommodation."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "inherited GPT runtime; exact model identifier unavailable",
+  "effort": "inherited; exact setting unavailable",
+  "completed_at": "2026-11-11T18:49:12.088013+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:009fdb76-6927-4780-ae80-e0cac7020933",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:c3e6e809-cc88-4656-ab94-80822bccd2f6",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:b84a78e3-7c25-49d9-9a5d-1b4ee907f45e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "She prefers not to venture beyond Belgium's borders, with the exception of an annual trip to the Ardennes or a weekend getaway to the coast in Knokke-Heist."
+            }
+          ],
+          "reason": "The sentence treats Knokke-Heist as an exception outside Belgium, although Knokke is on the Belgian coast.",
+          "external_verification": {
+            "url": "https://www.belgiantrain.be/en/travel-info/train-offer/coast-express?journey=1",
+            "quote": "Choose the Coast Express, our comfortable solution to Ostend, Blankenberge, De Panne and Knokke from all over the country.",
+            "reason": "The Belgian rail operator presents Knokke among destinations for a day at the Belgian coast, contradicting its treatment as beyond Belgium."
+          }
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:79b300a7-5b92-4dc7-91db-574ff3304915",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:ae4acdb6-1eb6-4021-b7e8-b9e3642765ab",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:a9e27b72-e009-4428-820e-942a74255818",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:7b0817f8-b40e-4bc1-8083-6b1c92902412",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:b2f61956-b0b5-4c5d-a3b3-0001d9da8466",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:c4be74e1-e054-4d82-876e-8e0bcb256e34",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "is unemployed despite her qualifications in psychosocial support"
+            },
+            {
+              "field": "occupation",
+              "quote": "Professionals"
+            }
+          ],
+          "reason": "The narrative explicitly says unemployed while the code denotes a professional occupation; the code may instead preserve her trained profession."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:59babc47-0602-43d5-9fd0-477b1e9e00dc",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

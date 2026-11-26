@@ -1,0 +1,437 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (exact build/version not exposed)",
+  "effort": "not exposed",
+  "completed_at": "2026-11-11T18:24:15.051844+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:f3535df7-2913-42ad-b208-38052cb93bee",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "Antwerpenne"
+            }
+          ],
+          "reason": "Malformed Dutch demonym for an Antwerp woman."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "superiorer"
+            }
+          ],
+          "reason": "Malformed comparative of superieur."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "misschien een kleine luxe kan veroorloven"
+            }
+          ],
+          "reason": "The reflexive verb zich veroorloven lacks its reflexive pronoun."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:54c69ad9-7504-4eb9-8005-f36eec03548e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "eccentricity"
+            }
+          ],
+          "reason": "Untranslated English noun in Dutch narration."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d61dbb85-90f0-4b65-a06e-6ab5e601e4b5",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "vijftigeren"
+            }
+          ],
+          "reason": "Corrupted age-decade noun in the phrase about being in his fifties."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:78e5793a-49a2-4dbc-a401-64632d9bbac0",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "Toscanse"
+            }
+          ],
+          "reason": "Misspelling of Toscaanse."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "orchestratie"
+            }
+          ],
+          "reason": "Non-Dutch spelling of orkestratie."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Zijn vrijetijd"
+            }
+          ],
+          "reason": "Incorrectly merged noun phrase vrije tijd."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:3c236cdd-1186-473d-99c6-df513c940ea8",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "keukenomgevigingen"
+            }
+          ],
+          "reason": "Corrupted compound for kitchen environments."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:832b5a5d-b861-4c2a-8d0b-69597b4f27f4",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "de manicure precisie"
+            }
+          ],
+          "reason": "Corrupted or substituted adjective in the description of literary precision."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "lease ze onlangs"
+            }
+          ],
+          "reason": "Malformed verb in the clause about recently reading travel writing."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:afb90b47-1df6-4229-b2d9-c0c4e8e23062",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "gerechten met onbekende texturen of te veel kruiden wekt zijn wantrouwen"
+            }
+          ],
+          "reason": "Singular wekt disagrees with plural gerechten."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "walloonse dynamiek"
+            }
+          ],
+          "reason": "Misspelled Dutch adjective Waalse."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "ingeboommerd"
+            }
+          ],
+          "reason": "Corrupted participle for inculcating values."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "hem niet uit hun comfortzone halen"
+            }
+          ],
+          "reason": "Possessive hun mismatches the singular person hem whose comfort zone is meant; the local referent remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:0aa7d8dc-6d63-46c9-bebe-86806f6b8621",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "coexistens"
+            }
+          ],
+          "reason": "Corrupted noun in the description of her working life."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "ambachtman"
+            }
+          ],
+          "reason": "Misspelling of ambachtsman."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "men nauwelijks buiten de gebaande paden van de regio Centre waagde"
+            }
+          ],
+          "reason": "The reflexive verb zich wagen lacks its reflexive pronoun."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "stritheid"
+            }
+          ],
+          "reason": "Corrupted spelling of striktheid."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "कोई club"
+            }
+          ],
+          "reason": "Untranslated Devanagari word interrupts the Dutch noun phrase."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d98fbc52-509a-4720-8a27-157adc171897",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "te ver afgestaan van haar realiteit"
+            }
+          ],
+          "reason": "Malformed verb/adjectival construction for being far removed from her reality."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "varkensbraden"
+            }
+          ],
+          "reason": "Malformed dish-name noun for a pork roast."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "die weten zich eraan te schikken"
+            }
+          ],
+          "reason": "Incorrect verb order in the relative clause."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "waar ze weinig vanstelt"
+            }
+          ],
+          "reason": "Corrupted verb/merged construction in the statement about digital systems."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:b86946f0-7936-48ef-ad57-7d853903703d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "wat haar collega's vaak bewondert"
+            }
+          ],
+          "reason": "Incorrect verb agreement/argument construction in the clause describing colleagues admiring her calm."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "diffuser wortels"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with plural wortels."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "methodische geduld"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with neuter geduld."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

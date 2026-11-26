@@ -1,0 +1,403 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (exact build/version not exposed)",
+  "effort": "not exposed",
+  "completed_at": "2026-11-11T18:22:11.853652+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:f074c350-0563-4181-ace3-208824713ba7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "een lang loopbaan"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with common-gender loopbaan."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:38fb1578-cf7d-4eda-aef2-c34dafba6582",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "Hij maakte zich aan te passen"
+            }
+          ],
+          "reason": "Malformed verbal construction for adapting to local codes."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "unloadplatform"
+            }
+          ],
+          "reason": "Untranslated English stem in the Dutch word for an unloading platform."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "familiejamaals"
+            }
+          ],
+          "reason": "Corrupted compound for family meals."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:4c9f1c82-32df-48c3-a6eb-24bcf20cf235",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "de discipline van vaste werktijden en strakke planningen, zoals het werken met Excel-sheets, passen niet"
+            }
+          ],
+          "reason": "The singular subject discipline is paired with plural passen."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "houdt ze zich in tegen door een angst"
+            }
+          ],
+          "reason": "Malformed expression for being held back by fear."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "raakt ze diep geraakt"
+            }
+          ],
+          "reason": "Duplicated verbal construction for being deeply moved."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:2adccf8e-deed-4cab-9f2e-4a853262ae52",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "geen onnodige lawaai"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with neuter lawaai."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "focieert"
+            }
+          ],
+          "reason": "Corrupted verb for focusing."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:b10dfb9c-4eb2-45ee-9610-13c63ebd13f3",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "tielse weduwe"
+            }
+          ],
+          "reason": "The demonym for Tielt is missing its second t; capitalization alone is not the issue."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "witloofstovestof"
+            }
+          ],
+          "reason": "Corrupted dish-name compound."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:e69c5923-325c-4afe-84f6-1ece54e4b95a",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "gehaktloaf"
+            }
+          ],
+          "reason": "Unintended Dutch/English hybrid dish name; meaning remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:b4d779dd-b9a5-414e-b9d6-ee19fe24c766",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "verblijft in een klein pensioen"
+            }
+          ],
+          "reason": "Wrong lexical form: pensioen denotes retirement income rather than accommodation."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "het familie-eer"
+            }
+          ],
+          "reason": "Incorrect definite article with common-gender familie-eer."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "Leonardostreeft"
+            }
+          ],
+          "reason": "Merged proper name and verb."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:2a81639f-c476-465e-8414-4cc0e824c730",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "The regional of dat construction is not counted as an objective error under the dialect/variant exclusion."
+    },
+    {
+      "item_id": "audit:nl:531f6333-8a51-48be-83c5-c46434fa156b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "kantoortuinstreit"
+            }
+          ],
+          "reason": "Unintended German/Dutch mixed compound."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "technician"
+            }
+          ],
+          "reason": "Untranslated English occupational noun."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "een zek cynisme"
+            }
+          ],
+          "reason": "Truncated adjective."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "hij geeft de rauwe realiteit van het terrein altijd boven reisgidsen"
+            }
+          ],
+          "reason": "The preference construction lacks voorkeur."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een zekere wantrouwen"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with neuter wantrouwen."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "enkele kortaf en directe gesprekken"
+            }
+          ],
+          "reason": "The adverb kortaf is used where an attributive adjective is required."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:6af70566-035c-4ea4-bd7a-060de2fcde36",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "de M-Museums in Leuven"
+            }
+          ],
+          "reason": "Malformed pluralised museum name in a reference to the single M museum."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "cardamom"
+            }
+          ],
+          "reason": "Untranslated English spelling in Dutch narration."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "de geuren van cardamom en gember mengden met"
+            }
+          ],
+          "reason": "The reflexive construction for scents mingling lacks zich."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

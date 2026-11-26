@@ -1,0 +1,297 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:27:20+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:8b7d584c-ec12-4e55-bc82-8207297a8004",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "het Kunstenfestivalbeurs"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "uitgebreid uitgebreide maaltijden"
+            }
+          ],
+          "reason": "Garbled festival name ('Kunstenfestivaldesarts') and duplicated word; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Male bearer of feminine-form surname 'Hristova' is a naming matter, excluded."
+    },
+    {
+      "item_id": "audit:nl:2b41e923-5aaf-4d9f-b4d0-6ee629bbd099",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een waarde die niet wordt etaleert"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "met methodische geduld"
+            }
+          ],
+          "reason": "Wrong participle 'etaleert' (geëtaleerd) and gender error; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:1605a316-08a8-4336-8678-8398d81708f1",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "kantoorgosip"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "eenVERS stukje kaas"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "een onwankelbare, maar stille plichtsgetrouw"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "het verstelen van een zoom"
+            }
+          ],
+          "reason": "English-based 'kantoorgosip', merged 'eenVERS', adjective used as noun ('plichtsgetrouw'), misspelling 'verstelen' (verstellen); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:afd1a872-80e4-4012-a125-325d99745851",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "De familiebakelants was niet het type"
+            },
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "een intellectuele bewijdrang"
+            }
+          ],
+          "reason": "Merged 'familiebakelants' (familie Bakelants) and garbled 'bewijdrang' (bewijsdrang); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:ad0eb879-8966-487b-9ce9-8c5250d6c339",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "de romans van Annelies Verbeke, omdat diens fijnzinnige observaties"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "noodzakelijkelijk"
+            }
+          ],
+          "reason": "Masculine possessive 'diens' for a female author (haar) and malformed 'noodzakelijkelijk'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:3f8123d8-21c0-474c-a206-fc28cef3df80",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "op een rommarkt heeft gevonden"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "een knack voor het organiseren"
+            }
+          ],
+          "reason": "Truncated 'rommarkt' (rommelmarkt) and English 'knack'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'MSI in Brussel' is unfamiliar; not labelled. Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:668794d5-15ec-47e7-83c8-85d496c40cb9",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "Reviewed; no rubric defect found."
+    },
+    {
+      "item_id": "audit:nl:e86e95cc-4de6-4c93-bbc7-6128712c83a6",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een bijna austeren morele eis"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "volgens een strikte regel is gespatieerd"
+            }
+          ],
+          "reason": "French/English-derived 'austeren' (strenge) and 'gespatieerd' (op afstand geplant); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Musée Royal de la Province de Liège' is not a name I recognise; unfamiliarity alone is not evidence, so not labelled."
+    },
+    {
+      "item_id": "audit:nl:bd4bafd8-e54f-4693-8f47-13f78c82ef06",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "een blijkkende indruk"
+            }
+          ],
+          "reason": "Misspelling 'blijkkende' (blijvende); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Leading space in list entry excluded."
+    },
+    {
+      "item_id": "audit:nl:91f11c26-a1ae-43fb-87a3-a744e266b24b",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "lijdt ze verafschuwen"
+            },
+            {
+              "field": "travel_persona",
+              "quote": "een vast itinerary"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "exposeert in het Musée Magritte"
+            }
+          ],
+          "reason": "Garbled verb phrase, untranslated English 'itinerary', and 'exposeert' (exhibits) where 'bezoekt' (visits) is meant; meaning recoverable."
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "household_type",
+              "quote": "Kind v. koppel"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "waarbij ze haar appartement transformeert"
+            }
+          ],
+          "reason": "Coded as living as a child with her parents, yet she furnishes 'her apartment'; could be a separate unit, so not a definite conflict."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

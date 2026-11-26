@@ -1,0 +1,186 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:35:39+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:3ff79488-35fc-40f0-b32e-af39bf132c6d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "'Primapresse' is an unfamiliar store name; unfamiliarity alone is not evidence."
+    },
+    {
+      "item_id": "audit:en:068c1744-0db7-426c-a39b-c5808458ae99",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:27b48d86-5539-4430-82e7-6339ff32a235",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "a 필요 for solitude"
+            }
+          ],
+          "reason": "A Korean word (필요, 'need') is embedded mid-sentence in English text: surface garbling."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:0b20a5aa-5f96-4793-924f-3bb109f5d416",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:c2dd53f4-9099-4cc8-bfd8-8e58df3b163f",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "'Liefkensbos' and the Sint-Martinuskerk reference were not verified; unfamiliarity alone is not evidence."
+    },
+    {
+      "item_id": "audit:en:72e5b061-b817-41e9-9e7c-3040e044b89c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "'Zazie Boyz' is unfamiliar as an artist name; not verified, so not labelled."
+    },
+    {
+      "item_id": "audit:en:c6651464-59c1-43ad-a1cb-29fa8c5538d9",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Musée royal des Beaux-Arts in Charleroi"
+            }
+          ],
+          "reason": "Charleroi's fine-arts museum appears to be the municipal Musée des Beaux-Arts de Charleroi, not a 'royal' museum; the 'royal' title fits Brussels/Antwerp institutions. Only the absence of 'royal' in the source supports this, so it is left uncertain."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Source checked: https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Beaux-Arts_de_Charleroi."
+    },
+    {
+      "item_id": "audit:en:7992d158-e95c-431c-a1e8-709e95e1a199",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:1ba100d9-a2d5-45bf-b4b1-47598ce25b87",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:8b4c00db-6c40-403e-a00e-18482d51c107",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "artists like In Koli Jean Bofane, whose lyrics echo"
+            }
+          ],
+          "reason": "In Koli Jean Bofane is a Congolese novelist, not a musical artist with lyrics; he is presented as part of the persona's musical taste.",
+          "external_verification": {
+            "url": "https://en.wikipedia.org/wiki/In_Koli_Jean_Bofane",
+            "quote": "is a Congolese writer.",
+            "reason": "The source identifies him as a writer (novelist), so describing him as a musician with lyrics is incorrect."
+          }
+        },
+        {
+          "category_id": "contradictory_information",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "pursuing a specialized master's degree in public policy"
+            },
+            {
+              "field": "education_level",
+              "quote": "Upper secondary"
+            }
+          ],
+          "reason": "A master's degree normally requires a completed bachelor's, but the structured education level is upper secondary; with a 'Professionals' occupation at age 20, this is possibly inconsistent."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Renaissance cinema' in Brussels was not verified."
+    }
+  ]
+}

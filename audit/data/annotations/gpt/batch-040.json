@@ -1,0 +1,206 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "inherited GPT runtime; exact model identifier unavailable",
+  "effort": "inherited; exact setting unavailable",
+  "completed_at": "2026-11-11T18:46:06.139480+00:00",
+  "items": [
+    {
+      "item_id": "audit:en:6eb7ce50-3a4e-4bf3-87db-03fb2bd10371",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:fe2d40b8-a9c2-4033-be7e-0721ec3eb355",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementary occ."
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "Her strength lies in the practical handling of citizen affairs; she can translate complex regulations into understandable language for people who, like herself, dislike jargon."
+            }
+          ],
+          "reason": "The administrative duties may conflict with the elementary occupation code, but the abbreviated code and precise job are ambiguous."
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "a Flemish author such as Lucinda Riley"
+            }
+          ],
+          "reason": "Lucinda Riley is incorrectly identified as a Flemish author.",
+          "external_verification": {
+            "url": "https://lucindariley.co.uk/about-lucinda/",
+            "quote": "Lucinda was born in 1965 in Drumbeg in Northern Ireland, living there for five years before moving to the UK.",
+            "reason": "Her official biography locates her origins in Northern Ireland and life in the British Isles, contradicting the Flemish attribution."
+          }
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:aae720f1-cbc0-4523-9192-f96b8b57b9f0",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "diffuse tension in high-pressure moments"
+            }
+          ],
+          "reason": "Defuse is the intended verb for alleviating tension; diffuse is a lexical substitution whose meaning remains recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:ab9e7dc2-f4f3-432d-9b34-0703b5ac5300",
+      "labels": {
+        "contradictory_information": "present",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "age",
+              "quote": "68"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "now, at sixty-six"
+            }
+          ],
+          "reason": "The structured age is 68, but the narrative explicitly states his current age is 66."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:404f6b53-5782-44c3-aa91-de44616da6d2",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:20505a39-3f32-474b-b946-faf3266eef58",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:515f062a-d77d-4db6-b62f-4addc14f0595",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:f4814c86-8a6a-4bd9-abd0-502c32b1a0eb",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:c3160228-1f29-4c59-afe1-0e2db1c17022",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:en:a5de438d-c0da-4655-8123-105ae68e1137",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "the art of discrete networking"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Discrete networking"
+            }
+          ],
+          "reason": "The context of quiet, unobtrusive networking requires discreet, rather than discrete (separate). The intended meaning is recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

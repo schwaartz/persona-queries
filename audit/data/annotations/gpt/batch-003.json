@@ -1,0 +1,337 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (exact build/version not exposed)",
+  "effort": "not exposed",
+  "completed_at": "2026-11-11T18:17:54.216015+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:a6f5a913-ecaa-48f7-a159-af25e7061234",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "retorika"
+            }
+          ],
+          "reason": "Misspelled noun for rhetoric (retorica)."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:5cdacd78-ffbb-45db-a851-ba891f039827",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "de rumoer"
+            }
+          ],
+          "reason": "Incorrect definite article with the neuter noun rumoer."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "een huiselijk tweetaligheid"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with the common-gender noun tweetaligheid."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "detective romans"
+            }
+          ],
+          "reason": "Incorrectly separated Dutch compound for detective novels."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:36548f79-92f3-470e-894d-1c4bac93a041",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "koolenrook"
+            }
+          ],
+          "reason": "Misspelled compound for coal smoke."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "waarbij hij hanteerde een methode van 'eerst drie keer meten, dan één keer zagen'"
+            }
+          ],
+          "reason": "Incorrect verb placement in the subordinate clause."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "een specifieke potlood"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with neuter potlood."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "een verstoken liefhebber"
+            }
+          ],
+          "reason": "Malformed expression for an inveterate enthusiast; the intended interest is recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:dc5f43fb-0e7e-4291-ae68-150d5e900654",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "kalfsstofschotel"
+            }
+          ],
+          "reason": "Corrupted compound for veal stew."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Florennes residence and photographing Florenville or walking near Chaumont do not explicitly assert incompatible residence locations."
+    },
+    {
+      "item_id": "audit:nl:3f7ca020-5a5a-406b-8f02-682ee0079b92",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Sierentuinen"
+            }
+          ],
+          "reason": "Misspelled compound for ornamental gardens."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "An administrative manager can manage processes; the statement that she does not manage people is not sufficient to confirm an occupational-code contradiction."
+    },
+    {
+      "item_id": "audit:nl:5c7dc9b9-9892-48fe-81b6-e924a9ad0988",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "geen enkele team"
+            }
+          ],
+          "reason": "Incorrect inflection with neuter team."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:6f9b1d4d-3985-4fd0-9c81-4c516116805e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "modern gemakzucht"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with common-gender gemakzucht."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "doe-het-zel tijdschriften"
+            }
+          ],
+          "reason": "Truncated word inside the compound for DIY magazines; a local spelling defect rather than missing field content."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "travel_persona",
+              "quote": "hem niet vreemd in de zin zijn"
+            }
+          ],
+          "reason": "Malformed grammatical construction describing familiarity with language and customs."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:f68261cd-eeb4-4abe-833f-b0bad88a497b",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "religieuze fervour"
+            }
+          ],
+          "reason": "Untranslated English noun in Dutch narration."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Brutalist architecture"
+            }
+          ],
+          "reason": "Untranslated English phrase in the Dutch interests list."
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "leest hij 'De zwarte kamer' van Hugo Claus"
+            }
+          ],
+          "reason": "A specific possible title/author conflation with Claus’s De zwarte keizer. The search found that title but did not establish whether the quoted title could be a separate work; failed search is not proof of nonexistence. The attribution remains unresolved."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:ee31797a-5811-44d3-a48b-8537f8fb3589",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "stutingsmateriaal"
+            }
+          ],
+          "reason": "Misspelled compound for mine-propping material."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:507dafe5-9428-4033-80a3-91b1b4b516b9",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "The phrase iets kapots te maken can mean repairing something broken; it does not force a destructive-action interpretation."
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "gpt",
+  "model": "GPT-6 (exact build/version not exposed)",
+  "effort": "not exposed",
+  "completed_at": "2026-11-11T18:23:37.172897+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:c96bbf16-5e8f-4f29-9697-ad95a4f08bf4",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "sociable interacties"
+            }
+          ],
+          "reason": "Untranslated English adjective in Dutch narration."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:83b43132-e481-4476-8f96-62128f6d569d",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "het Belgische voetbalcompetitie"
+            }
+          ],
+          "reason": "Incorrect article/adjective agreement with common-gender competitie."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "familincluded"
+            }
+          ],
+          "reason": "Corrupted mixed-language noun for the family meal."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "varkensbraden"
+            }
+          ],
+          "reason": "Malformed dish-name noun in a phrase that requires a roast."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:3cdbbc76-9ff5-4224-95e3-26a153d332dd",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:79c1ba30-7755-4396-8523-79c38f89da59",
+      "labels": {
+        "contradictory_information": "uncertain",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "contradictory_information",
+          "severity": "major",
+          "evidence": [
+            {
+              "field": "occupation",
+              "quote": "Elementaire"
+            },
+            {
+              "field": "persona",
+              "quote": "zachtaardige basisschoollerares"
+            }
+          ],
+          "reason": "The elementary occupational code appears inconsistent with the explicit classroom-teacher role. Because the frozen rubric requires uncertainty for ambiguous occupational codes, the conflict is not confirmed."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "Walloonse traditie"
+            }
+          ],
+          "reason": "Misspelled Dutch adjective Waalse."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "waarbij ze crises al voorzien"
+            }
+          ],
+          "reason": "The plural verb voorzien disagrees with the singular subject Clara."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:4caee1fd-d54a-4862-9236-4daadfbd0980",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "cultural_background",
+              "quote": "cardboardiaanse"
+            }
+          ],
+          "reason": "Corrupted mixed-language adjective in the neighbourhood description."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "transport centra"
+            }
+          ],
+          "reason": "Incorrectly separated Dutch compound transportcentra."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:42787ed8-4f57-4855-99fd-500ec4d9d820",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "mismatched servies"
+            }
+          ],
+          "reason": "Untranslated English adjective interrupts Dutch narration."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:68f9f849-6e88-4eeb-860e-fd4f95f18dcb",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [],
+      "out_of_rubric": [],
+      "notes": "The aspiration to replace systeemloosheid with order concerns a desired change; it does not establish an explicit simultaneous contradiction with her current methodical conduct."
+    },
+    {
+      "item_id": "audit:nl:17a49875-2ee8-41a2-aa5c-fcbfc525e0da",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "die de sfeer bewaakt en conflicten tussen de keuken en de zaal moeiteloos sussen"
+            }
+          ],
+          "reason": "Plural sussen disagrees with the singular subject of the coordinated relative clause."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "functen"
+            }
+          ],
+          "reason": "Misspelling of functies."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:635a758f-aa3c-439c-95ee-76368797a8ff",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "professional_persona",
+              "quote": "universityniveau"
+            }
+          ],
+          "reason": "Unintended English/Dutch mixed compound."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "een traditionele varkensbraden"
+            }
+          ],
+          "reason": "Malformed noun for a pork roast."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:4859a5a2-4d09-437b-9f13-8d4cd55b91ef",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "Marguerite Yourcenarche"
+            }
+          ],
+          "reason": "Apparent suffix corruption of the novelist Marguerite Yourcenar’s surname.",
+          "external_verification": {
+            "url": "https://www.academie-francaise.fr/les-immortels/marguerite-yourcenar",
+            "quote": "Marguerite YOURCENAR",
+            "reason": "The academy’s author record establishes the surname spelling; this is a local spelling defect, not a separately counted attribution conflict."
+          }
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "een enkel oogopslag"
+            }
+          ],
+          "reason": "Incorrect adjective inflection with common-gender oogopslag."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

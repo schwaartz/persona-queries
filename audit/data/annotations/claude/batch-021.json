@@ -1,0 +1,321 @@
+{
+  "packet_id": "5448cc2e631fa921b9fe4ab1a8f969dd62e381a29571a432b0491b80fad4c2e6",
+  "rubric_sha256": "3442ad2954a879f22c586d2604de4db37394143a5fea96824597afba64f1a554",
+  "agent_id": "sonnet",
+  "model": "claude-opus-5-5 (Claude Opus 5.5; launched under agent_id sonnet)",
+  "effort": "Claude Code default reasoning effort (not configurable/visible to agent beyond this)",
+  "completed_at": "2026-11-11T18:29:47+00:00",
+  "items": [
+    {
+      "item_id": "audit:nl:bf901950-6389-4a9f-a57f-5f1788d7c988",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "het Museum finish in Roeselare"
+            },
+            {
+              "field": "culinary_persona",
+              "quote": "stomppot"
+            },
+            {
+              "field": "cultural_background",
+              "quote": "de scherpe kantjes van familievetten"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "Haar kennis is niet uit boeken komen"
+            },
+            {
+              "field": "skills_and_expertise",
+              "quote": "een zieke familieleden"
+            }
+          ],
+          "reason": "Garbled museum name ('Museum finish'), misspelling 'stomppot', 'familievetten' (familievetes), missing auxiliary, number agreement error; meaning mostly recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Museum voor Kortrijkse Kunst' is not a name I recognise; not labelled separately. Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:4ead57ce-e2eb-4bd1-b4a5-75fe6fbe3fd2",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "haar géraniums"
+            }
+          ],
+          "reason": "French spelling 'géraniums' in Dutch text (geraniums, as used elsewhere in the record); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:c1633c5b-fe4b-4940-afde-e897de4b583e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "waarbij hij zowellet op"
+            },
+            {
+              "field": "arts_persona",
+              "quote": "hedendaags jazz"
+            }
+          ],
+          "reason": "Merged words 'zowellet' (zowel let) and agreement error 'hedendaags jazz'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "'Charène' and 'Silva Lakonian' are unfamiliar names; unfamiliarity alone is not evidence."
+    },
+    {
+      "item_id": "audit:nl:499e7689-b3c5-4105-a9b4-06d108c0df56",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "culinary_persona",
+              "quote": "Vlaamse hutfricassee"
+            },
+            {
+              "field": "travel_persona",
+              "quote": "gedetailleerde itineraries"
+            }
+          ],
+          "reason": "Garbled dish 'hutfricassee' and untranslated English 'itineraries'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:e34ed17c-2b10-4f31-bc9b-805618ae9896",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een ingetogen Antwerpenaren"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "Ze breidt nog steeds"
+            }
+          ],
+          "reason": "Plural 'Antwerpenaren' used for one person and wrong verb form 'breidt' (breit); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Lowercase list entries excluded."
+    },
+    {
+      "item_id": "audit:nl:9ef36d6f-4a0c-4602-a3c8-1a13c5ef6450",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "skills_and_expertise",
+              "quote": "een precise technische taal"
+            }
+          ],
+          "reason": "Misspelling 'precise' (precieze); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:d5acf50c-15e5-45e2-982e-6e2511eabae7",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "'Le Dormeur' van Georges Simenon"
+            }
+          ],
+          "reason": "I cannot match 'Le Dormeur' to a Simenon title; concrete attribution left uncertain without external verification."
+        },
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "career_goals_and_ambitions",
+              "quote": "brute bedrijfconflicten"
+            }
+          ],
+          "reason": "Missing linking 's' ('bedrijfsconflicten'); meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:ff1db1e7-2a3d-4038-b483-e22204324563",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "absent",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "present"
+      },
+      "findings": [
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "arts_persona",
+              "quote": "het Museum aan de Maas in Antwerpen"
+            }
+          ],
+          "reason": "Antwerp's MAS is the 'Museum aan de Stroom', located on the Scheldt; Antwerp is not on the Maas (Meuse), so the expanded name is wrong.",
+          "external_verification": {
+            "url": "https://en.wikipedia.org/wiki/Museum_aan_de_Stroom",
+            "quote": "The Museum aan de Stroom (MAS; Dutch for: Museum by the Stream) is a museum located along the river Scheldt",
+            "reason": "The museum's actual name is 'Museum aan de Stroom' and it is on the Scheldt in Antwerp, contradicting the source's 'Museum aan de Maas in Antwerpen'."
+          }
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": "Capitalised 'Waarde' mid-sentence is harmless capitalisation."
+    },
+    {
+      "item_id": "audit:nl:aed66075-9f31-4767-b4a9-7c62bf26079c",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "uncertain"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "persona",
+              "quote": "een methodische kruidenteelt"
+            },
+            {
+              "field": "hobbies_and_interests",
+              "quote": "het lokale dorp Wherever er een buurtcomité"
+            },
+            {
+              "field": "skills_and_expertise_list",
+              "quote": "Logistiek planning voor lokale leveringen"
+            }
+          ],
+          "reason": "'kruidenteelt' (herb growing) used for 'kruidenteler', English 'Wherever' spliced into Dutch, agreement error; meaning partly recoverable."
+        },
+        {
+          "category_id": "incorrect_real_world_reference",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "hobbies_and_interests",
+              "quote": "het Provinciaal Domein Kampenhout"
+            },
+            {
+              "field": "municipality",
+              "quote": "Leopoldsburg"
+            }
+          ],
+          "reason": "Kampenhout is a municipality in Flemish Brabant and I know of no provincial domain there; a local walking destination for a Leopoldsburg resident is implausible. Not externally verified."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    },
+    {
+      "item_id": "audit:nl:579fb38e-d3b7-41aa-80e0-d019a97ae46e",
+      "labels": {
+        "contradictory_information": "absent",
+        "language_defect": "present",
+        "broken_or_missing_content": "absent",
+        "incorrect_real_world_reference": "absent"
+      },
+      "findings": [
+        {
+          "category_id": "language_defect",
+          "severity": "minor",
+          "evidence": [
+            {
+              "field": "sports_persona",
+              "quote": "nooit কোনো aantrekkingskracht"
+            },
+            {
+              "field": "hobbies_and_interests_list",
+              "quote": "Luistervink naar nostalgische radio"
+            }
+          ],
+          "reason": "Bengali token 'কোনো' inserted and 'Luistervink' (eavesdropper) used for 'luisteren'; meaning recoverable."
+        }
+      ],
+      "out_of_rubric": [],
+      "notes": ""
+    }
+  ]
+}

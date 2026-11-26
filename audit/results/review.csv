@@ -1,0 +1,5 @@
+category,flagged_by_an_agent,confirmed,rejected,human_decisions,automatic_acceptances,automatic_absences
+contradictory_information,45,13,32,83,0,417
+language_defect,289,289,0,0,289,211
+broken_or_missing_content,3,3,0,0,3,497
+incorrect_real_world_reference,44,38,6,83,0,417
