@@ -33,11 +33,18 @@ DEVELOPMENT_UUIDS = {
 }
 
 
-def load_personas(language: str) -> list[dict]:
-    """Download (once) and read the Nemotron split of one language."""
-    path = hf_hub_download(NEMOTRON, f"data/{language}_BE.parquet", repo_type="dataset",
+def nemotron_file(language: str) -> str:
+    """Download (once) the Nemotron split of one language: 300,000 personas, about 1 GB."""
+    return hf_hub_download(NEMOTRON, f"data/{language}_BE.parquet", repo_type="dataset",
                            local_dir=DATA_DIR / "nemotron")
-    return pq.read_table(path).to_pylist()
+
+
+def load_personas(path: str, uuids: list[str]) -> dict[str, dict]:
+    """Read only the requested personas; the full file would take about 6 GB of RAM."""
+    wanted, personas = set(uuids), {}
+    for batch in pq.ParquetFile(path).iter_batches(batch_size=4096):
+        personas.update({p["uuid"]: p for p in batch.to_pylist() if p["uuid"] in wanted})
+    return personas
 
 
 def persona_order(uuids, seed: int) -> list[str]:
@@ -72,8 +79,10 @@ def main():
     output.parent.mkdir(parents=True, exist_ok=True)
     done = read_uuids(output) | read_uuids(failures)
 
-    personas = {p["uuid"]: p for p in load_personas(args.language)}
-    todo = [uuid for uuid in persona_order(personas, args.seed)[:args.count] if uuid not in done]
+    path = nemotron_file(args.language)
+    all_uuids = pq.read_table(path, columns=["uuid"]).column("uuid").to_pylist()
+    todo = [uuid for uuid in persona_order(all_uuids, args.seed)[:args.count] if uuid not in done]
+    personas = load_personas(path, todo)
     print(f"{len(done)} personas already processed, {len(todo)} to go.", flush=True)
 
     generator = QueryGenerator(args.model, args.language, args.seed)
